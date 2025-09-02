@@ -74,6 +74,20 @@ section > .textBlock {
 	color: #000000;
 }
 
+#cardProgramme,
+#cardCarte,
+#cardParticipants {
+	display: flex;
+	flex-direction: column;
+}
+
+#cardProgramme > img,
+#cardCarte > img,
+#cardParticipants > img {
+	margin: auto;
+	width: 300px;
+}
+
 body > footer {
 	background-color: white;
 	position: fixed;
