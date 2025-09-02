@@ -150,3 +150,8 @@ body > footer {
 	display: flex;
 	justify-content: space-evenly;
 }
+#bigMap {
+	width: 90%;
+	display: block;
+	margin: auto;
+}
