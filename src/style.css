@@ -10,3 +10,9 @@ body {
 	background-color: white;
 	font-family: "Henderson BCG Sans";
 }
+
+h1 {
+	color: #a5a5a5;
+	font-family: "Henderson BCG Sans";
+	text-transform: uppercase;
+}
