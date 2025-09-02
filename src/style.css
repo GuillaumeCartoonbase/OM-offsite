@@ -53,6 +53,24 @@ section > .textBlock {
 	color: #000;
 }
 
+#signatures {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.sign {
+	margin: 0 80px;
+	font-family: "Henderson BCG Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: center;
+	color: #000000;
+}
+
 body > footer {
 	background-color: white;
 	position: fixed;
