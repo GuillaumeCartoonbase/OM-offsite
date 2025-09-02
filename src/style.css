@@ -41,6 +41,18 @@ body {
 	width: 100%;
 }
 
+section > .textBlock {
+	padding: 0 40px;
+
+	font-family: "Henderson BCG Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+
+	color: #000;
+}
+
 body > footer {
 	background-color: white;
 	position: fixed;
