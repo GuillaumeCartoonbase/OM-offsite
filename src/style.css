@@ -20,6 +20,12 @@ h1 {
 	font-family: "Henderson BCG Sans";
 	text-transform: uppercase;
 }
+#welcome > #eventLogo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #landscape {
 	width: 100%;
 }
