@@ -15,6 +15,10 @@ body {
 	text-align: center;
 }
 
+section {
+	margin-bottom: 100px;
+}
+
 #welcome {
 	display: flex;
 	flex-direction: column;
@@ -55,7 +59,6 @@ section > .textBlock {
 
 #signatures {
 	margin-top: 100px;
-	margin-bottom: 100px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
