@@ -16,3 +16,6 @@ h1 {
 	font-family: "Henderson BCG Sans";
 	text-transform: uppercase;
 }
+#landscape {
+	width: 100%;
+}
