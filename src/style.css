@@ -15,12 +15,17 @@ body {
 	text-align: center;
 }
 
-h1 {
+#welcome > h1 {
 	color: #a5a5a5;
 	font-family: "Henderson BCG Sans";
 	font-weight: 400;
+	font-size: 16px;
+	line-height: 85%;
 	text-transform: uppercase;
+	margin-top: 80px;
+	margin-bottom: 60px;
 }
+
 #welcome > #eventLogo {
 	display: block;
 	margin-left: auto;
