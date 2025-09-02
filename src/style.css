@@ -11,6 +11,10 @@ body {
 	font-family: "Henderson BCG Sans";
 }
 
+.has-text-centered {
+	text-align: center;
+}
+
 h1 {
 	color: #a5a5a5;
 	font-family: "Henderson BCG Sans";
