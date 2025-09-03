@@ -7,10 +7,85 @@
 		<link rel="stylesheet" href="src/style.css" />
 	</head>
 	<body>
-		<header>
-			<img src="img/participants gris.png" alt="picto de participants" />
+		<header id="participantsHeader">
+			<img src="img/participants white.png" alt="picto de participants" />
 			<h1>Participants</h1>
 		</header>
+		<!-- <button>Search</button> -->
+		<form role="search">
+			<div id="magnifier">
+				<svg
+					width="16"
+					height="16"
+					viewBox="0 0 16 16"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<g clip-path="url(#clip0_69_1826)">
+						<path
+							d="M16 15.2608L11.2159 10.4766C12.1591 9.36602 12.7292 7.93113 12.7292 6.36374C12.7292 2.85584 9.87338 0 6.36374 0C2.85409 0 0 2.85584 0 6.36374C0 9.87164 2.85584 12.7275 6.36374 12.7275C7.93113 12.7275 9.36602 12.1574 10.4766 11.2141L15.2608 15.9983L16 15.259V15.2608ZM6.36374 11.6831C3.43119 11.6831 1.04609 9.29803 1.04609 6.36548C1.04609 3.43293 3.43119 1.04609 6.36374 1.04609C9.29628 1.04609 11.6814 3.43119 11.6814 6.36374C11.6814 9.29628 9.29628 11.6814 6.36374 11.6814V11.6831Z"
+							fill="black"
+						/>
+					</g>
+					<defs>
+						<clipPath id="clip0_69_1826">
+							<rect width="16" height="16" fill="white" />
+						</clipPath>
+					</defs>
+				</svg>
+
+				<input
+					type="search"
+					id="participantsSearch"
+					name="q"
+					placeholder="Rechercher"
+				/>
+			</div>
+		</form>
+
+		<section id="peopleList">
+			<div class="person">
+				<img src="img/person-placeholder.png" alt="" />
+				<p>Toby Hall</p>
+			</div>
+			<div class="person">
+				<img src="img/person-placeholder.png" alt="" />
+				<p>Dakota Hernandez</p>
+			</div>
+			<div class="person">
+				<img src="img/person-placeholder.png" alt="" />
+				<p>Riley Gupta</p>
+			</div>
+			<div class="person">
+				<img src="img/person-placeholder.png" alt="" />
+				<p>Toby Hall</p>
+			</div>
+			<div class="person">
+				<img src="img/person-placeholder.png" alt="" />
+				<p>Toby Hall</p>
+			</div>
+			<div class="person">
+				<img src="img/person-placeholder.png" alt="" />
+				<p>Toby Hall</p>
+			</div>
+			<div class="person">
+				<img src="img/person-placeholder.png" alt="" />
+				<p>Toby Hall</p>
+			</div>
+			<div class="person">
+				<img src="img/person-placeholder.png" alt="" />
+				<p>Toby Hall</p>
+			</div>
+			<div class="person">
+				<img src="img/person-placeholder.png" alt="" />
+				<p>Toby Hall</p>
+			</div>
+			<div class="person">
+				<img src="img/person-placeholder.png" alt="" />
+				<p>Toby Hall</p>
+			</div>
+		</section>
+
 		<footer class="columns has-text-centered">
 			<div class="column">
 				<a href="index.html">
@@ -41,5 +116,6 @@
 				</a>
 			</div>
 		</footer>
+		<script src="src/search.js"></script>
 	</body>
 </html>
