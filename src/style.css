@@ -270,6 +270,7 @@ header > img {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 2rem;
+	align-items: baseline;
 }
 .person {
 	margin-bottom: 5rem;
@@ -281,7 +282,7 @@ header > img {
 	margin-bottom: 1rem;
 	width: 100%;
 }
-.person > p {
+.person > h2 {
 	margin-top: 2rem;
 	text-align: left;
 	font-family: "Henderson BCG Serif";
@@ -289,6 +290,15 @@ header > img {
 	font-weight: 400;
 	font-size: 3rem;
 	color: #000000;
+	margin-bottom: 0rem;
+}
+.person p {
+	margin-top: 0.5rem;
+	font-family: "Henderson BCG Serif";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5rem;
+	color: #ccc;
 }
 
 #magnifier {
