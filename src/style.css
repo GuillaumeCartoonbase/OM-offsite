@@ -176,7 +176,8 @@ header > img {
 	margin-right: 20px;
 }
 
-#days {
+#days,
+#mapItems {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -185,7 +186,8 @@ header > img {
 	border-bottom: #939393 1px solid;
 }
 
-.day {
+.day,
+.mapItem {
 	background-color: #ffffff;
 	padding: 3rem 2rem;
 	border: none;
@@ -197,7 +199,8 @@ header > img {
 	line-height: 18px;
 	color: #c7c7c7;
 }
-.day:hover {
+.day:hover,
+.mapItem:hover {
 	cursor: pointer;
 }
 
