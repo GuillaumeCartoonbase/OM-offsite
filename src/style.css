@@ -184,9 +184,11 @@ header > img {
 	background-color: #ffffff;
 	border-bottom: #939393 1px solid;
 }
+
 .day {
-	width: 25%;
-	padding: 20px 0;
+	background-color: #ffffff;
+	padding: 3rem 2rem;
+	border: none;
 	text-align: center;
 	font-family: "Henderson BCG Serif Head";
 	font-style: normal;
@@ -194,6 +196,9 @@ header > img {
 	font-size: 3rem;
 	line-height: 18px;
 	color: #c7c7c7;
+}
+.day:hover {
+	cursor: pointer;
 }
 
 .separator {
