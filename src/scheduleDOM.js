@@ -16,7 +16,7 @@ function displaySchedule() {
 
 	scheduleData.forEach((orga) => {
 		const time = document.createElement("h3");
-		const titre = document.createElement("h2");
+		const titre = document.createElement("h4");
 		const text = document.createElement("p");
 
 		time.classList.add("time");
