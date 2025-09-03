@@ -152,10 +152,26 @@ body > footer {
 	position: fixed;
 	bottom: 0px;
 	padding: 0;
-	width: 100vw;
+	width: 100%;
 	display: flex;
 	justify-content: space-evenly;
+	padding-top: 2em;
+	padding-bottom: 1em;
+	border-top: #939393 solid 1px;
 }
+
+footer a img {
+	height: 3rem;
+}
+footer a p {
+	font-size: 1.5rem;
+	color: #5b694f;
+	margin-top: 0.5rem;
+}
+footer a {
+	text-decoration: none;
+}
+
 #bigMap {
 	width: 90%;
 	display: block;
