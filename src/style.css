@@ -218,7 +218,10 @@ header > img {
 	background-color: #d8ebab;
 	color: #5b694f;
 }
-
+#participantsHeader {
+	background-color: #50798e;
+	color: #ffffff;
+}
 .schedule {
 	color: fuchsia;
 }
