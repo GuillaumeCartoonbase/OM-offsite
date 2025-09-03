@@ -1,5 +1,5 @@
 // Fetching JSON data from a file
-fetch("people.json")
+fetch("src/people.json")
 	.then((response) => response.json())
 	.then((data) => {
 		// Use the fetched data to populate the DOM
