@@ -13,6 +13,21 @@ function displaySchedule() {
 	const friday = document.getElementById("friday");
 	const saturday = document.getElementById("saturday");
 	const sunday = document.getElementById("sunday");
+
+	scheduleData.forEach((orga) => {
+		const time = document.createElement("h3");
+		const titre = document.createElement("h2");
+		const text = document.createElement("p");
+
+		time.classList.add("time");
+		time.textContent = orga.time;
+		titre.textContent = orga.titre;
+		text.textContent = orga.text;
+
+		thursday.appendChild(time);
+		thursday.appendChild(titre);
+		thursday.appendChild(text);
+	});
 }
 
 displaySchedule();
