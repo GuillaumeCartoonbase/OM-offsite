@@ -24,9 +24,32 @@ function displaySchedule() {
 		titre.textContent = orga.titre;
 		text.textContent = orga.text;
 
-		thursday.appendChild(time);
-		thursday.appendChild(titre);
-		thursday.appendChild(text);
+		if ("thursday" === orga.day) {
+			thursday.appendChild(time);
+			thursday.appendChild(titre);
+			thursday.appendChild(text);
+		}
+		if ("friday" === orga.day) {
+			friday.appendChild(time);
+			friday.appendChild(titre);
+			friday.appendChild(text);
+		}
+		if ("saturday" === orga.day) {
+			saturday.appendChild(time);
+			saturday.appendChild(titre);
+			saturday.appendChild(text);
+		}
+		if ("sunday" === orga.day) {
+			sunday.appendChild(time);
+			sunday.appendChild(titre);
+			sunday.appendChild(text);
+		}
+	});
+}
+
+function whichDay(day) {
+	scheduleData.forEach((orga) => {
+		if (day === orga.day) return true;
 	});
 }
 
