@@ -7,6 +7,7 @@
 	src: url("fonts/BCGHenSerifRegular.ttf");
 }
 body {
+	padding-bottom: 200px;
 	background-color: white;
 	font-family: "Henderson BCG Sans";
 }
