@@ -214,6 +214,10 @@ header > img {
 	background-color: #85a9a0;
 	color: #ffffff;
 }
+#mapHeader {
+	background-color: #d8ebab;
+	color: #5b694f;
+}
 
 .schedule {
 	color: fuchsia;
