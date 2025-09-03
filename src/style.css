@@ -169,3 +169,30 @@ header {
 
 	background-color: yellowgreen;
 }
+
+#days {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #ffffff;
+	border-bottom: #939393 1px solid;
+}
+.day {
+	width: 25%;
+	padding: 20px 0;
+	text-align: center;
+	font-family: "Henderson BCG Serif Head";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 3rem;
+	line-height: 18px;
+	color: #c7c7c7;
+}
+
+.separator {
+	padding: 20px 0;
+	height: 72%;
+	width: 0px;
+	border: #c7c7c7 1px solid;
+}
