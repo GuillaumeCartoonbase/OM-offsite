@@ -252,10 +252,42 @@ header > img {
 .person > p {
 	margin-top: 2rem;
 	text-align: left;
-	font-family: "Henderson BCG Serif Head";
+	font-family: "Henderson BCG Serif";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 3rem;
 	/* line-height: 22px; */
 	color: #000000;
+}
+
+#magnifier {
+	display: block;
+	margin: 2rem auto;
+	width: 90%;
+	height: 4rem;
+	position: relative;
+}
+
+#magnifier > svg {
+	background-color: #f7f7f7;
+	position: absolute;
+	height: 100%;
+	width: 2rem;
+	left: 0px;
+	padding-left: 1rem;
+}
+
+#participantsSearch {
+	margin-left: 3rem;
+	padding-left: 1rem;
+	background-color: #f7f7f7;
+	height: 100%;
+	width: 100%;
+	border: none;
+	font-family: "Henderson BCG Serif";
+	font-size: 1.5rem;
+	color: #000000;
+}
+input[type="search"]::placeholder {
+	color: #000000; /* Placeholder text color */
 }
