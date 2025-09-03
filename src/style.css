@@ -256,12 +256,12 @@ header > img {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 3rem;
-	/* line-height: 22px; */
 	color: #000000;
 }
 
 #magnifier {
-	display: block;
+	display: flex;
+	justify-content: flex-start;
 	margin: 2rem auto;
 	width: 90%;
 	height: 4rem;
