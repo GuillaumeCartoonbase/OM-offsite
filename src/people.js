@@ -18,6 +18,9 @@ function displayPeople() {
 		const personDiv = document.createElement("div");
 		personDiv.classList.add("person");
 
+		const photoElement = document.createElement("img");
+		photoElement.src = person.photoURL;
+
 		// Create a name element (e.g., <h2>)
 		const nameElement = document.createElement("h2");
 		nameElement.textContent = person.name;
@@ -27,6 +30,7 @@ function displayPeople() {
 		titleElement.textContent = person.title;
 
 		// Append the name and title to the person container
+		personDiv.appendChild(photoElement);
 		personDiv.appendChild(nameElement);
 		personDiv.appendChild(titleElement);
 
