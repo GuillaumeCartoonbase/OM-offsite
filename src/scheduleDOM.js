@@ -19,7 +19,10 @@ function displaySchedule() {
 		const titre = document.createElement("h4");
 		const text = document.createElement("p");
 
-		time.classList.add("time");
+		time.classList.add("schedule");
+		titre.classList.add("schedTitle");
+		text.classList.add("schedText");
+
 		time.textContent = orga.time;
 		titre.textContent = orga.titre;
 		text.textContent = orga.text;
