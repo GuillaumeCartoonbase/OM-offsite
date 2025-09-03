@@ -205,3 +205,13 @@ header > img {
 	background-color: #85a9a0;
 	color: #ffffff;
 }
+
+.schedule {
+	color: fuchsia;
+}
+.schedTitle {
+	color: red;
+}
+.schedText {
+	color: blue;
+}
