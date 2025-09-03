@@ -1,0 +1,140 @@
+[
+	{
+		"titre": "Arrivée et transferts",
+		"time": "À partir de 14h00",
+		"text": "Transfert en navettes privées depuis la gare d’Avignon TGV jusqu’aux Baux-de-Provence (40 minutes).",
+		"day": "thursday"
+	},
+	{
+		"titre": "Check-in aux hôtels",
+		"time": "À partir de 15h30",
+		"text": "Bienvenue aux Baux-de-Provence. Installation à Baumanière ou au Domaine de Manville, puis temps-libre avant le dîner.",
+		"day": "thursday"
+	},
+	{
+		"titre": "Welcome Dinner au Domaine de Manville",
+		"time": "20h00",
+		"text": "Buffet dînatoire sur la terrasse du Domaine de Manville.",
+		"day": "thursday"
+	},
+	{
+		"titre": "Petit-déjeuner à l’hôtel",
+		"time": "À partir de 7h00",
+		"text": "Petit-déjeuner buffet à Baumanière ou au Domaine de Manville.",
+		"day": "friday"
+	},
+	{
+		"titre": "Pour les Partner – Officer Meeting",
+		"time": "8h30 – 18h00",
+		"text": "Pour les Partner, rendez-vous à la Cabro d'Or (Baumanière) pour le Officer Meeting. Déjeuner prévu sur place.",
+		"day": "friday"
+	},
+	{
+		"titre": "Pour les SO – Visite de Arles",
+		"time": "8h30 – 15h00",
+		"text": "Pour les SO, programme sur mesure à Arles : découvertes culturelles, galeries d’art et shopping dans le centre historique. Déjeuner prévu sur place.",
+		"day": "friday"
+	},
+	{
+		"titre": "Pour les SO – Après-midi libre",
+		"time": "15h00 -18h00",
+		"text": "Pour les SO, temps libre au retour d’Arles et activités suggérées : visite des Baux-de-Provence ou de Saint-Rémy, découverte des Carrières de Lumières, ou accès au spa, à la piscine et aux terrains de tennis des hôtels.",
+		"day": "friday"
+	},
+	{
+		"titre": "Soirée d’exception à l’Oustau de Baumanière ★★★",
+		"time": "20h00",
+		"text": "Dîner gastronomique aux saveurs provençales à l’Oustau de Baumanière, table trois étoiles du chef Glenn Viel, puis soirée animée par un DJ set.",
+		"day": "friday"
+	},
+	{
+		"titre": "Petit-déjeuner à l’hôtel",
+		"time": "À partir de 7h00",
+		"text": "Petit-déjeuner buffet à Baumanière ou au Domaine de Manville.",
+		"day": "saturday"
+	},
+	{
+		"titre": "Atelier au choix (1/5) – Vélo dans les Alpilles (route/VTT)",
+		"time": "9h00",
+		"text": "Atelier vélo encadré par des guides spécialisés, en groupes de niveau. Boucle de 2h à 2h30 autour des Baux-de-Provence. Vélos fournis, avec assistance logistique, voiture suiveuse et ravitaillement.",
+		"day": "saturday"
+	},
+	{
+		"titre": "Atelier au choix (2/5) – Soft trail / trek sur le GR6",
+		"time": "9h00",
+		"text": "Atelier soft trail / trek sur les sentiers du GR6 autour des Baux-de-Provence. Parcours de 2h à 3h30 adaptés à chaque niveau, encadrés par des guides expérimentés, dont Sandra Martin, double championne du monde de trail par équipe.",
+		"day": "saturday"
+	},
+	{
+		"titre": "Atelier au choix (3/5) – Visite d’une oliveraie",
+		"time": "9h00",
+		"text": "Atelier oléicole au cœur du Domaine Jolibois. Visite de l’oliveraie, découverte de la fabrication artisanale et dégustation des cinq cuvées d’huiles d’olive. Atelier de cueillette possible selon la maturité des olives.",
+		"day": "saturday"
+	},
+	{
+		"titre": "Atelier au choix (4/5) – Vol en planeur",
+		"time": "9h00",
+		"text": "Atelier vol en planeur au-dessus du massif des Alpilles. Vol de baptême de 30 minutes encadré par un pilote professionnel. Activité limitée à 12 vols le matin et 12 l’après-midi. Ajouter le prix si activité avec supplément ?",
+		"day": "saturday"
+	},
+	{
+		"titre": "Atelier au choix (5/5) – Visite de Arles",
+		"time": "9h00",
+		"text": "Atelier découverte culturelle et confidentielle de Arles : Rencontres insolites, immersion dans la photographie, visite du Musée Arlaten ou galeries d’art encore ouvertes. A préciser avec William",
+		"day": "saturday"
+	},
+	{
+		"titre": "Matinée libre",
+		"time": "9h00",
+		"text": "Matinée libre pour ceux qui ne participent pas aux ateliers. Visite possible des Baux-de-Provence ou de Saint-Rémy, découverte des Carrières de Lumières, ou accès au spa, à la piscine et aux terrains de tennis des hôtels.",
+		"day": "saturday"
+	},
+	{
+		"titre": "Déjeuner dans une oliveraie au Domaine Jolibois",
+		"time": "12h30",
+		"text": "Déjeuner au cœur de la plus grande oliveraie privée de France (240 hectares), mettant à l’honneur les produits du terroir. Dégustation des huiles du domaine et découverte des vins en biodynamie du vigneron René Milan avant le repas.",
+		"day": "saturday"
+	},
+	{
+		"titre": "Poursuite des ateliers ou après-midi libre",
+		"time": "15h00",
+		"text": "Poursuite des ateliers du matin pour les inscrits de l’après-midi (vélo, trail, vol en planeur…) ou temps libre : visite possible des Baux-de-Provence ou de Saint-Rémy, découverte des Carrières de Lumières, ou accès au spa, à la piscine et aux terrains de tennis des hôtels.",
+		"day": "saturday"
+	},
+	{
+		"titre": "Soirée « Arbre Enchanté » à la Cabro d’Or",
+		"time": "20h00",
+		"text": "Soirée à la Cabro d’Or (Baumanière) avec cocktail apéritif dans les jardins, suivi d’un dîner braséro près du Manoir. Prestation piano-voix ambiance puis festive en seconde partie de soirée.",
+		"day": "saturday"
+	},
+	{
+		"titre": "Petit-déjeuner à l’hôtel",
+		"time": "À partir de 7h00",
+		"text": "Petit-déjeuner buffet à Baumanière ou au Domaine de Manville.",
+		"day": "sunday"
+	},
+	{
+		"titre": "Activité facultative – Atelier “rouleurs” sur les traces du tour de France",
+		"time": "9h00",
+		"text": "Atelier « rouleurs » pour les cyclistes confirmés : boucle de 70 km avec 800 m de dénivelé sur les routes du Tour de France dans les Alpilles. Parcours encadré par des guides, avec voiture suiveuse, ravitaillement et vélos de route carbone fournis.",
+		"day": "sunday"
+	},
+	{
+		"titre": "Matinée libre",
+		"time": "9h00",
+		"text": "Matinée libre avec possibilité de visiter les Baux-de-Provence ou Saint-Rémy, découvrir les Carrières de Lumières, ou profiter du spa, de la piscine et des terrains de tennis des hôtels.",
+		"day": "sunday"
+	},
+	{
+		"titre": "Brunch de clôture",
+		"time": "12h00",
+		"text": "Brunch de clôture au [lieu – TBD ?] avant les départs",
+		"day": "sunday"
+	},
+	{
+		"titre": "Transfert et retours",
+		"time": "Tout au long de la journée",
+		"text": "Transfert en navettes privées jusqu’à la gare d’Avignon TGV (40 minutes).",
+		"day": "sunday"
+	}
+]
