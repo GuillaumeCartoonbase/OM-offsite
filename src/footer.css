@@ -32,3 +32,10 @@ body #footer {
 #footer div:hover {
 	background-color: red;
 }
+
+.notSelected {
+	opacity: 50%;
+}
+.selected {
+	opacity: 100%;
+}
