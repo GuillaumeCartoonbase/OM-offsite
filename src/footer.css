@@ -4,7 +4,7 @@ body > footer {
 	bottom: 0;
 	width: 100%;
 	display: flex;
-	justify-content: space-evenly; /* Distributes space between child elements */
+	justify-content: space-between;
 	align-items: center;
 	border-top: #939393 solid 1px;
 }
