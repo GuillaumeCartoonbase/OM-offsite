@@ -34,6 +34,8 @@ section > .textBlock {
 	line-height: 28px;
 
 	color: #000;
+	/* display: flex; */
+	/* flex-direction: column; */
 }
 
 #signatures {
@@ -56,28 +58,23 @@ section > .textBlock {
 #cardProgramme,
 #cardCarte,
 #cardParticipants {
-	display: flex;
-	flex-direction: column;
+	padding: 4rem 0;
 }
 
 #cardProgramme > img,
 #cardCarte > img,
 #cardParticipants > img {
+	display: block;
 	margin: auto;
 	width: 300px;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
 }
 #cardProgramme > h2,
 #cardCarte > h2,
 #cardParticipants > h2 {
 	font-family: "Henderson BCG Serif";
 	font-weight: 400;
-
 	font-size: 48px;
 	line-height: 56px;
-	text-align: center;
 }
 
 #cardProgramme {
@@ -113,6 +110,7 @@ section > .textBlock {
 #cardCarte > .button,
 #cardParticipants > .button {
 	margin: auto;
+	display: block;
 	font-family: "Henderson BCG Serif";
 	font-weight: 400;
 	font-size: 16px;
