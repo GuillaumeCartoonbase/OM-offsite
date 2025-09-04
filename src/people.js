@@ -13,6 +13,9 @@ function displayPeople() {
 	// Get the container element where you want to append the people list
 	const peopleList = document.getElementById("peopleList");
 
+	// Clear any existing content in the list (in case you're re-displaying)
+	peopleList.innerHTML = "";
+
 	// Iterate through the JSON data
 	peopleData.forEach((person) => {
 		// Create a container for each person
