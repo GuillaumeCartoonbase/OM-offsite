@@ -147,41 +147,6 @@ section > .textBlock {
 	border: none;
 }
 
-body > footer {
-	background-color: white;
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	display: flex;
-	justify-content: space-evenly; /* Distributes space between child elements */
-	align-items: center;
-	border-top: #939393 solid 1px;
-}
-
-footer div {
-	flex-grow: 1;
-}
-footer a {
-	display: block;
-	height: 100%;
-	padding-top: 2em;
-	padding-bottom: 1em;
-	text-decoration: none;
-}
-
-footer a img {
-	height: 3rem;
-}
-
-footer a p {
-	font-size: 1.5rem;
-	color: #5b694f;
-	margin-top: 0.5rem;
-}
-footer div:hover {
-	background-color: red;
-}
-
 #bigMap {
 	width: 90%;
 	display: block;
@@ -261,74 +226,4 @@ header > img {
 }
 .schedText {
 	color: blue;
-}
-#peopleList {
-	width: 90%;
-	margin: auto;
-	background-color: #ffffff;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 2rem;
-	align-items: baseline;
-}
-.person {
-	margin-bottom: 5rem;
-	background-color: #ffffff;
-}
-.person > img {
-	display: block;
-	margin: auto;
-	margin-bottom: 1rem;
-	width: 100%;
-}
-.person > h2 {
-	margin-top: 2rem;
-	text-align: left;
-	font-family: "Henderson BCG Serif";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 3rem;
-	color: #000000;
-	margin-bottom: 0rem;
-}
-.person p {
-	margin-top: 0.5rem;
-	font-family: "Henderson BCG Serif";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 1.5rem;
-	color: #ccc;
-}
-
-#magnifier {
-	display: flex;
-	justify-content: flex-start;
-	margin: 2rem auto;
-	width: 90%;
-	height: 4rem;
-	position: relative;
-}
-
-#magnifier > svg {
-	background-color: #f7f7f7;
-	position: absolute;
-	height: 100%;
-	width: 2rem;
-	left: 0px;
-	padding-left: 1rem;
-}
-
-#participantsSearch {
-	margin-left: 3rem;
-	padding-left: 1rem;
-	background-color: #f7f7f7;
-	height: 100%;
-	width: 100%;
-	border: none;
-	font-family: "Henderson BCG Serif";
-	font-size: 1.5rem;
-	color: #000000;
-}
-input[type="search"]::placeholder {
-	color: #000000; /* Placeholder text color */
 }
