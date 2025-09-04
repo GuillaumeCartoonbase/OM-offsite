@@ -1,4 +1,4 @@
-body > footer {
+body #footer {
 	background-color: white;
 	position: fixed;
 	bottom: 0;
@@ -9,10 +9,10 @@ body > footer {
 	border-top: #939393 solid 1px;
 }
 
-footer div {
+#footer div {
 	flex-grow: 1;
 }
-footer a {
+#footer a {
 	display: block;
 	height: 100%;
 	padding-top: 2em;
@@ -20,15 +20,15 @@ footer a {
 	text-decoration: none;
 }
 
-footer a img {
+#footer a img {
 	height: 3rem;
 }
 
-footer a p {
+#footer a p {
 	font-size: 1.5rem;
 	color: #5b694f;
 	margin-top: 0.5rem;
 }
-footer div:hover {
+#footer div:hover {
 	background-color: red;
 }
