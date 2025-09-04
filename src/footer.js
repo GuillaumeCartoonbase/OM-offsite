@@ -17,9 +17,16 @@ function setFooterImage() {
 	const participantsImage = document.getElementById("participantsPicto");
 	const programmeImage = document.getElementById("programmePicto");
 
+	const accueilText = document.getElementById("accueilText");
+	const carteText = document.getElementById("carteText");
+	const participantsText = document.getElementById("participantsText");
+	const progammeText = document.getElementById("progammeText");
+
 	if (currentPage.includes("index.html")) {
 		acceuilImage.classList.add("selected");
 		acceuilImage.classList.remove("notSelected");
+		accueilText.classList.add("selected");
+		accueilText.classList.remove("notSelected");
 	} else {
 		acceuilImage.classList.remove("selected");
 		acceuilImage.classList.add("notSelected");
@@ -28,6 +35,8 @@ function setFooterImage() {
 	if (currentPage.includes("carte.html")) {
 		carteImage.classList.add("selected");
 		carteImage.classList.remove("notSelected");
+		carteText.classList.add("selected");
+		carteText.classList.remove("notSelected");
 	} else {
 		carteImage.classList.remove("selected");
 		carteImage.classList.add("notSelected");
@@ -36,6 +45,8 @@ function setFooterImage() {
 	if (currentPage.includes("participants.html")) {
 		participantsImage.classList.add("selected");
 		participantsImage.classList.remove("notSelected");
+		participantsText.classList.add("selected");
+		participantsText.classList.remove("notSelected");
 	} else {
 		participantsImage.classList.remove("selected");
 		participantsImage.classList.add("notSelected");
@@ -44,6 +55,8 @@ function setFooterImage() {
 	if (currentPage.includes("progamme.html")) {
 		programmeImage.classList.add("selected");
 		programmeImage.classList.remove("notSelected");
+		progammeText.classList.add("selected");
+		progammeText.classList.remove("notSelected");
 	} else {
 		programmeImage.classList.remove("selected");
 		programmeImage.classList.add("notSelected");
