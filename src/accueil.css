@@ -118,4 +118,5 @@ section > .textBlock {
 	width: 30%;
 	height: 3.5rem;
 	border: none;
+	cursor: pointer;
 }
