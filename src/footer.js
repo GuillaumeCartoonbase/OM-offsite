@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function setFooterImage() {
 	const currentPage = window.location.pathname;
-	const acceuilFooter = document.getElementById("accueilFooter");
+	const accueilFooter = document.getElementById("accueilFooter");
 	const carteFooter = document.getElementById("carteFooter");
 	const participantsFooter = document.getElementById("participantsFooter");
 	const programmeFooter = document.getElementById("programmeFooter");
