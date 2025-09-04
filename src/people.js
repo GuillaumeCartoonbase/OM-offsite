@@ -16,12 +16,13 @@ function displayPeople() {
 	// Clear any existing content in the list (in case you're re-displaying)
 	peopleList.innerHTML = "";
 
-	// Iterate through the JSON data
+	// Iterate through the sorted JSON data
 	peopleData.forEach((person) => {
 		// Create a container for each person
 		const personDiv = document.createElement("div");
 		personDiv.classList.add("person");
 
+		// Create the photo element (if available)
 		const photoElement = document.createElement("img");
 		photoElement.src = person.photoURL;
 
@@ -33,7 +34,7 @@ function displayPeople() {
 		const titleElement = document.createElement("p");
 		titleElement.textContent = person.title;
 
-		// Append the name and title to the person container
+		// Append the name, title, and photo to the person container
 		personDiv.appendChild(photoElement);
 		personDiv.appendChild(nameElement);
 		personDiv.appendChild(titleElement);
