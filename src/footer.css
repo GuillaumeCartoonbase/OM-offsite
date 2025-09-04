@@ -26,17 +26,24 @@ body #footer {
 
 #footer a p {
 	font-size: 1.5rem;
-	color: #5b694f;
 	margin-top: 0.5rem;
 }
 #footer div:hover {
 	background-color: #eee;
 	transition: background-color 100ms ease-in-out;
 }
-
-.notSelected {
+.notSelected img {
 	opacity: 50%;
 }
-.selected {
+
+.selected img {
 	opacity: 100%;
+}
+
+a.selected p {
+	color: #5b694f;
+}
+a.notSelected p,
+a.notSelected:visited p {
+	color: #d9d9d9;
 }
