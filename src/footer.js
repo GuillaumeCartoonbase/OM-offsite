@@ -38,7 +38,7 @@ function setFooterImage() {
 		pageFound = true; // Page is found, set flag to true
 	}
 
-	if (currentPage.includes("progamme.html")) {
+	if (currentPage.includes("programme.html")) {
 		programmeFooter.classList.add("selected");
 		programmeFooter.classList.remove("notSelected");
 		pageFound = true; // Page is found, set flag to true

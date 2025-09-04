@@ -10,5 +10,5 @@ participantsButton.addEventListener("click", function () {
 	window.location.href = "participants.html";
 });
 programmeButton.addEventListener("click", function () {
-	window.location.href = "progamme.html";
+	window.location.href = "programme.html";
 });
