@@ -51,3 +51,16 @@ header > img {
 	width: 0px;
 	border: #c7c7c7 1px solid;
 }
+
+#programmeHeader {
+	background-color: #85a9a0;
+	color: #ffffff;
+}
+#mapHeader {
+	background-color: #d8ebab;
+	color: #5b694f;
+}
+#participantsHeader {
+	background-color: #50798e;
+	color: #ffffff;
+}
