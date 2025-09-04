@@ -1,8 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
+	// Fetch footer content
 	fetch("../footer.html")
 		.then((response) => response.text())
 		.then((data) => {
+			// Inject footer HTML into the page
 			document.querySelector("footer").innerHTML = data;
+
+			// Now that footer is loaded, set the footer images
 			setFooterImage();
 		})
 		.catch((error) => console.error("Error loading footer:", error));
@@ -11,54 +15,56 @@ document.addEventListener("DOMContentLoaded", function () {
 // Function to set image source based on the current page
 function setFooterImage() {
 	const currentPage = window.location.pathname;
+	const acceuilFooter = document.getElementById("accueilFooter");
+	const carteFooter = document.getElementById("carteFooter");
+	const participantsFooter = document.getElementById("participantsFooter");
+	const programmeFooter = document.getElementById("programmeFooter");
 
-	const acceuilImage = document.getElementById("accueilPicto");
-	const carteImage = document.getElementById("cartePicto");
-	const participantsImage = document.getElementById("participantsPicto");
-	const programmeImage = document.getElementById("programmePicto");
+	// Get the elements by their IDs
+	// const acceuilImage = acceuilFooter.getElementsByTagName("img");
+	// const carteImage = carteFooter.getElementsByTagName("img");
+	// const participantsImage = participantsFooter.getElementsByTagName("img");
+	// const programmeImage = programmeFooter.getElementsByTagName("img");
 
-	const accueilText = document.getElementById("accueilText");
-	const carteText = document.getElementById("carteText");
-	const participantsText = document.getElementById("participantsText");
-	const progammeText = document.getElementById("progammeText");
+	// const accueilText = acceuilFooter.getElementsByTagName("p");
+	// const carteText = carteFooter.getElementsByTagName("p");
+	// const participantsText = participantsFooter.getElementsByTagName("p");
+	// const programmeText = programmeFooter.getElementsByTagName("p");
 
+	// Now check and add the selected class only to the active page
 	if (currentPage.includes("index.html")) {
-		acceuilImage.classList.add("selected");
-		acceuilImage.classList.remove("notSelected");
-		accueilText.classList.add("selected");
-		accueilText.classList.remove("notSelected");
-	} else {
-		acceuilImage.classList.remove("selected");
-		acceuilImage.classList.add("notSelected");
+		accueilFooter.classList.add("selected");
+		accueilFooter.classList.remove("notSelected");
+		// acceuilImage.classList.add("selected");
+		// accueilText.classList.add("selected");
+		// acceuilImage.classList.remove("notSelected");
+		// accueilText.classList.remove("notSelected");
 	}
 
 	if (currentPage.includes("carte.html")) {
-		carteImage.classList.add("selected");
-		carteImage.classList.remove("notSelected");
-		carteText.classList.add("selected");
-		carteText.classList.remove("notSelected");
-	} else {
-		carteImage.classList.remove("selected");
-		carteImage.classList.add("notSelected");
+		carteFooter.classList.add("selected");
+		carteFooter.classList.remove("notSelected");
+		// carteImage.classList.add("selected");
+		// carteText.classList.add("selected");
+		// carteImage.classList.remove("notSelected");
+		// carteText.classList.remove("notSelected");
 	}
 
 	if (currentPage.includes("participants.html")) {
-		participantsImage.classList.add("selected");
-		participantsImage.classList.remove("notSelected");
-		participantsText.classList.add("selected");
-		participantsText.classList.remove("notSelected");
-	} else {
-		participantsImage.classList.remove("selected");
-		participantsImage.classList.add("notSelected");
+		participantsFooter.classList.add("selected");
+		participantsFooter.classList.remove("notSelected");
+		// participantsImage.classList.add("selected");
+		// participantsText.classList.add("selected");
+		// participantsImage.classList.remove("notSelected");
+		// participantsText.classList.remove("notSelected");
 	}
 
 	if (currentPage.includes("progamme.html")) {
-		programmeImage.classList.add("selected");
-		programmeImage.classList.remove("notSelected");
-		progammeText.classList.add("selected");
-		progammeText.classList.remove("notSelected");
-	} else {
-		programmeImage.classList.remove("selected");
-		programmeImage.classList.add("notSelected");
+		programmeFooter.classList.add("selected");
+		programmeFooter.classList.remove("notSelected");
+		// programmeImage.classList.add("selected");
+		// programmeText.classList.add("selected");
+		// programmeImage.classList.remove("notSelected");
+		// programmeText.classList.remove("notSelected");
 	}
 }
