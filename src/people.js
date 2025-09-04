@@ -2,8 +2,9 @@
 fetch("src/people.json")
 	.then((response) => response.json())
 	.then((data) => {
-		// Use the fetched data to populate the DOM
-		peopleData = data;
+		// Sort the data alphabetically by person's name
+		peopleData = data.sort((a, b) => a.name.localeCompare(b.name));
+
 		displayPeople();
 	})
 	.catch((error) => console.error("Error loading the JSON file:", error));
@@ -12,12 +13,16 @@ function displayPeople() {
 	// Get the container element where you want to append the people list
 	const peopleList = document.getElementById("peopleList");
 
-	// Iterate through the JSON data
+	// Clear any existing content in the list (in case you're re-displaying)
+	peopleList.innerHTML = "";
+
+	// Iterate through the sorted JSON data
 	peopleData.forEach((person) => {
 		// Create a container for each person
 		const personDiv = document.createElement("div");
 		personDiv.classList.add("person");
 
+		// Create the photo element (if available)
 		const photoElement = document.createElement("img");
 		photoElement.src = person.photoURL;
 
@@ -29,7 +34,7 @@ function displayPeople() {
 		const titleElement = document.createElement("p");
 		titleElement.textContent = person.title;
 
-		// Append the name and title to the person container
+		// Append the name, title, and photo to the person container
 		personDiv.appendChild(photoElement);
 		personDiv.appendChild(nameElement);
 		personDiv.appendChild(titleElement);
