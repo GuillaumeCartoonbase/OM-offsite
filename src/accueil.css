@@ -1,0 +1,122 @@
+#welcome {
+	display: flex;
+	flex-direction: column;
+}
+
+#welcome > h1 {
+	color: #a5a5a5;
+	font-family: "Henderson BCG Sans";
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 85%;
+	text-transform: uppercase;
+	margin-top: 80px;
+	margin-bottom: 60px;
+}
+
+#welcome > #eventLogo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#landscape {
+	width: 100%;
+}
+
+section > .textBlock {
+	padding: 0 40px;
+
+	font-family: "Henderson BCG Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+
+	color: #000;
+}
+
+#signatures {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.sign {
+	margin: 0 80px;
+	font-family: "Henderson BCG Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: center;
+	color: #000000;
+}
+
+#cardProgramme,
+#cardCarte,
+#cardParticipants {
+	display: flex;
+	flex-direction: column;
+}
+
+#cardProgramme > img,
+#cardCarte > img,
+#cardParticipants > img {
+	margin: auto;
+	width: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#cardProgramme > h2,
+#cardCarte > h2,
+#cardParticipants > h2 {
+	font-family: "Henderson BCG Serif";
+	font-weight: 400;
+
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+}
+
+#cardProgramme {
+	background-color: #d8ebab;
+	color: #5b694f;
+}
+#cardProgramme > .button {
+	background-color: #5b694f;
+	color: #ffffff;
+}
+
+#cardCarte {
+	background-color: #50798e;
+	color: #ffffff;
+}
+#cardCarte > .button {
+	background-color: #ffffff;
+	color: #50798e;
+}
+#cardParticipants {
+	background-color: #85a9a0;
+	color: #ffffff;
+}
+#cardParticipants > .button {
+	background-color: #d8ebab;
+	color: #50798e;
+}
+
+#cardParticipants > h2 {
+	color: #d8ebab;
+}
+#cardProgramme > .button,
+#cardCarte > .button,
+#cardParticipants > .button {
+	margin: auto;
+	font-family: "Henderson BCG Serif";
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 18px;
+	width: 30%;
+	border: none;
+}
