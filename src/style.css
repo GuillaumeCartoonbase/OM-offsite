@@ -3,8 +3,8 @@
 	src: url("fonts/BCGHenSansRegular.ttf");
 }
 @font-face {
-	font-family: "Henderson BCG Serif";
-	src: url("fonts/BCGHenSerifRegular.ttf");
+	font-family: "Henderson BCG Serif Head";
+	src: url("fonts/BCGHenSerifHead.ttf");
 }
 html,
 body {
