@@ -85,6 +85,9 @@ section > .textBlock {
 	background-color: #5b694f;
 	color: #ffffff;
 }
+#cardProgramme .button:hover {
+	background-color: #7b8772;
+}
 
 #cardCarte {
 	background-color: #50798e;
@@ -94,13 +97,21 @@ section > .textBlock {
 	background-color: #ffffff;
 	color: #50798e;
 }
-#cardParticipants {
+#cardCarte > .button:hover {
+	background-color: #84a1af;
+	color: #fff;
+}
+kk #cardParticipants {
 	background-color: #85a9a0;
 	color: #ffffff;
 }
 #cardParticipants > .button {
 	background-color: #d8ebab;
 	color: #50798e;
+}
+#cardParticipants > .button:hover {
+	background-color: #97a477;
+	color: #ffffff;
 }
 
 #cardParticipants > h2 {
