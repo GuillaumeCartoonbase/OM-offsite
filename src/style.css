@@ -188,59 +188,6 @@ footer div:hover {
 	margin: auto;
 }
 
-header {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	padding-top: 100px;
-	padding-bottom: 30px;
-	align-items: center;
-}
-header > h1 {
-	font-family: "Henderson BCG Serif";
-	font-weight: 100;
-	font-size: 3.5rem;
-	line-height: 27px;
-}
-header > img {
-	height: 3.5rem;
-	margin-right: 20px;
-}
-
-#days,
-#mapItems {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	background-color: #ffffff;
-	border-bottom: #939393 1px solid;
-}
-
-.day,
-.mapItem {
-	background-color: #ffffff;
-	padding: 3rem 2rem;
-	border: none;
-	text-align: center;
-	font-family: "Henderson BCG Serif Head";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 3rem;
-	line-height: 18px;
-	color: #c7c7c7;
-}
-.day:hover,
-.mapItem:hover {
-	cursor: pointer;
-}
-
-.separator {
-	padding: 20px 0;
-	height: 72%;
-	width: 0px;
-	border: #c7c7c7 1px solid;
-}
 #peopleList {
 	width: 90%;
 	margin: auto;
