@@ -30,7 +30,8 @@ body #footer {
 	margin-top: 0.5rem;
 }
 #footer div:hover {
-	background-color: red;
+	background-color: #eee;
+	transition: background-color 100ms ease-in-out;
 }
 
 .notSelected {
