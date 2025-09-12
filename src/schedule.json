@@ -39,7 +39,8 @@
 		"titre": "Pour les SO - Atelier au choix (2/3) - Découverte et création de cyanotype",
 		"time": "8h30 - 12h00",
 		"text": "Atelier cyanotype avec l'artiste Anne Bonnefon, découverte de l'histoire, initiation à la technique de ce procédé photographique ancien, cueillette de végétaux dans les Alpilles, puis réalisation d'une oeuvre papier en format A5 et d'un tote bag",
-		"day": "friday"
+		"day": "friday",
+		"link": "photographies-arles.html"
 	},
 	{
 		"titre": "Pour les SO - Atelier au choix (3/3) - Découverte et création de plumasserie",
@@ -75,7 +76,8 @@
 		"titre": "Atelier au choix (1/5) - Vélo sur les routes des Alpilles",
 		"time": "9h00 - 12h00",
 		"text": "Atelier vélo encadré par des guides spécialisés, en groupes de niveau. Boucle de 2h à 2h30 autour des Baux-de-Provence. Vélos mixtes avec assistance fournis",
-		"day": "saturday"
+		"day": "saturday",
+		"link": "velo.html"
 	},
 	{
 		"titre": "Atelier au choix (2/5) - Trail sur le GR6 / Rando trek",
@@ -93,13 +95,15 @@
 		"titre": "Atelier au choix (4/5) - Arles - Les Rencontres de la Photo",
 		"time": "9h30 - 12h30",
 		"text": "Atelier immersion au sein de la capitale européenne de la photographie avec parcours exclusif autour des Rencontres de la Photo",
-		"day": "saturday"
+		"day": "saturday",
+		"link": "photographies-arles.html"
 	},
 	{
 		"titre": "Atelier au choix (5/5) - Arles - Workshop a la Fondation Luma",
 		"time": "9h30 - 12h30",
 		"text": "Atelier culturel et artistique autour d&#39;un workshop participatif et d&#39;une visite confidentielle des expositions de la Fondation Luma",
-		"day": "saturday"
+		"day": "saturday",
+		"link": "luma.html"
 	},
 	{
 		"titre": "Activités libres",
@@ -135,13 +139,15 @@
 		"titre": "Atelier au choix (4/5) - Arles - Les Rencontres de la Photo",
 		"time": "15h00 - 18h00",
 		"text": "Atelier immersion au sein de la capitale européenne de la photographie avec parcours exclusif autour des Rencontres de la Photo",
-		"day": "saturday"
+		"day": "saturday",
+		"link": "photographies-arles.html"
 	},
 	{
 		"titre": "Atelier au choix (5/5) - Arles - Workshop a la Fondation Luma",
 		"time": "15h00 - 18h00",
 		"text": "Atelier culturel et artistique autour d'un workshop participatif et d'une visite confidentielle des expositions de la Fondation Luma",
-		"day": "saturday"
+		"day": "saturday",
+		"link": "luma.html"
 	},
 	{
 		"titre": "Soirée « Arbre Enchanté » à la Cabro d'Or",
