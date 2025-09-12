@@ -10,21 +10,37 @@
 	background-color: #50798e;
 	color: #ffffff;
 }
+
+ul {
+	margin-left: 3rem;
+}
+li {
+	margin-right: 3rem;
+	margin-bottom: 4rem;
+}
 .schedule {
 	color: #85a9a0;
 	font-family: "Henderson BCG Sans";
 	font-weight: 100;
 	font-style: italic;
-	font-size: 1rem;
+	font-size: 1.5rem;
+	margin: 0;
+	margin-left: 3rem;
 }
 .schedTitle {
 	font-family: "Henderson BCG Serif Head";
+	font-weight: 100;
 	color: #000000;
-	font-size: 1.5rem;
+	font-size: 2rem;
+	margin: 0;
+	margin-left: 3rem;
 }
 .schedText {
 	font-family: "Henderson BCG Sans";
 	color: #6a6a6a;
+	font-size: 1.5rem;
+	margin: 0;
+	margin-left: 3rem;
 }
 
 h2 {
