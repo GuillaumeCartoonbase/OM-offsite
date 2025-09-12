@@ -21,7 +21,9 @@ function displaySchedule() {
 		const li = document.createElement("li");
 		li.innerHTML = `
       <h3 class="schedule">${orga.time}</h3>
-      <h4 class="schedTitle">${orga.titre}</h4>
+	       <h4 class="schedTitle">${
+						orga.link ? "<a href=" + orga.link + ">" : ""
+					} ${orga.titre} ${orga.link ? "</a>" : ""}</h4>
       <p class="schedText">${orga.text}</p>
     `;
 
