@@ -48,6 +48,11 @@ h2 {
 	font-size: 5rem;
 	font-weight: 100;
 	text-transform: uppercase;
+	margin-left: 3rem;
+
+	padding-bottom: 1rem;
+	border-bottom: 2px solid#e4e4e4;
+	width: 75vw; /* 75% of the viewport width */
 }
 
 ul {
