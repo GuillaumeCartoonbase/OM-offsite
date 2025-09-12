@@ -11,11 +11,26 @@
 	color: #ffffff;
 }
 .schedule {
-	color: fuchsia;
+	color: #85a9a0;
+	font-family: "Henderson BCG Sans";
+	font-weight: 100;
+	font-style: italic;
+	font-size: 1rem;
 }
 .schedTitle {
-	color: red;
+	font-family: "Henderson BCG Serif Head";
+	color: #000000;
+	font-size: 1.5rem;
 }
 .schedText {
-	color: blue;
+	font-family: "Henderson BCG Sans";
+	color: #6a6a6a;
+}
+
+h2 {
+	color: #85a9a0;
+	font-family: "Henderson BCG Serif Head";
+	font-size: 5rem;
+	font-weight: 100;
+	text-transform: uppercase;
 }
