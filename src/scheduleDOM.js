@@ -1,3 +1,4 @@
+let scheduleData = [];
 // Fetching JSON data from a file
 fetch("src/schedule.json")
 	.then((response) => response.json())
@@ -15,6 +16,7 @@ function displaySchedule() {
 	const sunday = document.getElementById("sunday");
 
 	scheduleData.forEach((orga) => {
+		const li = document.createElement("li");
 		const time = document.createElement("h3");
 		const titre = document.createElement("h4");
 		const text = document.createElement("p");
@@ -27,25 +29,21 @@ function displaySchedule() {
 		titre.textContent = orga.titre;
 		text.textContent = orga.text;
 
+		li.appendChild(time);
+		li.appendChild(titre);
+		li.appendChild(text);
+
 		if ("thursday" === orga.day) {
-			thursday.appendChild(time);
-			thursday.appendChild(titre);
-			thursday.appendChild(text);
+			thursday.appendChild(li);
 		}
 		if ("friday" === orga.day) {
-			friday.appendChild(time);
-			friday.appendChild(titre);
-			friday.appendChild(text);
+			friday.appendChild(li);
 		}
 		if ("saturday" === orga.day) {
-			saturday.appendChild(time);
-			saturday.appendChild(titre);
-			saturday.appendChild(text);
+			saturday.appendChild(li);
 		}
 		if ("sunday" === orga.day) {
-			sunday.appendChild(time);
-			sunday.appendChild(titre);
-			sunday.appendChild(text);
+			sunday.appendChild(li);
 		}
 	});
 }
