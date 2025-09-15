@@ -117,3 +117,40 @@ h4 a {
 h4 a:hover {
 	color: #85a9a0;
 }
+
+#imgBag,
+#imgCocktail {
+	display: block;
+	margin: auto;
+	width: 50vw;
+}
+
+#imgBag,
+#imgCocktail,
+#imgLandscape,
+#imgRestaurant {
+	margin-top: 12rem;
+	margin-bottom: 9rem;
+}
+
+#imgLandscape {
+	width: 100%;
+	aspect-ratio: 20/9;
+	/* height: 30rem; */
+	background: url("../img/frise\ paysage.png") no-repeat;
+	background-size: 120%;
+	background-position: -30% 0%;
+	transform: scaleX(-1);
+}
+
+#imgRestaurant {
+	width: 100%;
+	aspect-ratio: 1.32/1;
+	background: url("../img/resto2.png") no-repeat;
+	background-size: 90%;
+	background-position: 100% 0%;
+}
+
+#imgCocktail {
+	margin-left: 5rem;
+}
