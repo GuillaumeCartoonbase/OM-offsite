@@ -16,18 +16,22 @@ function displayContacts() {
 	contactList.innerHTML = "";
 	contactData.forEach((contact) => {
 		const pic = document.createElement("img");
+		pic.classList.add("contactPic");
 		pic.src = contact.pic;
 		contactList.appendChild(pic);
 
 		const name = document.createElement("p");
+		name.classList.add("contactName");
 		name.textContent = contact.name;
 		contactList.appendChild(name);
 
 		const phone = document.createElement("p");
+		phone.classList.add("contactPhone");
 		phone.textContent = contact.phone;
 		contactList.appendChild(phone);
 
 		const icon = document.createElement("div");
+		icon.classList.add("contactIcon");
 		icon.innerHTML = phoneSVG;
 		contactList.appendChild(icon);
 	});

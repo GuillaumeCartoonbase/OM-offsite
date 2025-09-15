@@ -1,0 +1,16 @@
+img.contactPic {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: black 5px solid;
+}
+p.contactName {
+	color: blue;
+}
+p.contactPhone {
+	color: red;
+}
+
+.contactIcon {
+	background-color: red;
+}
