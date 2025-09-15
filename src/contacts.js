@@ -12,27 +12,31 @@ fetch("src/contacts.json")
 
 function displayContacts() {
 	const contactList = document.getElementById("contactList");
-
 	contactList.innerHTML = "";
+
 	contactData.forEach((contact) => {
+		const cell = document.createElement("div");
+		cell.classList.add("contactCell");
+
 		const pic = document.createElement("img");
 		pic.classList.add("contactPic");
 		pic.src = contact.pic;
-		contactList.appendChild(pic);
+		pic.alt = contact.name || "Contact photo";
 
 		const name = document.createElement("p");
 		name.classList.add("contactName");
-		name.textContent = contact.name;
-		contactList.appendChild(name);
+		name.textContent = contact.name ?? "(no name)";
 
 		const phone = document.createElement("p");
 		phone.classList.add("contactPhone");
-		phone.textContent = contact.phone;
-		contactList.appendChild(phone);
+		phone.textContent = contact.phone ?? "";
 
 		const icon = document.createElement("div");
 		icon.classList.add("contactIcon");
 		icon.innerHTML = phoneSVG;
-		contactList.appendChild(icon);
+
+		// build the cell, then append to the list
+		cell.append(pic, name, phone, icon);
+		contactList.appendChild(cell);
 	});
 }
