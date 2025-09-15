@@ -71,7 +71,7 @@ section > .textBlock {
 #cardProgramme > h2,
 #cardCarte > h2,
 #cardParticipants > h2 {
-	font-family: "Henderson BCG Sans";
+	font-family: "Henderson BCG Serif Head";
 	font-weight: 400;
 	font-size: 48px;
 	line-height: 56px;
@@ -101,7 +101,7 @@ section > .textBlock {
 	background-color: #84a1af;
 	color: #fff;
 }
-kk #cardParticipants {
+#cardParticipants {
 	background-color: #85a9a0;
 	color: #ffffff;
 }
@@ -130,4 +130,10 @@ kk #cardParticipants {
 	height: 3.5rem;
 	border: none;
 	cursor: pointer;
+}
+
+section#contacts h2 {
+	font-family: "Henderson BCG Serif Head";
+	font-size: 4rem;
+	font-weight: 100;
 }

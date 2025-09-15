@@ -1,3 +1,12 @@
+:root {
+	--circlepad: 3rem;
+}
+@media screen and (min-width: 600px) {
+	:root {
+		--circlepad: 6rem;
+	}
+}
+
 #programmeHeader {
 	background-color: #85a9a0;
 	color: #ffffff;
@@ -10,12 +19,161 @@
 	background-color: #50798e;
 	color: #ffffff;
 }
+
+li {
+	margin-right: 3rem;
+}
+
 .schedule {
-	color: fuchsia;
+	color: #85a9a0;
+	font-family: "Henderson BCG Sans";
+	font-weight: 100;
+	font-style: italic;
+	font-size: 1.5rem;
+	margin: 0;
+	margin-left: var(--circlepad);
 }
+
 .schedTitle {
-	color: red;
+	font-family: "Henderson BCG Serif Head";
+	font-weight: 100;
+	color: #000000;
+	margin: 0;
+	margin-left: var(--circlepad);
 }
+h4,
+.schedTitle {
+	font-size: 6vw;
+}
+@media screen and (min-width: 600px) {
+	h4.schedTitle {
+		font-size: 2rem;
+	}
+}
+h4 a {
+	text-decoration: none;
+	color: inherit;
+	text-decoration: underline solid #aaaaaa 1px;
+	text-underline-offset: 4px;
+}
+h4 a:hover {
+	color: #85a9a0;
+}
+
 .schedText {
-	color: blue;
+	font-family: "Henderson BCG Sans";
+	color: #6a6a6a;
+	font-size: 3.5vw;
+	margin: 0;
+	margin-left: var(--circlepad);
+}
+@media screen and (min-width: 600px) {
+	.schedText {
+		font-size: 1.5rem;
+	}
+}
+
+h2 {
+	color: #85a9a0;
+	font-family: "Henderson BCG Serif Head";
+	font-weight: 100;
+	text-transform: uppercase;
+	margin-left: var(--circlepad);
+	padding-bottom: 1rem;
+	border-bottom: 2px solid#e4e4e4;
+	width: 75vw; /* 75% of the viewport width */
+}
+
+h2 {
+	font-size: 10vw;
+}
+@media screen and (min-width: 600px) {
+	h2 {
+		font-size: 3.5rem;
+	}
+}
+
+ul {
+	--circle: 1.3rem; /* dot size */
+	--line: 2px; /* line thickness */
+	--gap: 6rem; /* vertical gap between items */
+
+	list-style: none;
+	position: relative;
+	padding-left: var(--circlepad);
+}
+
+ul li {
+	position: relative;
+	margin-bottom: var(--gap); /* space to next item */
+}
+
+/* Circle */
+ul li::before {
+	content: "";
+	position: absolute;
+	left: 0rem; /* align with line */
+	top: 0;
+	width: var(--circle);
+	height: var(--circle);
+	border: 2px solid #85a9a0;
+	border-radius: 50%;
+	background: #fff;
+}
+
+/* Line that goes INTO the next item */
+ul li::after {
+	content: "";
+	position: absolute;
+	z-index: -100;
+	left: calc(var(--circle) / 2 + var(--line) / 2); /*move radius minus stroke*/
+	top: calc(var(--circle) + 0.2rem); /* start just below the circle */
+	bottom: calc(var(--gap) * -1); /* extend past this li into the next */
+	width: var(--line);
+	background: #e4e4e4;
+}
+
+/* Last item: no line, no extra gap */
+ul li:last-child {
+	margin-bottom: 0;
+}
+ul li:last-child::after {
+	content: none;
+}
+
+#imgBag,
+#imgCocktail {
+	display: block;
+	margin: auto;
+	width: 50vw;
+}
+
+#imgBag,
+#imgCocktail,
+#imgLandscape,
+#imgRestaurant {
+	margin-top: 12rem;
+	margin-bottom: 9rem;
+}
+
+#imgLandscape {
+	width: 100%;
+	aspect-ratio: 20/9;
+	/* height: 30rem; */
+	background: url("../img/frise\ paysage.png") no-repeat;
+	background-size: 120%;
+	background-position: -30% 0%;
+	transform: scaleX(-1);
+}
+
+#imgRestaurant {
+	width: 100%;
+	aspect-ratio: 1.32/1;
+	background: url("../img/resto2.png") no-repeat;
+	background-size: 90%;
+	background-position: 100% 0%;
+}
+
+#imgCocktail {
+	margin-left: 5rem;
 }

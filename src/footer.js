@@ -1,50 +1,59 @@
-document.addEventListener("DOMContentLoaded", function () {
-	// Fetch footer content
-	fetch("../footer.html")
-		.then((response) => response.text())
-		.then((data) => {
-			// Inject footer HTML into the page
-			document.querySelector("footer").innerHTML = data;
+document.addEventListener("DOMContentLoaded", async () => {
+	try {
+		const res = await fetch("../footer.html");
+		const html = await res.text();
+		document.querySelector("footer").innerHTML = html;
 
-			// Now that footer is loaded, set the footer images
-			setFooterImage();
-		})
-		.catch((error) => console.error("Error loading footer:", error));
+		// Opt-in: select all footer items on unknown pages
+		setFooterActive({ selectAllOnUnknown: true });
+	} catch (err) {
+		console.error("Error loading footer:", err);
+	}
 });
 
-function setFooterImage() {
-	const currentPage = window.location.pathname;
-	const acceuilFooter = document.getElementById("accueilFooter");
-	const carteFooter = document.getElementById("carteFooter");
-	const participantsFooter = document.getElementById("participantsFooter");
-	const programmeFooter = document.getElementById("programmeFooter");
-	let pageFound = false; // Flag to track if any page matches
+function setFooterActive(opts = {}) {
+	const { selectAllOnUnknown = false } = opts;
 
-	if (currentPage.includes("index.html")) {
-		accueilFooter.classList.add("selected");
-		accueilFooter.classList.remove("notSelected");
-		pageFound = true; // Page is found, set flag to true
+	const ids = [
+		"accueilFooter",
+		"programmeFooter",
+		"carteFooter",
+		"participantsFooter",
+	];
+	const els = Object.fromEntries(
+		ids.map((id) => [id, document.getElementById(id)])
+	);
+
+	const PAGE_TO_ID = {
+		"": "accueilFooter",
+		"/": "accueilFooter",
+		"index.html": "accueilFooter",
+		"programme.html": "programmeFooter",
+		"carte.html": "carteFooter",
+		"participants.html": "participantsFooter",
+	};
+
+	const path = window.location.pathname;
+	const file = path.split("/").pop() || "index.html";
+	const activeId = PAGE_TO_ID[file];
+
+	const setSelected = (node, isSelected) => {
+		if (!node) return;
+		node.classList.toggle("selected", isSelected);
+		node.classList.toggle("notSelected", !isSelected);
+	};
+
+	if (!activeId) {
+		// Unknown page
+		if (selectAllOnUnknown) {
+			ids.forEach((id) => setSelected(els[id], true)); // all selected
+		} else {
+			// default behavior: only accueil selected
+			ids.forEach((id) => setSelected(els[id], id === "accueilFooter"));
+		}
+		return;
 	}
 
-	if (currentPage.includes("carte.html")) {
-		carteFooter.classList.add("selected");
-		carteFooter.classList.remove("notSelected");
-		pageFound = true; // Page is found, set flag to true
-	}
-
-	if (currentPage.includes("participants.html")) {
-		participantsFooter.classList.add("selected");
-		participantsFooter.classList.remove("notSelected");
-		pageFound = true; // Page is found, set flag to true
-	}
-
-	if (currentPage.includes("programme.html")) {
-		programmeFooter.classList.add("selected");
-		programmeFooter.classList.remove("notSelected");
-		pageFound = true; // Page is found, set flag to true
-	}
-	if (!pageFound) {
-		accueilFooter.classList.add("selected");
-		accueilFooter.classList.remove("notSelected");
-	}
+	// Known page: select only the matched one
+	ids.forEach((id) => setSelected(els[id], id === activeId));
 }

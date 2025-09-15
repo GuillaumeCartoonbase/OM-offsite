@@ -1,59 +1,33 @@
-// Fetching JSON data from a file
+// Keep scheduleData in outer scope
+let scheduleData = [];
+
+// Fetch JSON then render
 fetch("src/schedule.json")
 	.then((response) => response.json())
 	.then((data) => {
-		// Use the fetched data to populate the DOM
 		scheduleData = data;
 		displaySchedule();
 	})
 	.catch((error) => console.error("Error loading the JSON file:", error));
 
 function displaySchedule() {
-	const thursday = document.getElementById("thursday");
-	const friday = document.getElementById("friday");
-	const saturday = document.getElementById("saturday");
-	const sunday = document.getElementById("sunday");
+	// (Optional) clear previous content if re-rendering:
+	// ["thursday","friday","saturday","sunday"].forEach(id => {
+	//   const el = document.getElementById(id);
+	//   if (el) el.innerHTML = "";
+	// });
 
 	scheduleData.forEach((orga) => {
-		const time = document.createElement("h3");
-		const titre = document.createElement("h4");
-		const text = document.createElement("p");
+		const li = document.createElement("li");
+		li.innerHTML = `
+      <h3 class="schedule">${orga.time}</h3>
+	       <h4 class="schedTitle">${
+						orga.link ? "<a href=" + orga.link + ">" : ""
+					} ${orga.titre} ${orga.link ? "</a>" : ""}</h4>
+      <p class="schedText">${orga.text}</p>
+    `;
 
-		time.classList.add("schedule");
-		titre.classList.add("schedTitle");
-		text.classList.add("schedText");
-
-		time.textContent = orga.time;
-		titre.textContent = orga.titre;
-		text.textContent = orga.text;
-
-		if ("thursday" === orga.day) {
-			thursday.appendChild(time);
-			thursday.appendChild(titre);
-			thursday.appendChild(text);
-		}
-		if ("friday" === orga.day) {
-			friday.appendChild(time);
-			friday.appendChild(titre);
-			friday.appendChild(text);
-		}
-		if ("saturday" === orga.day) {
-			saturday.appendChild(time);
-			saturday.appendChild(titre);
-			saturday.appendChild(text);
-		}
-		if ("sunday" === orga.day) {
-			sunday.appendChild(time);
-			sunday.appendChild(titre);
-			sunday.appendChild(text);
-		}
+		const dayContainer = document.getElementById(orga.day); // expects "thursday" | "friday" | ...
+		if (dayContainer) dayContainer.appendChild(li);
 	});
 }
-
-function whichDay(day) {
-	scheduleData.forEach((orga) => {
-		if (day === orga.day) return true;
-	});
-}
-
-displaySchedule();
