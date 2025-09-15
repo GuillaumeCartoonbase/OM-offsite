@@ -55,9 +55,14 @@ h4 a:hover {
 .schedText {
 	font-family: "Henderson BCG Sans";
 	color: #6a6a6a;
-	font-size: 1.5rem;
+	font-size: 3.5vw;
 	margin: 0;
 	margin-left: 6rem;
+}
+@media screen and (min-width: 600px) {
+	.schedText {
+		font-size: 1.5rem;
+	}
 }
 
 h2 {
