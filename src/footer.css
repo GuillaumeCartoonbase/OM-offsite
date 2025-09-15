@@ -12,6 +12,10 @@ body #footer {
 #footer div {
 	flex-grow: 1;
 }
+#footer .column {
+	padding: 0 10px;
+}
+
 #footer a {
 	display: block;
 	height: 100%;
