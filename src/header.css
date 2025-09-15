@@ -36,10 +36,27 @@ header > img {
 	font-family: "Henderson BCG Serif Head";
 	font-style: normal;
 	font-weight: 400;
-	font-size: 3rem;
 	line-height: 18px;
 	color: #c7c7c7;
 }
+
+.day,
+.mapItem {
+	font-size: 3vw;
+}
+@media screen and (min-width: 900px) {
+	.day,
+	.mapItem {
+		font-size: 3vw;
+	}
+}
+/* @media screen and (max-width: 400px) {
+	.day,
+	.mapItem {
+		background-color: blue;
+	}
+} */
+
 .day:hover,
 .mapItem:hover {
 	cursor: pointer;
