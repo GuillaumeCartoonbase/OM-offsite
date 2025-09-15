@@ -23,6 +23,9 @@ function displayContacts() {
 		pic.src = contact.pic;
 		pic.alt = contact.name || "Contact photo";
 
+		const info = document.createElement("div");
+		info.classList.add("contactInfo");
+
 		const name = document.createElement("p");
 		name.classList.add("contactName");
 		name.textContent = contact.name ?? "(no name)";
@@ -31,12 +34,14 @@ function displayContacts() {
 		phone.classList.add("contactPhone");
 		phone.textContent = contact.phone ?? "";
 
+		info.append(name, phone);
+
 		const icon = document.createElement("div");
 		icon.classList.add("contactIcon");
 		icon.innerHTML = phoneSVG;
 
 		// build the cell, then append to the list
-		cell.append(pic, name, phone, icon);
+		cell.append(pic, info, icon);
 		contactList.appendChild(cell);
 	});
 }
