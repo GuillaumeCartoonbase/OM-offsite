@@ -45,14 +45,21 @@ li {
 h2 {
 	color: #85a9a0;
 	font-family: "Henderson BCG Serif Head";
-	font-size: 5rem;
 	font-weight: 100;
 	text-transform: uppercase;
 	margin-left: 3rem;
-
 	padding-bottom: 1rem;
 	border-bottom: 2px solid#e4e4e4;
 	width: 75vw; /* 75% of the viewport width */
+}
+
+h2 {
+	font-size: 10vw;
+}
+@media screen and (min-width: 600px) {
+	h2 {
+		font-size: 3.5rem;
+	}
 }
 
 ul {
