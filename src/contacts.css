@@ -11,23 +11,33 @@ img.contactPic {
 	width: 3rem;
 	height: 3rem;
 	border-radius: 50%;
-	margin: 1rem;
+	margin: auto 1rem;
 	background: #e4e4e4;
 }
-p.contactName,
+.contactInfo {
+	display: flex;
+	flex-direction: column;
+	margin: 1rem;
+	margin-left: 2rem;
+}
+
+p.contactName {
+	font-family: "Henderson BCG Sans";
+	color: #62a176;
+	font-size: 1.5rem;
+	font-style: italic;
+	font-weight: 100;
+	margin: 0;
+}
 p.contactPhone {
 	font-family: "Henderson BCG Serif Head";
-}
-p.contactName {
-	color: #62a176;
-}
-p.contactPhone {
 	color: #000000;
+	font-size: 2rem;
+	margin: 0;
 }
 
 .contactIcon {
 	width: 2rem;
-	margin: auto 0;
-	margin-left: auto;
+	margin: auto;
 	margin-right: 1rem;
 }
