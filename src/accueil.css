@@ -34,6 +34,8 @@ section > .textBlock {
 	line-height: 28px;
 
 	color: #000;
+	/* display: flex; */
+	/* flex-direction: column; */
 }
 
 #signatures {
@@ -56,28 +58,23 @@ section > .textBlock {
 #cardProgramme,
 #cardCarte,
 #cardParticipants {
-	display: flex;
-	flex-direction: column;
+	padding: 4rem 5rem;
 }
 
 #cardProgramme > img,
 #cardCarte > img,
 #cardParticipants > img {
+	display: block;
 	margin: auto;
 	width: 300px;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
 }
 #cardProgramme > h2,
 #cardCarte > h2,
 #cardParticipants > h2 {
-	font-family: "Henderson BCG Serif";
+	font-family: "Henderson BCG Sans";
 	font-weight: 400;
-
 	font-size: 48px;
 	line-height: 56px;
-	text-align: center;
 }
 
 #cardProgramme {
@@ -88,6 +85,9 @@ section > .textBlock {
 	background-color: #5b694f;
 	color: #ffffff;
 }
+#cardProgramme .button:hover {
+	background-color: #7b8772;
+}
 
 #cardCarte {
 	background-color: #50798e;
@@ -97,13 +97,21 @@ section > .textBlock {
 	background-color: #ffffff;
 	color: #50798e;
 }
-#cardParticipants {
+#cardCarte > .button:hover {
+	background-color: #84a1af;
+	color: #fff;
+}
+kk #cardParticipants {
 	background-color: #85a9a0;
 	color: #ffffff;
 }
 #cardParticipants > .button {
 	background-color: #d8ebab;
 	color: #50798e;
+}
+#cardParticipants > .button:hover {
+	background-color: #97a477;
+	color: #ffffff;
 }
 
 #cardParticipants > h2 {
@@ -112,11 +120,14 @@ section > .textBlock {
 #cardProgramme > .button,
 #cardCarte > .button,
 #cardParticipants > .button {
-	margin: auto;
-	font-family: "Henderson BCG Serif";
+	margin: 4rem auto;
+	display: block;
+	font-family: "Henderson BCG Serif Head";
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 18px;
 	width: 30%;
+	height: 3.5rem;
 	border: none;
+	cursor: pointer;
 }

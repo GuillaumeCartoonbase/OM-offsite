@@ -7,7 +7,7 @@ header {
 	align-items: center;
 }
 header > h1 {
-	font-family: "Henderson BCG Serif";
+	font-family: "Henderson BCG Serif Head";
 	font-weight: 100;
 	font-size: 3.5rem;
 	line-height: 27px;
@@ -36,10 +36,27 @@ header > img {
 	font-family: "Henderson BCG Serif Head";
 	font-style: normal;
 	font-weight: 400;
-	font-size: 3rem;
 	line-height: 18px;
 	color: #c7c7c7;
 }
+
+.day,
+.mapItem {
+	font-size: 3vw;
+}
+@media screen and (min-width: 900px) {
+	.day,
+	.mapItem {
+		font-size: 3vw;
+	}
+}
+/* @media screen and (max-width: 400px) {
+	.day,
+	.mapItem {
+		background-color: blue;
+	}
+} */
+
 .day:hover,
 .mapItem:hover {
 	cursor: pointer;

@@ -10,12 +10,110 @@
 	background-color: #50798e;
 	color: #ffffff;
 }
+
+ul {
+	margin-left: 3rem;
+}
+li {
+	margin-right: 3rem;
+}
 .schedule {
-	color: fuchsia;
+	color: #85a9a0;
+	font-family: "Henderson BCG Sans";
+	font-weight: 100;
+	font-style: italic;
+	font-size: 1.5rem;
+	margin: 0;
+	margin-left: 6rem;
 }
 .schedTitle {
-	color: red;
+	font-family: "Henderson BCG Serif Head";
+	font-weight: 100;
+	color: #000000;
+	font-size: 2rem;
+	margin: 0;
+	margin-left: 6rem;
 }
 .schedText {
-	color: blue;
+	font-family: "Henderson BCG Sans";
+	color: #6a6a6a;
+	font-size: 1.5rem;
+	margin: 0;
+	margin-left: 6rem;
+}
+
+h2 {
+	color: #85a9a0;
+	font-family: "Henderson BCG Serif Head";
+	font-weight: 100;
+	text-transform: uppercase;
+	margin-left: 3rem;
+	padding-bottom: 1rem;
+	border-bottom: 2px solid#e4e4e4;
+	width: 75vw; /* 75% of the viewport width */
+}
+
+h2 {
+	font-size: 10vw;
+}
+@media screen and (min-width: 600px) {
+	h2 {
+		font-size: 3.5rem;
+	}
+}
+
+ul {
+	--circle: 1.3rem; /* dot size */
+	--line: 2px; /* line thickness */
+	--gap: 6rem; /* vertical gap between items */
+
+	list-style: none;
+	position: relative;
+	padding-left: 3rem; /* room for dots/line */
+}
+
+ul li {
+	position: relative;
+	margin-bottom: var(--gap); /* space to next item */
+}
+
+/* Circle */
+ul li::before {
+	content: "";
+	position: absolute;
+	left: 0rem; /* align with line */
+	top: 0;
+	width: var(--circle);
+	height: var(--circle);
+	border: 2px solid #85a9a0;
+	border-radius: 50%;
+	background: #fff;
+}
+
+/* Line that goes INTO the next item */
+ul li::after {
+	content: "";
+	position: absolute;
+	z-index: -100;
+	left: calc(var(--circle) / 2 + var(--line) / 2); /*move radius minus stroke*/
+	top: calc(var(--circle) + 0.2rem); /* start just below the circle */
+	bottom: calc(var(--gap) * -1); /* extend past this li into the next */
+	width: var(--line);
+	background: #e4e4e4;
+}
+
+/* Last item: no line, no extra gap */
+ul li:last-child {
+	margin-bottom: 0;
+}
+ul li:last-child::after {
+	content: none;
+}
+
+h4 a {
+	text-decoration: none;
+	color: inherit;
+}
+h4 a:hover {
+	color: #85a9a0;
 }
