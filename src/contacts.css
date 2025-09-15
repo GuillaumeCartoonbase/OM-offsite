@@ -1,16 +1,33 @@
+#contactList {
+	margin: 0 20px;
+}
+.contactCell {
+	border: #e4e4e4 2px solid;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 1rem;
+}
 img.contactPic {
-	width: 20px;
-	height: 20px;
+	width: 3rem;
+	height: 3rem;
 	border-radius: 50%;
-	border: black 5px solid;
+	margin: 1rem;
+	background: #e4e4e4;
+}
+p.contactName,
+p.contactPhone {
+	font-family: "Henderson BCG Serif Head";
 }
 p.contactName {
-	color: blue;
+	color: #62a176;
 }
 p.contactPhone {
-	color: red;
+	color: #000000;
 }
 
 .contactIcon {
-	background-color: red;
+	width: 2rem;
+	margin: auto 0;
+	margin-left: auto;
+	margin-right: 1rem;
 }
