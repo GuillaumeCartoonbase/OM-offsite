@@ -53,6 +53,8 @@ h4,
 h4 a {
 	text-decoration: none;
 	color: inherit;
+	text-decoration: underline solid #aaaaaa 1px;
+	text-underline-offset: 4px;
 }
 h4 a:hover {
 	color: #85a9a0;
