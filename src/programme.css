@@ -26,14 +26,24 @@ li {
 	margin: 0;
 	margin-left: 6rem;
 }
+
 .schedTitle {
 	font-family: "Henderson BCG Serif Head";
 	font-weight: 100;
 	color: #000000;
-	font-size: 2rem;
 	margin: 0;
 	margin-left: 6rem;
 }
+h4,
+.schedTitle {
+	font-size: 6vw;
+}
+@media screen and (min-width: 600px) {
+	h4.schedTitle {
+		font-size: 2rem;
+	}
+}
+
 .schedText {
 	font-family: "Henderson BCG Sans";
 	color: #6a6a6a;
