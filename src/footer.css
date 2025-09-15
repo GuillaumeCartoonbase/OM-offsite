@@ -29,9 +29,17 @@ body #footer {
 }
 
 #footer a p {
-	font-size: 1.5rem;
 	margin-top: 0.5rem;
 }
+#footer a p {
+	font-size: 3vw;
+}
+@media screen and (min-width: 900px) {
+	#footer a p {
+		font-size: 1.5rem;
+	}
+}
+
 #footer div:hover {
 	background-color: #eee;
 	transition: background-color 100ms ease-in-out;
