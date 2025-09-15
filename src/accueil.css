@@ -131,3 +131,9 @@ section > .textBlock {
 	border: none;
 	cursor: pointer;
 }
+
+section#contacts h2 {
+	font-family: "Henderson BCG Serif Head";
+	font-size: 4rem;
+	font-weight: 100;
+}
