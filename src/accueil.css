@@ -45,7 +45,7 @@ section > .textBlock {
 	justify-content: center;
 }
 .sign {
-	margin: 0 80px;
+	margin: 0 7vw;
 	font-family: "Henderson BCG Sans";
 	font-style: normal;
 	font-weight: 400;
@@ -53,6 +53,15 @@ section > .textBlock {
 	line-height: 28px;
 	text-align: center;
 	color: #000000;
+}
+#signatures svg {
+	height: 7vw;
+	margin: auto;
+}
+@media screen and (max-width: 600px) {
+	#signatures svg {
+		height: 10vw;
+	}
 }
 
 #cardProgramme,
@@ -66,15 +75,24 @@ section > .textBlock {
 #cardParticipants > img {
 	display: block;
 	margin: auto;
-	width: 300px;
+	width: 75vw;
+	max-width: 500px;
 }
 #cardProgramme > h2,
 #cardCarte > h2,
 #cardParticipants > h2 {
 	font-family: "Henderson BCG Serif Head";
 	font-weight: 400;
-	font-size: 48px;
+	font-size: 5.5vw;
 	line-height: 56px;
+}
+
+@media screen and (min-width: 900px) {
+	#cardProgramme > h2,
+	#cardCarte > h2,
+	#cardParticipants > h2 {
+		font-size: 48px;
+	}
 }
 
 #cardProgramme {
@@ -136,4 +154,12 @@ section#contacts h2 {
 	font-family: "Henderson BCG Serif Head";
 	font-size: 4rem;
 	font-weight: 100;
+}
+
+#solar {
+	overflow: hidden;
+	width: 100vw;
+	max-width: max-content;
+	position: relative;
+	left: -20vw;
 }
