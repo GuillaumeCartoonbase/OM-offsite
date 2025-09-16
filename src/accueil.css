@@ -66,15 +66,23 @@ section > .textBlock {
 #cardParticipants > img {
 	display: block;
 	margin: auto;
-	width: 300px;
+	width: 75vw;
 }
 #cardProgramme > h2,
 #cardCarte > h2,
 #cardParticipants > h2 {
 	font-family: "Henderson BCG Serif Head";
 	font-weight: 400;
-	font-size: 48px;
+	font-size: 5.5vw;
 	line-height: 56px;
+}
+
+@media screen and (min-width: 900px) {
+	#cardProgramme > h2,
+	#cardCarte > h2,
+	#cardParticipants > h2 {
+		font-size: 48px;
+	}
 }
 
 #cardProgramme {
