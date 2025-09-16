@@ -28,7 +28,7 @@
 	font-family: "Henderson BCG Serif Head";
 	font-style: normal;
 	font-weight: 400;
-	font-size: 3rem;
+	font-size: 4.5vw;
 	color: #000000;
 	margin-bottom: 0rem;
 }
@@ -37,10 +37,18 @@
 	font-family: "Henderson BCG Serif Head";
 	font-style: normal;
 	font-weight: 400;
-	font-size: 1.5rem;
+	font-size: 2vw;
 	color: #ccc;
 }
 
+@media screen and (min-width: 600px) {
+	.person > h2 {
+		font-size: 2rem;
+	}
+	.person p {
+		font-size: 1rem;
+	}
+}
 #magnifier {
 	display: flex;
 	justify-content: flex-start;
