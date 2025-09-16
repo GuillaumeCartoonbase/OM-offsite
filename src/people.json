@@ -639,5 +639,49 @@
 		"name": "WALLAERT Aurore",
 		"title": "SO",
 		"photoURL": "img/people/Wallaert Aurore.jpg"
+	},
+
+	{
+		"name": "BARTHEL Constanze",
+		"title": "SO",
+		"photoURL": "img/people/Barthel Constanze.jpg"
+	},
+	{
+		"name": "BOU-ABDALLAH Ali",
+		"title": "SO",
+		"photoURL": "img/people/Bou Abdallah Ali.jpg"
+	},
+	{ "name": "DE LA BOUVRIE Alzbeta", "title": "SO", "photoURL": "" },
+	{
+		"name": "DONNEDIEU DE VABRES Guillaume",
+		"title": "SO",
+		"photoURL": "img/people/Donnedieu de Vabres Guillaume.jpg"
+	},
+	{ "name": "FAGES Magali", "title": "SO", "photoURL": "" },
+	{
+		"name": "GOLDSZMIDT Esther",
+		"title": "SO",
+		"photoURL": "img/people/Goldszmidt Esther.jpg"
+	},
+	{ "name": "KAHN Meryl", "title": "SO", "photoURL": "" },
+	{
+		"name": "LAMIAUX Marie",
+		"title": "SO",
+		"photoURL": "img/people/Lamiaux Marie.jpg"
+	},
+	{ "name": "SO of Clotilde Begon-Lours", "title": "SO", "photoURL": "" },
+	{ "name": "SO of Davide Di Domenico", "title": "SO", "photoURL": "" },
+	{
+		"name": "ROUSSET Natacha",
+		"title": "SO",
+		"photoURL": "img/people/Rousset Natacha.jpeg"
+	},
+	{ "name": "SO of Martin Pocquet", "title": "SO", "photoURL": "" },
+	{ "name": "SO of Mikael Le Mouellic", "title": "SO", "photoURL": "" },
+	{ "name": "SO of Thomas Weber", "title": "SO", "photoURL": "" },
+	{
+		"name": "WIERZBA WERNER Charlotte",
+		"title": "SO",
+		"photoURL": "img/people/Wierzba Werner Charlotte.JPG"
 	}
 ]
