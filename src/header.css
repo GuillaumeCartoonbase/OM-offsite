@@ -9,12 +9,21 @@ header {
 header > h1 {
 	font-family: "Henderson BCG Serif Head";
 	font-weight: 100;
-	font-size: 3.5rem;
+	font-size: 7vw;
 	line-height: 27px;
 }
 header > img {
-	height: 3.5rem;
+	height: 6.5vw;
 	margin-right: 20px;
+}
+
+@media screen and (min-width: 900px) {
+	header > h1 {
+		font-size: 3.9rem;
+	}
+	header > img {
+		height: 3.5rem;
+	}
 }
 
 #days,
