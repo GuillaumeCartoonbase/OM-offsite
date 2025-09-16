@@ -11,6 +11,25 @@ document.addEventListener("DOMContentLoaded", async () => {
 	}
 });
 
+const ICONS = {
+	accueilFooter: {
+		selected: "img/accueil green.png",
+		notSelected: "img/accueil gris.png",
+	},
+	programmeFooter: {
+		selected: "img/programme green.png",
+		notSelected: "img/programme gris.png",
+	},
+	carteFooter: {
+		selected: "img/carte green.png",
+		notSelected: "img/carte gris.png",
+	},
+	participantsFooter: {
+		selected: "img/participants green.png",
+		notSelected: "img/participants gris.png",
+	},
+};
+
 function setFooterActive(opts = {}) {
 	const { selectAllOnUnknown = false } = opts;
 
@@ -46,14 +65,31 @@ function setFooterActive(opts = {}) {
 	if (!activeId) {
 		// Unknown page
 		if (selectAllOnUnknown) {
-			ids.forEach((id) => setSelected(els[id], true)); // all selected
+			ids.forEach((id) => setSelected(els[id], true));
 		} else {
-			// default behavior: only accueil selected
 			ids.forEach((id) => setSelected(els[id], id === "accueilFooter"));
 		}
+		updateFooterIcons(els, ids);
 		return;
 	}
 
 	// Known page: select only the matched one
 	ids.forEach((id) => setSelected(els[id], id === activeId));
+	updateFooterIcons(els, ids);
+}
+
+// set the correct icon (green or white)
+function updateFooterIcons(els, ids) {
+	ids.forEach((id) => {
+		const node = els[id];
+		if (!node) return;
+
+		const img =
+			node.querySelector("img") || (node.tagName === "IMG" ? node : null);
+		const icons = ICONS[id];
+		if (!img || !icons) return;
+
+		const useGreen = node.classList.contains("selected");
+		img.src = useGreen ? icons.selected : icons.notSelected;
+	});
 }

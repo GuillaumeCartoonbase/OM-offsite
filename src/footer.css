@@ -49,13 +49,6 @@ body #footer {
 	background-color: #eee;
 	transition: background-color 100ms ease-in-out;
 }
-.notSelected img {
-	opacity: 50%;
-}
-
-.selected img {
-	opacity: 100%;
-}
 
 a.selected p {
 	color: #5b694f;
