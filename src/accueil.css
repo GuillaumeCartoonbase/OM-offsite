@@ -77,6 +77,7 @@ svg {
 	display: block;
 	margin: auto;
 	width: 75vw;
+	max-width: 500px;
 }
 #cardProgramme > h2,
 #cardCarte > h2,
@@ -159,6 +160,7 @@ section#contacts h2 {
 #solar {
 	overflow: hidden;
 	width: 100vw;
+	max-width: max-content;
 	position: relative;
 	left: -20vw;
 }
