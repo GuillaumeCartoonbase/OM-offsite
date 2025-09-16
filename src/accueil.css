@@ -45,7 +45,7 @@ section > .textBlock {
 	justify-content: center;
 }
 .sign {
-	margin: 0 80px;
+	margin: 0 7vw;
 	font-family: "Henderson BCG Sans";
 	font-style: normal;
 	font-weight: 400;
@@ -53,6 +53,16 @@ section > .textBlock {
 	line-height: 28px;
 	text-align: center;
 	color: #000000;
+}
+
+svg {
+	height: 7vw;
+	margin: auto;
+}
+@media screen and (max-width: 600px) {
+	svg {
+		height: 10vw;
+	}
 }
 
 #cardProgramme,
