@@ -54,13 +54,12 @@ section > .textBlock {
 	text-align: center;
 	color: #000000;
 }
-
-svg {
+#signatures svg {
 	height: 7vw;
 	margin: auto;
 }
 @media screen and (max-width: 600px) {
-	svg {
+	#signatures svg {
 		height: 10vw;
 	}
 }
