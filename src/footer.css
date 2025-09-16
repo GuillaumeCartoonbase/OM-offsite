@@ -25,7 +25,12 @@ body #footer {
 }
 
 #footer a img {
-	height: 3rem;
+	height: 4vw;
+}
+@media screen and (min-width: 900px) {
+	#footer a img {
+		height: 2.5rem;
+	}
 }
 
 #footer a p {
@@ -36,7 +41,7 @@ body #footer {
 }
 @media screen and (min-width: 900px) {
 	#footer a p {
-		font-size: 1.5rem;
+		font-size: 1.8rem;
 	}
 }
 
