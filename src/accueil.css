@@ -137,3 +137,10 @@ section#contacts h2 {
 	font-size: 4rem;
 	font-weight: 100;
 }
+
+#solar {
+	overflow: hidden;
+	width: 100vw;
+	position: relative;
+	left: -20vw;
+}
