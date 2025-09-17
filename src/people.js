@@ -1,3 +1,4 @@
+let peopleData = [];
 // Fetching JSON data from a file
 fetch("src/people.json")
 	.then((response) => response.json())
@@ -34,10 +35,14 @@ function displayPeople() {
 		const titleElement = document.createElement("p");
 		titleElement.textContent = person.title;
 
+		const soElement = document.createElement("p");
+		soElement.textContent = `SO de ${person.so}`;
+
 		// Append the name, title, and photo to the person container
 		personDiv.appendChild(photoElement);
 		personDiv.appendChild(nameElement);
 		personDiv.appendChild(titleElement);
+		personDiv.appendChild(soElement);
 
 		// Append the person container to the people list container
 		peopleList.appendChild(personDiv);
