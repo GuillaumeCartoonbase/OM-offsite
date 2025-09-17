@@ -13,6 +13,7 @@ fetch("src/schedule.json")
 function displaySchedule() {
 	scheduleData.forEach((orga) => {
 		const li = document.createElement("li");
+		li.classList.add("timeline");
 		li.innerHTML = `
       <h3 class="schedule">${orga.time}</h3>
 	       <h4 class="schedTitle">${
