@@ -40,12 +40,12 @@ const eventFire = (riveEvent) => {
 
 	const eventKey = eventName;
 	switch (eventKey) {
-		case "hoverEnter":
-			document.body.style.cursor = "pointer";
-			break;
-		case "hoverExit":
-			document.body.style.cursor = "auto";
-			break;
+		// case "hoverEnter":
+		// 	document.body.style.cursor = "pointer";
+		// 	break;
+		// case "hoverExit":
+		// 	document.body.style.cursor = "auto";
+		// 	break;
 
 		case "arles":
 			window.location.href = "arles.html";
