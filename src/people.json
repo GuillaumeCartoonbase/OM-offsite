@@ -1,687 +1,1010 @@
 [
 	{
+		"name": "ABATE René",
+		"title": "Alumni / Senior Advisor",
+		"photoURL": "img/people/AbateRene.jpg",
+		"so": "ABATE Marianne",
+		"mention": ""
+	},
+	{
+		"name": "ABATE Marianne",
+		"title": "SO",
+		"photoURL": "img/people/AbateMarianne.jpg",
+		"so": "ABATE René",
+		"mention": ""
+	},
+	{
 		"name": "AMAR LE BALCH Olivia",
 		"title": "Paris Finance Senior Director",
-		"photoURL": "img/people/Amar Le Balch Olivia.jpg"
+		"photoURL": "img/people/AmarLeBalchOlivia.jpg",
+		"so": "",
+		"mention": ""
 	},
 	{
 		"name": "AOUNI Sanae",
 		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Aouni Sanae.jpg"
-	},
-	{
-		"name": "ARACTINGI Alexandre",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Aractingi Alexandre.jpg"
-	},
-	{
-		"name": "AUSTRUY Emmanuel",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Austruy Emmanuel.jpg"
-	},
-	{
-		"name": "BAGARD Gontran",
-		"title": "Paris HR Senior Director",
-		"photoURL": "img/people/Bagard Gontran.jpg"
-	},
-	{
-		"name": "BARBEY Romary",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Barbey Romary.jpg"
-	},
-	{
-		"name": "BARTHEL Martin",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Barthel Martin.jpg"
-	},
-	{
-		"name": "BASSOULET Arnaud",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Bassoulet Arnaud.png"
-	},
-	{
-		"name": "BAUDIN-SARLET Marine",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Baudin-Sarlet Marine.jpg"
-	},
-	{
-		"name": "BEAREZ Jean-Baptiste",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Bearez Jean-Baptiste.jpg"
-	},
-	{
-		"name": "BEAUCHENE Vinciane",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Beauchene Vinciane.jpg"
-	},
-	{
-		"name": "BEGON-LOURS Clotilde",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Begon-Lours Clotilde.jpg"
-	},
-	{
-		"name": "BENAYAD Amine",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Benayad Amine.jpg"
-	},
-	{
-		"name": "BENESTY Johanna",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Benesty Johanna.jpg"
-	},
-	{
-		"name": "BERRADA Mouhcine",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Berrada Mouhcine.jpg"
-	},
-	{
-		"name": "BERTHOD Florent",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Berthod Florent.png"
-	},
-	{
-		"name": "BLANCHIN Raphael",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Blanchin Raphaël.jpg"
-	},
-	{
-		"name": "BOUFFAULT Olivier",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Bouffault Olivier.jpg"
-	},
-	{
-		"name": "BOUTEILLER Gildas",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Bouteiller Gildas.jfif"
-	},
-	{
-		"name": "BOUTET Frederic",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Boutet Frederic.png"
-	},
-	{
-		"name": "BRUGERE Frédéric",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Brugère Frédéric.jpg"
-	},
-	{
-		"name": "CAIROLE Stephane",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Cairole Stephane.png"
-	},
-	{
-		"name": "CAYE Jean-Michel",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Caye Jean-Michel.jfif"
-	},
-	{
-		"name": "CHERQAOUI-FASSI Souhail",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Cherqaoui-Fassi Souhail.png"
-	},
-	{
-		"name": "CLAVEL Jean",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Clavel Jean.jpg"
-	},
-	{
-		"name": "CORRE Lionel",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Corre Lionel.png"
-	},
-	{
-		"name": "DALENS François",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Dalens Francois.jpg"
-	},
-	{
-		"name": "DANGLES Julien",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Dangles Julien.jpg"
-	},
-	{
-		"name": "DARAAOUI Yahya",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Daraaoui Yahya.jpg"
-	},
-	{
-		"name": "DARRIEUS Guillaume",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Darrieus Guillaume.jpg"
-	},
-	{
-		"name": "DE BELLEFONDS Nicolas",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/De Bellefonds Nicolas.jpg"
-	},
-	{
-		"name": "DE LA BOUVRIE Thibaut",
-		"title": "Platinion Managing Director",
-		"photoURL": "img/people/De la Bouvrie Thibaut.png"
-	},
-	{
-		"name": "DECOUVELAERE Quentin",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Decouvelaere Quentin.jfif"
-	},
-	{
-		"name": "DELANO Thomas",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Delano Thomas.jpg"
-	},
-	{
-		"name": "DI DOMENICO Davide",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Di Domenico Davide.jfif"
-	},
-	{
-		"name": "DUPOUX Patrick",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Dupoux Patrick.jfif"
-	},
-	{
-		"name": "DURANTON Sylvain",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Duranton Sylvain.jpg"
-	},
-	{
-		"name": "DUTHOIT Adrien",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Duthoit Adrien.jpg"
-	},
-	{
-		"name": "EGLOFF Camille",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Egloff Camille.jpg"
-	},
-	{
-		"name": "ENTRAYGUES Benjamin",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Entraygues Benjamin.jpg"
-	},
-	{
-		"name": "GALLEY David",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Galley David.jpg"
-	},
-	{
-		"name": "GARD Jean-Christophe",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Gard Jean-Christophe.jpg"
-	},
-	{
-		"name": "GAVARD Ludovic",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Gavard Ludovic.jpg"
-	},
-	{
-		"name": "GEBEL Sophie",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Gebel Sophie.jfif"
-	},
-	{
-		"name": "GIRAUD Thomas",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Giraud Thomas.jpg"
-	},
-	{
-		"name": "GONDEKOVA Andrea",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Gondekova Andrea.jpg"
-	},
-	{
-		"name": "GOUREVITCH Antoine",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Gourevitch Antoine.jpg"
-	},
-	{
-		"name": "GRAIZON Marion",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Graizon Marion.png"
-	},
-	{
-		"name": "HAMIDOU Leila",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Hamidou Leila.png"
-	},
-	{
-		"name": "HAMRI Yasmine",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Hamri Yasmine.jpg"
-	},
-	{
-		"name": "JANNIER Karin",
-		"title": "Senior Executive Assistant",
-		"photoURL": "img/people/Jannier Karin.png"
-	},
-	{
-		"name": "KACHANER Nicolas",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Kachaner Nicolas.jpg"
-	},
-	{
-		"name": "KAHN Florian",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Kahn Florian.jpg"
-	},
-	{
-		"name": "LAHET Jean-François",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Lahet Jean-Francois.jpg"
-	},
-	{
-		"name": "LAMIAUX Mathieu",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Lamiaux Mathieu.jpg"
-	},
-	{
-		"name": "LASOWY Thanh",
-		"title": "Executive Assistant",
-		"photoURL": "img/people/Lasowy Thanh.png"
-	},
-	{
-		"name": "LASSIGNARDIE Thibault",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Lassignardie Thibault.png"
-	},
-	{
-		"name": "LAZARE Anouk",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Lazare Anouk.jpg"
-	},
-	{
-		"name": "LE BAIL Adrien",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Le Bail Adrien.jpg"
-	},
-	{
-		"name": "LE BOULAY Gwenhael",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Le Boulay Gwenhael.jpg"
-	},
-	{
-		"name": "LE MOUELLIC Mikael",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Le Mouellic Mikael.jpg"
-	},
-	{
-		"name": "LEMOINE Guillaume",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Lemoine Guillaume.jpg"
-	},
-	{
-		"name": "LUISADA Franck",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Luisada Franck.jpg"
-	},
-	{
-		"name": "MALLET Tristan",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Mallet Tristan.jpg"
-	},
-	{
-		"name": "MANUELLI Nicolas",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Manuelli Nicolas.jpg"
-	},
-	{
-		"name": "MARX Julien",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Marx Julien.jfif"
-	},
-	{
-		"name": "MENEGAUX Mathieu",
-		"title": "Brighthouse Managing Director",
-		"photoURL": "img/people/Menegaux Mathieu.jpg"
-	},
-	{
-		"name": "MESNAGE Loic",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Mesnage Loic.jpg"
-	},
-	{
-		"name": "MONTUPET Renaud",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Montupet Renaud.jpg"
-	},
-	{
-		"name": "NOWICKI Stanislas",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Nowicki Stanislas.jpg"
-	},
-	{
-		"name": "PARLONGUE David",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Parlongue David.jpg"
-	},
-	{
-		"name": "PAYEN Thomas",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Payen Thomas.jpg"
-	},
-	{
-		"name": "POCQUET Martin",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Pocquet Martin.png"
-	},
-	{
-		"name": "QUARTA Lucas",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Quarta Lucas.jpg"
-	},
-	{
-		"name": "REIN Jerome",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Rein Jerome.jpg"
-	},
-	{
-		"name": "ROBIN Mael",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Robin Mael.jpg"
-	},
-	{
-		"name": "ROCH ROMANE",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Roch Romane.jpg"
-	},
-	{
-		"name": "ROUSSEL Pierre",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Roussel Pierre.jpg"
-	},
-	{
-		"name": "SCALABRE Olivier",
-		"title": "Office Leader",
-		"photoURL": "img/people/Scalabre Olivier.jpg"
-	},
-	{
-		"name": "SCHAFF Clement",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Schaff Clement.png"
-	},
-	{
-		"name": "SENANT Yann",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Senant Yann.png"
-	},
-	{
-		"name": "SOUSSAN Philippe",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Soussan Philippe.jpg"
-	},
-	{
-		"name": "TERRAY Romain",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Terray Romain.png"
-	},
-	{
-		"name": "TURC Francois-Regis",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Turc François-Regis.png"
-	},
-	{
-		"name": "VERNIER Guillaume",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Vernier Guillaume.jpg"
-	},
-	{
-		"name": "VERWAERDE Jean-Sébastien",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Verwaerde Jean-Sebastien.jpg"
-	},
-	{
-		"name": "WALLAERT Charles-Antoine",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Wallaert Charles-Antoine.jpg"
-	},
-	{
-		"name": "WEBER Thomas",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Weber Thomas.jpg"
-	},
-	{
-		"name": "WETZELSBERGER Yves",
-		"title": "Managing Director and Partner",
-		"photoURL": "img/people/Wetzelsberger Yves.jpg"
-	},
-	{
-		"name": "WIERZBA Olivier",
-		"title": "Managing Director and Senior Partner",
-		"photoURL": "img/people/Wierzba Olivier.jpg"
-	},
-
-	{
-		"name": "ARE Lionel",
-		"title": "SO",
-		"photoURL": "img/people/Are Lionel.jpg"
-	},
-	{
-		"name": "BARBE Marie-Laure",
-		"title": "SO",
-		"photoURL": "img/people/Barbe Marie-Laure.jpg"
-	},
-	{
-		"name": "BARBEY-MORO Gaelle",
-		"title": "SO",
-		"photoURL": "img/people/Barbey-Moro Gaelle.jpg"
+		"photoURL": "img/people/AouniSanae.jpg",
+		"so": "BARNIER Thibault",
+		"mention": ""
 	},
 	{
 		"name": "BARNIER Thibault",
 		"title": "SO",
-		"photoURL": "img/people/Barnier Thibault.jpg"
+		"photoURL": "img/people/BarnierThibault.jpg",
+		"so": "AOUNI Sanae",
+		"mention": ""
 	},
 	{
-		"name": "BEAREZ Marjolaine",
-		"title": "SO",
-		"photoURL": "img/people/Bearez Marjolaine.jpg"
-	},
-	{
-		"name": "BENAYAD Sanaa",
-		"title": "SO",
-		"photoURL": "img/people/Benayad Sanaa.jpg"
-	},
-	{
-		"name": "BERRADA CAMUSET Céline",
-		"title": "SO",
-		"photoURL": "img/people/Berrada Camuset Céline.jpg"
-	},
-	{
-		"name": "BLONDELEAU Thomas",
-		"title": "SO",
-		"photoURL": "img/people/Blondeleau Thomas.jpg"
-	},
-	{
-		"name": "BRUYERE Valentine",
-		"title": "SO",
-		"photoURL": "img/people/Brugère Valentine.jpg"
-	},
-	{
-		"name": "CAIROLE Laurence",
-		"title": "SO",
-		"photoURL": "img/people/Cairole Laurence.jpg"
-	},
-	{
-		"name": "CHOW Caroline",
-		"title": "SO",
-		"photoURL": "img/people/Chow Caroline.jpg"
-	},
-	{
-		"name": "CLAVEL Aurélie",
-		"title": "SO",
-		"photoURL": "img/people/Clavel Amélie.jpg"
-	},
-	{
-		"name": "CROS-KACHANER Antoinette",
-		"title": "SO",
-		"photoURL": "img/people/Cros-Kachaner Antoinette.jpg"
-	},
-	{
-		"name": "DALENS Corinne",
-		"title": "SO",
-		"photoURL": "img/people/Dalens Corinne.jpg"
-	},
-	{
-		"name": "DANGLES Clémence",
-		"title": "SO",
-		"photoURL": "img/people/Dangles Clémence.jpg"
-	},
-	{
-		"name": "DARRIEUS Edith",
-		"title": "SO",
-		"photoURL": "img/people/Darrieus Edith.jpg"
-	},
-	{
-		"name": "GARD Annabelle",
-		"title": "SO",
-		"photoURL": "img/people/Gard Annabelle.jpg"
-	},
-	{
-		"name": "GAVARD Delphine",
-		"title": "SO",
-		"photoURL": "img/people/Gavard Delphine.jpg"
-	},
-	{
-		"name": "GODEBERGE ROBIN Camille",
-		"title": "SO",
-		"photoURL": "img/people/Godeberge Robin Camille.jpg"
-	},
-	{
-		"name": "GOUREVITCH Emmanuelle",
-		"title": "SO",
-		"photoURL": "img/people/Gourevitch Emmanuelle.jpg"
+		"name": "ARACTINGI Alexandre",
+		"title": "Managing Director and Senior Partner",
+		"photoURL": "img/people/AractingiAlexandre.jpg",
+		"so": "HOURDEAUX Clémence",
+		"mention": ""
 	},
 	{
 		"name": "HOURDEAUX Clémence",
 		"title": "SO",
-		"photoURL": "img/people/Hourdeaux Clémence.jpg"
+		"photoURL": "img/people/HourdeauxClemence.jpg",
+		"so": "ARACTINGI Alexandre",
+		"mention": ""
 	},
 	{
-		"name": "LASSIGNARDIE Juliette",
-		"title": "SO",
-		"photoURL": "img/people/Lassignardie Juliette.jpg"
+		"name": "AUSTRUY Emmanuel",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/AustruyEmmanuel.jpg",
+		"so": "",
+		"mention": ""
 	},
 	{
-		"name": "LE BOULAY Eleonore",
-		"title": "SO",
-		"photoURL": "img/people/Le Boulay Eleonore.jpg"
+		"name": "BAGARD Gontran",
+		"title": "Paris HR Senior Director",
+		"photoURL": "img/people/BagardGontran.jpg",
+		"so": "",
+		"mention": ""
 	},
 	{
-		"name": "LE DOUARIN Yann",
-		"title": "SO",
-		"photoURL": "img/people/Le Douarin Yann.jpg"
+		"name": "BARBEY Romary",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/BarbeyRomary.jpg",
+		"so": "BARBEY-MORO Gaelle",
+		"mention": ""
 	},
 	{
-		"name": "MANADI Nadia",
+		"name": "BARBEY-MORO Gaelle",
 		"title": "SO",
-		"photoURL": "img/people/Manadi Nadia.jpg"
+		"photoURL": "img/people/BarbeyMoroGaelle.jpg",
+		"so": "BARBEY Romary",
+		"mention": ""
 	},
 	{
-		"name": "MANSOUR Aline",
-		"title": "SO",
-		"photoURL": "img/people/Mansour Aline.jpg"
+		"name": "BARTHEL Martin",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/BarthelMartin.jpg",
+		"so": "BARTHEL Constanze",
+		"mention": ""
 	},
 	{
-		"name": "MANUELLI Astrid",
+		"name": "BARTHEL Constanze",
 		"title": "SO",
-		"photoURL": "img/people/Manuelli Astrid.jpg"
+		"photoURL": "img/people/BarthelConstanze.jpg",
+		"so": "BARTHEL Martin",
+		"mention": "img/people/BarthelConstanze.jpg"
 	},
 	{
-		"name": "MARX Joanna",
-		"title": "SO",
-		"photoURL": "img/people/Marx Joanna.jpg"
+		"name": "BASSOULET Arnaud",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/BassouletArnaud.jpg",
+		"so": "",
+		"mention": ""
 	},
 	{
-		"name": "MESNAGE Isabelle",
-		"title": "SO",
-		"photoURL": "img/people/Mesnage Isabelle.jpg"
+		"name": "BAUDIN-SARLET Marine",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/BaudinSarletMarine.jpg",
+		"so": "",
+		"mention": ""
 	},
 	{
-		"name": "PARLONGUE Eva",
-		"title": "SO",
-		"photoURL": "img/people/Parlongue Eva.jpg"
+		"name": "BEAREZ Jean-Baptiste",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/BearezJeanBaptiste.jpg",
+		"so": "BEAREZ Marjolaine",
+		"mention": ""
 	},
 	{
-		"name": "PAYEN Clarisse",
+		"name": "BEAREZ Marjolaine",
 		"title": "SO",
-		"photoURL": "img/people/Payen Clarisse.jpg"
+		"photoURL": "img/people/BearezMarjolaine.jpg",
+		"so": "BEAREZ Jean-Baptiste",
+		"mention": ""
 	},
 	{
-		"name": "ROBERT Cécile",
-		"title": "SO",
-		"photoURL": "img/people/Robert Cecile.jpg"
+		"name": "BEAUCHENE Vinciane",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/BeaucheneVinciane.jpg",
+		"so": "ARE Lionel",
+		"mention": ""
 	},
 	{
-		"name": "SCALABRE Sylvie",
+		"name": "ARE Lionel",
 		"title": "SO",
-		"photoURL": "img/people/Scalabre Sylvie.jpg"
+		"photoURL": "img/people/AreLionel.jpg",
+		"so": "BEAUCHENE Vinciane",
+		"mention": ""
+	},
+	{
+		"name": "BEGON-LOURS Clotilde",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/BegonLoursClotilde.jpg",
+		"so": "CLEMENCET Mathieu",
+		"mention": ""
+	},
+	{
+		"name": "CLEMENCET Mathieu",
+		"title": "SO",
+		"photoURL": "img/people/ClemencetMathieu.jpg",
+		"so": "BEGON-LOURS Clotilde",
+		"mention": ""
+	},
+	{
+		"name": "BENAYAD Amine",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/BenayadAmine.jpg",
+		"so": "BENAYAD Sanaa",
+		"mention": ""
+	},
+	{
+		"name": "BENAYAD Sanaa",
+		"title": "SO",
+		"photoURL": "img/people/BenayadSanaa.jpg",
+		"so": "BENAYAD Amine",
+		"mention": ""
+	},
+	{
+		"name": "BENESTY Johanna",
+		"title": "Managing Director and Senior Partner",
+		"photoURL": "img/people/BenestyJohanna.jpg",
+		"so": "SOUSSAN Philippe",
+		"mention": ""
+	},
+	{
+		"name": "BERRADA Mouhcine",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/BerradaMouhcine.jpg",
+		"so": "BERRADA CAMUSET Céline",
+		"mention": ""
+	},
+	{
+		"name": "BERRADA CAMUSET Céline",
+		"title": "SO",
+		"photoURL": "img/people/BerradaCamusetCeline.jpg",
+		"so": "BERRADA Mouhcine",
+		"mention": ""
+	},
+	{
+		"name": "BERTHOD Florent",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/BerthodFlorent.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "BLANCHIN Raphael",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/BlanchinRaphael.jpg",
+		"so": "SICAUD Damian",
+		"mention": ""
 	},
 	{
 		"name": "SICAUD Damian",
 		"title": "SO",
-		"photoURL": "img/people/Sicaud Damian.jpg"
+		"photoURL": "img/people/SicaudDamian.jpg",
+		"so": "BLANCHIN Raphael",
+		"mention": ""
 	},
 	{
-		"name": "TELLESCHI Léa",
-		"title": "SO",
-		"photoURL": "img/people/Telleschi Lea.jpg"
+		"name": "BOUTEILLER Gildas",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/BouteillerGildas.jpg",
+		"so": "",
+		"mention": ""
 	},
 	{
-		"name": "TURC Sarah",
-		"title": "SO",
-		"photoURL": "img/people/Turc Sarah.jpg"
+		"name": "BOUTET Frederic",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/BoutetFrederic.jpg",
+		"so": "ROUSSET Natacha",
+		"mention": ""
 	},
 	{
-		"name": "VERNIER SANTINI Pauline",
+		"name": "ROUSSET Natacha",
 		"title": "SO",
-		"photoURL": "img/people/Vernier Santini Pauline.jpg"
+		"photoURL": "img/people/RoussetNatacha.jpg",
+		"so": "BOUTET Frederic",
+		"mention": ""
 	},
 	{
-		"name": "WALLAERT Aurore",
-		"title": "SO",
-		"photoURL": "img/people/Wallaert Aurore.jpg"
+		"name": "BRUGERE Frédéric",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/BrugereFrederic.jpg",
+		"so": "BRUYERE Valentine",
+		"mention": ""
 	},
-
 	{
-		"name": "BARTHEL Constanze",
+		"name": "BRUGERE Valentine",
 		"title": "SO",
-		"photoURL": "img/people/Barthel Constanze.jpg"
+		"photoURL": "img/people/BrugereValentine.jpg",
+		"so": "BRUGERE Frédéric",
+		"mention": ""
+	},
+	{
+		"name": "CAIROLE Stephane",
+		"title": "Managing Director and Senior Partner",
+		"photoURL": "img/people/CairoleStephane.jpg",
+		"so": "CAIROLE Laurence",
+		"mention": ""
+	},
+	{
+		"name": "CAIROLE Laurence",
+		"title": "SO",
+		"photoURL": "img/people/CairoleLaurence.jpg",
+		"so": "CAIROLE Stephane",
+		"mention": ""
+	},
+	{
+		"name": "CAYE Jean-Michel",
+		"title": "Alumni",
+		"photoURL": "img/people/CayeJeanMichel.jpg",
+		"so": "MANSOUR Aline",
+		"mention": ""
+	},
+	{
+		"name": "MANSOUR Aline",
+		"title": "SO",
+		"photoURL": "img/people/MansourAline.jpg",
+		"so": "CAYE Jean-Michel",
+		"mention": ""
+	},
+	{
+		"name": "CHERQAOUI-FASSI Souhail",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/CherqaouiFassiSouhail.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "CLAVEL Jean",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/ClavelJean.jpg",
+		"so": "CLAVEL Aurélie",
+		"mention": ""
+	},
+	{
+		"name": "CLAVEL Aurélie",
+		"title": "SO",
+		"photoURL": "img/people/ClavelAmelie.jpg",
+		"so": "CLAVEL Jean",
+		"mention": ""
+	},
+	{
+		"name": "CORRE Lionel",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/CorreLionel.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "DALENS François",
+		"title": "Managing Director and Senior Partner",
+		"photoURL": "img/people/DalensFrancois.jpg",
+		"so": "DALENS Corinne",
+		"mention": ""
+	},
+	{
+		"name": "DALENS Corinne",
+		"title": "SO",
+		"photoURL": "img/people/DalensCorinne.jpg",
+		"so": "DALENS François",
+		"mention": ""
+	},
+	{
+		"name": "DANGLES Julien",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/DanglesJulien.jpg",
+		"so": "DANGLES Clémence",
+		"mention": ""
+	},
+	{
+		"name": "DANGLES Clémence",
+		"title": "SO",
+		"photoURL": "img/people/DanglesClemence.jpg",
+		"so": "DANGLES Julien",
+		"mention": ""
+	},
+	{
+		"name": "DARAAOUI Yahya",
+		"title": "Managing Director and Senior Partner",
+		"photoURL": "img/people/DaraaouiYahya.jpg",
+		"so": "FAGES Magali",
+		"mention": ""
+	},
+	{
+		"name": "FAGES Magali",
+		"title": "SO",
+		"photoURL": "img/people/FagesMagali.jpg",
+		"so": "DARAAOUI Yahya",
+		"mention": ""
+	},
+	{
+		"name": "DARRIEUS Guillaume",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/DarrieusGuillaume.jpg",
+		"so": "DARRIEUS Edith",
+		"mention": ""
+	},
+	{
+		"name": "DARRIEUS Edith",
+		"title": "SO",
+		"photoURL": "img/people/DarrieusEdith.jpg",
+		"so": "DARRIEUS Guillaume",
+		"mention": ""
+	},
+	{
+		"name": "DE BELLEFONDS Nicolas",
+		"title": "Managing Director and Senior Partner",
+		"photoURL": "img/people/DeBellefondsNicolas.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "DE LA BOUVRIE Thibaut",
+		"title": "Platinion Managing Director",
+		"photoURL": "img/people/DelaBouvrieThibaut.jpg",
+		"so": "DE LA BOUVRIE Betka",
+		"mention": ""
+	},
+	{
+		"name": "DE LA BOUVRIE Betka",
+		"title": "SO",
+		"photoURL": "img/people/DeLaBouvrieBetka.jpg",
+		"so": "DE LA BOUVRIE Thibaut",
+		"mention": ""
+	},
+	{
+		"name": "DECOUVELAERE Quentin",
+		"title": "Managing Director and Senior Partner",
+		"photoURL": "img/people/DecouvelaereQuentin.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "DELANO Thomas",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/DelanoThomas.jpg",
+		"so": "LE DOUARIN Yann",
+		"mention": ""
+	},
+	{
+		"name": "LE DOUARIN Yann",
+		"title": "SO",
+		"photoURL": "img/people/LeDouarinYann.jpg",
+		"so": "DELANO Thomas",
+		"mention": ""
+	},
+	{
+		"name": "DI DOMENICO Davide",
+		"title": "Managing Director and Senior Partner",
+		"photoURL": "img/people/DiDomenicoDavide.jpg",
+		"so": "OMOLOEVA Evgenia",
+		"mention": ""
+	},
+	{
+		"name": "OMOLOEVA Evgenia",
+		"title": "SO",
+		"photoURL": "",
+		"so": "DI DOMENICO Davide",
+		"mention": ""
+	},
+	{
+		"name": "DUPOUX Patrick",
+		"title": "Managing Director and Senior Partner",
+		"photoURL": "img/people/DupouxPatrick.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "DURANTON Sylvain",
+		"title": "Managing Director and Senior Partner",
+		"photoURL": "img/people/DurantonSylvain.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "DUTHOIT Adrien",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/DuthoitAdrien.jpg",
+		"so": "CHOW Caroline",
+		"mention": ""
+	},
+	{
+		"name": "CHOW Caroline",
+		"title": "SO",
+		"photoURL": "img/people/ChowCaroline.jpg",
+		"so": "DUTHOIT Adrien",
+		"mention": ""
+	},
+	{
+		"name": "EGLOFF Camille",
+		"title": "Managing Director and Senior Partner",
+		"photoURL": "img/people/EgloffCamille.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "ENTRAYGUES Benjamin",
+		"title": "Managing Director and Senior Partner",
+		"photoURL": "img/people/EntrayguesBenjamin.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "GALLEY David",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/GalleyDavid.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "GARD Jean-Christophe",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/GardJeanChristophe.jpg",
+		"so": "GARD Annabelle",
+		"mention": ""
+	},
+	{
+		"name": "GARD Annabelle",
+		"title": "SO",
+		"photoURL": "img/people/GardAnnabelle.jpg",
+		"so": "GARD Jean-Christophe",
+		"mention": ""
+	},
+	{
+		"name": "GAVARD Ludovic",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/GavardLudovic.jpg",
+		"so": "GAVARD Delphine",
+		"mention": ""
+	},
+	{
+		"name": "GAVARD Delphine",
+		"title": "SO",
+		"photoURL": "img/people/GavardDelphine.jpg",
+		"so": "GAVARD Ludovic",
+		"mention": ""
+	},
+	{
+		"name": "GEBEL Sophie",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/GebelSophie.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "GIRAUD Thomas",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/GiraudThomas.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "GODEAU Camille",
+		"title": "Paris Marketing & Communications Senior Director",
+		"photoURL": "img/people/GodeauCamille.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "GONDEKOVA Andrea",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/GondekovaAndrea.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "GOUREVITCH Antoine",
+		"title": "Managing Director and Senior Partner",
+		"photoURL": "img/people/GourevitchAntoine.jpg",
+		"so": "GOUREVITCH Emmanuelle",
+		"mention": ""
+	},
+	{
+		"name": "GOUREVITCH Emmanuelle",
+		"title": "SO",
+		"photoURL": "img/people/GourevitchEmmanuelle.jpg",
+		"so": "GOUREVITCH Antoine",
+		"mention": ""
+	},
+	{
+		"name": "GRAIZON Marion",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/GraizonMarion.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "HAMIDOU Leila",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/HamidouLeila.jpg",
+		"so": "BOU-ABDALLAH Ali",
+		"mention": ""
 	},
 	{
 		"name": "BOU-ABDALLAH Ali",
 		"title": "SO",
-		"photoURL": "img/people/Bou Abdallah Ali.jpg"
+		"photoURL": "img/people/BouAbdallahAli.jpg",
+		"so": "HAMIDOU Leila",
+		"mention": ""
 	},
-	{ "name": "DE LA BOUVRIE Alzbeta", "title": "SO", "photoURL": "" },
+	{
+		"name": "HAMRI Yasmine",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/HamriYasmine.jpg",
+		"so": "DONNEDIEU DE VABRES Guillaume",
+		"mention": ""
+	},
 	{
 		"name": "DONNEDIEU DE VABRES Guillaume",
 		"title": "SO",
-		"photoURL": "img/people/Donnedieu de Vabres Guillaume.jpg"
+		"photoURL": "img/people/DonnedieudeVabresGuillaume.jpg",
+		"so": "HAMRI Yasmine",
+		"mention": ""
 	},
-	{ "name": "FAGES Magali", "title": "SO", "photoURL": "" },
 	{
-		"name": "GOLDSZMIDT Esther",
-		"title": "SO",
-		"photoURL": "img/people/Goldszmidt Esther.jpg"
+		"name": "JANNIER Karin",
+		"title": "Senior Executive Assistant",
+		"photoURL": "img/people/JannierKarin.jpg",
+		"so": "",
+		"mention": "Equipe Organisation"
 	},
-	{ "name": "KAHN Meryl", "title": "SO", "photoURL": "" },
+	{
+		"name": "KACHANER Nicolas",
+		"title": "Alumni",
+		"photoURL": "img/people/KachanerNicolas.jpg",
+		"so": "CROS-KACHANER Antoinette",
+		"mention": ""
+	},
+	{
+		"name": "CROS-KACHANER Antoinette",
+		"title": "SO",
+		"photoURL": "img/people/CrosKachanerAntoinette.jpg",
+		"so": "KACHANER Nicolas",
+		"mention": ""
+	},
+	{
+		"name": "KAHN Florian",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/KahnFlorian.jpg",
+		"so": "KAHN Meryl",
+		"mention": ""
+	},
+	{
+		"name": "KAHN Meryl",
+		"title": "SO",
+		"photoURL": "",
+		"so": "KAHN Florian",
+		"mention": ""
+	},
+	{
+		"name": "LAHET Jean-François",
+		"title": "Managing Director and Senior Partner",
+		"photoURL": "img/people/LahetJeanFrancois.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "LAMIAUX Mathieu",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/LamiauxMathieu.jpg",
+		"so": "LAMIAUX Marie",
+		"mention": ""
+	},
 	{
 		"name": "LAMIAUX Marie",
 		"title": "SO",
-		"photoURL": "img/people/Lamiaux Marie.jpg"
+		"photoURL": "img/people/LamiauxMarie.jpg",
+		"so": "LAMIAUX Mathieu",
+		"mention": ""
 	},
-	{ "name": "SO of Clotilde Begon-Lours", "title": "SO", "photoURL": "" },
-	{ "name": "SO of Davide Di Domenico", "title": "SO", "photoURL": "" },
 	{
-		"name": "ROUSSET Natacha",
-		"title": "SO",
-		"photoURL": "img/people/Rousset Natacha.jpeg"
+		"name": "LASOWY Thanh",
+		"title": "Executive Assistant",
+		"photoURL": "img/people/LasowyThanh.jpg",
+		"so": "",
+		"mention": "Equipe Organisation"
 	},
-	{ "name": "SO of Martin Pocquet", "title": "SO", "photoURL": "" },
-	{ "name": "SO of Mikael Le Mouellic", "title": "SO", "photoURL": "" },
-	{ "name": "SO of Thomas Weber", "title": "SO", "photoURL": "" },
+	{
+		"name": "LASSIGNARDIE Thibault",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/LassignardieThibault.jpg",
+		"so": "LASSIGNARDIE Juliette",
+		"mention": ""
+	},
+	{
+		"name": "LASSIGNARDIE Juliette",
+		"title": "SO",
+		"photoURL": "img/people/LassignardieJuliette.jpg",
+		"so": "LASSIGNARDIE Thibault",
+		"mention": ""
+	},
+	{
+		"name": "LAZARE Anouk",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/LazareAnouk.jpg",
+		"so": "BLONDELEAU Thomas",
+		"mention": ""
+	},
+	{
+		"name": "BLONDELEAU Thomas",
+		"title": "SO",
+		"photoURL": "img/people/BlondeleauThomas.jpg",
+		"so": "LAZARE Anouk",
+		"mention": ""
+	},
+	{
+		"name": "LE BAIL Adrien",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/LeBailAdrien.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "LE BOULAY Gwenhael",
+		"title": "Managing Director and Senior Partner",
+		"photoURL": "img/people/LeBoulayGwenhael.jpg",
+		"so": "LE BOULAY Eleonore",
+		"mention": ""
+	},
+	{
+		"name": "LE BOULAY Eleonore",
+		"title": "SO",
+		"photoURL": "img/people/LeBoulayEleonore.jpg",
+		"so": "LE BOULAY Gwenhael",
+		"mention": ""
+	},
+	{
+		"name": "LE MOUELLIC Mikael",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/LeMouellicMikael.jpg",
+		"so": "LE MOUELLIC Aurélie-Anne",
+		"mention": ""
+	},
+	{
+		"name": "LE MOUELLIC Aurélie-Anne",
+		"title": "SO",
+		"photoURL": "img/people/LeMouellicAurelieAnne.jpg",
+		"so": "LE MOUELLIC Mikael",
+		"mention": ""
+	},
+	{
+		"name": "LEMOINE Guillaume",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/LemoineGuillaume.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "LUISADA Franck",
+		"title": "Managing Director and Senior Partner",
+		"photoURL": "img/people/LuisadaFranck.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "MALLET Tristan",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/MalletTristan.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "MANUELLI Nicolas",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/ManuelliNicolas.jpg",
+		"so": "MANUELLI Astrid",
+		"mention": ""
+	},
+	{
+		"name": "MANUELLI Astrid",
+		"title": "SO",
+		"photoURL": "img/people/ManuelliAstrid.jpg",
+		"so": "MANUELLI Nicolas",
+		"mention": ""
+	},
+	{
+		"name": "MARX Julien",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/MarxJulien.jpg",
+		"so": "MARX Joanna",
+		"mention": ""
+	},
+	{
+		"name": "MARX Joanna",
+		"title": "SO",
+		"photoURL": "img/people/MarxJoanna.jpg",
+		"so": "MARX Julien",
+		"mention": ""
+	},
+	{
+		"name": "MENEGAUX Mathieu",
+		"title": "Brighthouse Managing Director",
+		"photoURL": "img/people/MenegauxMathieu.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "MESNAGE Loic",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/MesnageLoic.jpg",
+		"so": "MESNAGE Isabelle",
+		"mention": ""
+	},
+	{
+		"name": "MESNAGE Isabelle",
+		"title": "SO",
+		"photoURL": "img/people/MesnageIsabelle.jpg",
+		"so": "MESNAGE Loic",
+		"mention": ""
+	},
+	{
+		"name": "MONTUPET Renaud",
+		"title": "Managing Director and Senior Partner",
+		"photoURL": "img/people/MontupetRenaud.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "NOWICKI Stanislas",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/NowickiStanislas.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "PARLONGUE David",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/ParlongueDavid.jpg",
+		"so": "PARLONGUE Eva",
+		"mention": ""
+	},
+	{
+		"name": "PARLONGUE Eva",
+		"title": "SO",
+		"photoURL": "img/people/ParlongueEva.jpg",
+		"so": "PARLONGUE David",
+		"mention": ""
+	},
+	{
+		"name": "PAYEN Thomas",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/PayenThomas.jpg",
+		"so": "PAYEN Clarisse",
+		"mention": ""
+	},
+	{
+		"name": "PAYEN Clarisse",
+		"title": "SO",
+		"photoURL": "img/people/PayenClarisse.jpg",
+		"so": "PAYEN Thomas",
+		"mention": ""
+	},
+	{
+		"name": "POCQUET Martin",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/PocquetMartin.jpg",
+		"so": "POCQUET Marion",
+		"mention": ""
+	},
+	{
+		"name": "POCQUET Marion",
+		"title": "SO",
+		"photoURL": "img/people/PocquetMarion.jpg",
+		"so": "POCQUET Martin",
+		"mention": ""
+	},
+	{
+		"name": "QUARTA Lucas",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/QuartaLucas.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "REIN Jerome",
+		"title": "Managing Director and Senior Partner",
+		"photoURL": "img/people/ReinJerome.jpg",
+		"so": "MANADI Nadia",
+		"mention": ""
+	},
+	{
+		"name": "MANADI Nadia",
+		"title": "SO",
+		"photoURL": "img/people/ManadiNadia.jpg",
+		"so": "REIN Jerome",
+		"mention": ""
+	},
+	{
+		"name": "ROBERT Cecile",
+		"title": "SO",
+		"photoURL": "img/people/RobertCecile.jpg",
+		"so": "N/A",
+		"mention": ""
+	},
+	{
+		"name": "ROBIN Mael",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/RobinMael.jpg",
+		"so": "GODEBERGE ROBIN Camille",
+		"mention": ""
+	},
+	{
+		"name": "GODEBERGE ROBIN Camille",
+		"title": "SO",
+		"photoURL": "img/people/GodebergeRobinCamille.jpg",
+		"so": "ROBIN Mael",
+		"mention": ""
+	},
+	{
+		"name": "ROCH ROMANE",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/RochRomane.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "ROUSSEL Pierre",
+		"title": "Managing Director and Senior Partner",
+		"photoURL": "img/people/RousselPierre.jpg",
+		"so": "BARBE Marie-Laure",
+		"mention": ""
+	},
+	{
+		"name": "BARBE Marie-Laure",
+		"title": "SO",
+		"photoURL": "img/people/BarbeMarieLaure.jpg",
+		"so": "ROUSSEL Pierre",
+		"mention": ""
+	},
+	{
+		"name": "SCALABRE Olivier",
+		"title": "Office Leader",
+		"photoURL": "img/people/ScalabreOlivier.jpg",
+		"so": "SCALABRE Sylvie",
+		"mention": ""
+	},
+	{
+		"name": "SCALABRE Sylvie",
+		"title": "SO",
+		"photoURL": "img/people/ScalabreSylvie.jpg",
+		"so": "SCALABRE Olivier",
+		"mention": ""
+	},
+	{
+		"name": "SCHAFF Clement",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/SchaffClement.jpg",
+		"so": "GOLDSZMIDT Esther",
+		"mention": ""
+	},
+	{
+		"name": "GOLDSZMIDT Esther",
+		"title": "SO",
+		"photoURL": "img/people/GoldszmidtEsther.jpg",
+		"so": "SCHAFF Clement",
+		"mention": ""
+	},
+	{
+		"name": "SENANT Yann",
+		"title": "Managing Director and Senior Partner",
+		"photoURL": "img/people/SenantYann.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "SOUSSAN Philippe",
+		"title": "Managing Director and Senior Partner",
+		"photoURL": "img/people/SoussanPhilippe.jpg",
+		"so": "BENESTY Johanna",
+		"mention": ""
+	},
+	{
+		"name": "TERRAY Romain",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/TerrayRomain.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "TURC Francois-Regis",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/TurcFrancoisRegis.jpg",
+		"so": "TURC Sarah",
+		"mention": ""
+	},
+	{
+		"name": "TURC Sarah",
+		"title": "SO",
+		"photoURL": "img/people/TurcSarah.jpg",
+		"so": "TURC Francois-Regis",
+		"mention": ""
+	},
+	{
+		"name": "VERNIER Guillaume",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/VernierGuillaume.jpg",
+		"so": "VERNIER SANTINI Pauline",
+		"mention": ""
+	},
+	{
+		"name": "VERNIER SANTINI Pauline",
+		"title": "SO",
+		"photoURL": "img/people/VernierSantiniPauline.jpg",
+		"so": "VERNIER Guillaume",
+		"mention": ""
+	},
+	{
+		"name": "VERWAERDE Jean-Sébastien",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/VerwaerdeJeanSebastien.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "WALLAERT Charles-Antoine",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/WallaertCharlesAntoine.jpg",
+		"so": "WALLAERT Aurore",
+		"mention": ""
+	},
+	{
+		"name": "WALLAERT Aurore",
+		"title": "SO",
+		"photoURL": "img/people/WallaertAurore.jpg",
+		"so": "WALLAERT Charles-Antoine",
+		"mention": ""
+	},
+	{
+		"name": "WEBER Thomas",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/WeberThomas.jpg",
+		"so": "",
+		"mention": ""
+	},
+	{
+		"name": "WETZELSBERGER Yves",
+		"title": "Managing Director and Partner",
+		"photoURL": "img/people/WetzelsbergerYves.jpg",
+		"so": "TELLESCHI Léa",
+		"mention": ""
+	},
+	{
+		"name": "TELLESCHI Léa",
+		"title": "SO",
+		"photoURL": "img/people/TelleschiLea.jpg",
+		"so": "WETZELSBERGER Yves",
+		"mention": ""
+	},
+	{
+		"name": "WIERZBA Olivier",
+		"title": "Managing Director and Senior Partner",
+		"photoURL": "img/people/WierzbaOlivier.jpg",
+		"so": "WIERZBA WERNER Charlotte",
+		"mention": ""
+	},
 	{
 		"name": "WIERZBA WERNER Charlotte",
 		"title": "SO",
-		"photoURL": "img/people/Wierzba Werner Charlotte.JPG"
+		"photoURL": "img/people/WierzbaWernerCharlotte.jpg",
+		"so": "WIERZBA Olivier",
+		"mention": ""
 	}
 ]
