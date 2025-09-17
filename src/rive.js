@@ -40,14 +40,57 @@ const eventFire = (riveEvent) => {
 
 	const eventKey = eventName;
 	switch (eventKey) {
-		case "OnHoverEnter":
+		case "hoverEnter":
 			document.body.style.cursor = "pointer";
 			break;
-		case "OnHoverExit":
+		case "hoverExit":
 			document.body.style.cursor = "auto";
 			break;
+
+		case "arles":
+			window.location.href = "arles.html";
+			break;
+		case "arts":
+			window.location.href = "arts.html";
+			break;
+		case "baumaniere":
+			window.location.href = "baumaniere-les-baux-de-provence.html";
+			break;
+		case "lumiere":
+			window.location.href = "carrieres-des-lumieres.html";
+			break;
+		case "manville":
+			window.location.href = "domaine-de-manville.html";
+			break;
+		case "food":
+			window.location.href = "food.html";
+			break;
+		case "golf":
+			window.location.href = "golf.html";
+			break;
+		case "beaux":
+			window.location.href = "histoire-beaux-de-provence.html";
+			break;
+		case "olive":
+			window.location.href = "oliveraie.html";
+			break;
+		case "ousteau":
+			window.location.href = "ousteau-de-baumaniere.html";
+			break;
+		case "remy":
+			window.location.href = "saint-remy.html";
+			break;
+		case "trail":
+			window.location.href = "trail.html";
+			break;
+		case "velo":
+			window.location.href = "velo.html";
+			break;
+		case "wine":
+			window.location.href = "wine.html";
+			break;
 		default:
-			console.log("Unhandled event:", eventName, "\n", riveEvent);
+			// console.log(eventName);
 			break;
 	}
 };
