@@ -77,6 +77,9 @@ const eventFire = (riveEvent) => {
 		case "ousteau":
 			window.location.href = "ousteau-de-baumaniere.html";
 			break;
+		case "photo":
+			window.location.href = "photographies-arles.html";
+			break;
 		case "remy":
 			window.location.href = "saint-remy.html";
 			break;
