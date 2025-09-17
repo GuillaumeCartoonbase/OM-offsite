@@ -38,21 +38,21 @@
 		"link": ""
 	},
 	{
-		"titre": "Pour les SO – Trek des Baux aux tables d&#39;orientation (option 1/3)",
+		"titre": "Pour les SO - Trek des Baux aux tables d&#39;orientation (option 1/3)",
 		"time": "9h00 - 12h00",
 		"text": "Trek dans les Alpilles au départ des Baux-de-Provence. Randonnée de 2h à 3h jusqu'aux Tables d'Orientation, offrant un panorama exceptionnel sur la chaîne des Alpilles",
 		"day": "friday",
 		"link": ""
 	},
 	{
-		"titre": "Pour les SO – Découverte et création de cyanotype (option 2/3)",
+		"titre": "Pour les SO - Découverte et création de cyanotype (option 2/3)",
 		"time": "9h0 - 12h00",
 		"text": "Atelier cyanotype avec l'artiste Anne Bonnefon, découverte de l'histoire, initiation à la technique de ce procédé photographique ancien, cueillette de végétaux dans les Alpilles, puis réalisation d'une oeuvre papier en format A5 et d'un tote bag",
 		"day": "friday",
 		"link": ""
 	},
 	{
-		"titre": "Pour les SO – Découverte et création de plumasserie (option 3/3)",
+		"titre": "Pour les SO - Découverte et création de plumasserie (option 3/3)",
 		"time": "9h00 - 12h00",
 		"text": "Atelier de plumasserie, animé par l'une des dernières plumassières de France, ayant collaboré avec les plus grandes maisons de haute couture. Découverte de ce savoir-faire rare, suivie de la création de son propre bracelet en plumes",
 		"day": "friday",
@@ -68,7 +68,7 @@
 	{
 		"titre": "Pour les SO - Après-midi libre",
 		"time": "15h00 -18h00",
-		"text": "Suggestions d’activités libres : découverte des Baux-de-Provence, de Saint-Rémy ou des Carrières des Lumières, accès aux piscines et aux terrains de tennis des hôtels, possibilité de jouer au Golf de Manville sur réservation. Les spas des deux hôtels sont également accessibles sur réservation et à la charge des participants",
+		"text": "Suggestions d'activités libres : découverte des Baux-de-Provence, de Saint-Rémy ou des Carrières des Lumières, accès aux piscines et aux terrains de tennis des hôtels, possibilité de jouer au Golf de Manville sur réservation. Les spas des deux hôtels sont également accessibles sur réservation et à la charge des participants",
 		"day": "friday",
 		"link": [
 			["Carrière des Lumières", "carrieres-des-lumieres.html"],
@@ -83,11 +83,11 @@
 	{
 		"titre": "Soirée d'exception à l'Oustau de Baumanière ★★★",
 		"time": "20h00",
-		"text": "Dîner gastronomique aux saveurs provençales à l’Oustau de Baumanière, table trois étoiles du chef Glenn Viel, puis soirée animée par un DJ set",
+		"text": "Dîner gastronomique aux saveurs provençales à l'Oustau de Baumanière, table trois étoiles du chef Glenn Viel, puis soirée animée par un DJ set",
 		"day": "friday",
 		"link": [
 			[
-				"L’Oustau de Baumanière et le Chef Glenn Viel",
+				"L'Oustau de Baumanière et le Chef Glenn Viel",
 				"ousteau-de-baumaniere.html"
 			]
 		]
@@ -114,16 +114,16 @@
 		"link": [["Trail sur le GR6 / Rando Trek", "trail.html"]]
 	},
 	{
-		"titre": "Expérience au sein d’une oliveraie (option 3/3)",
+		"titre": "Expérience au sein d'une oliveraie (option 3/3)",
 		"time": "10h30 - 12h30",
 		"text": "Atelier oléicole au cœur du Domaine Jolibois. Visite de l'oliveraie, découverte de la fabrication artisanale et dégustation des cinq cuvées d'huiles d'olive. Atelier de cueillette possible selon la maturité des olives.",
 		"day": "saturday",
-		"link": [["Expérience au sein d’une oliveraie", "oliveraie.html"]]
+		"link": [["Expérience au sein d'une oliveraie", "oliveraie.html"]]
 	},
 	{
 		"titre": "Activités libres",
 		"time": "Disponible toute la journée",
-		"text": "Suggestions d’activités libres : découverte des Baux-de-Provence, de Saint-Rémy ou des Carrières des Lumières, accès aux piscines et aux terrains de tennis des hôtels, possibilité de jouer au Golf de Manville sur réservation. Les spas des deux hôtels sont également accessibles sur réservation et à la charge des participants",
+		"text": "Suggestions d'activités libres : découverte des Baux-de-Provence, de Saint-Rémy ou des Carrières des Lumières, accès aux piscines et aux terrains de tennis des hôtels, possibilité de jouer au Golf de Manville sur réservation. Les spas des deux hôtels sont également accessibles sur réservation et à la charge des participants",
 		"day": "saturday",
 		"link": [
 			["Carrière des Lumières", "carrieres-des-lumieres.html"],
@@ -138,7 +138,7 @@
 	{
 		"titre": "Déjeuner dans une oliveraie au Domaine Jolibois",
 		"time": "12h30 - 15h00",
-		"text": "Déjeuner au cœur de la plus grande oliveraie privée de France (240 hectares), mettant à l’honneur les produits du terroir. Dégustation des huiles du domaine et découverte des vins en biodynamie du vigneron René Milan avant le repas",
+		"text": "Déjeuner au cœur de la plus grande oliveraie privée de France (240 hectares), mettant à l'honneur les produits du terroir. Dégustation des huiles du domaine et découverte des vins en biodynamie du vigneron René Milan avant le repas",
 		"day": "saturday",
 		"link": [
 			["Food", "food.html"],
@@ -160,25 +160,25 @@
 		"link": [["Trail sur le GR6 / Rando Trek", "trail.html"]]
 	},
 	{
-		"titre": "Expérience au sein d’une oliveraie (option 3/5)",
+		"titre": "Expérience au sein d'une oliveraie (option 3/5)",
 		"time": "15h00 - 17h00",
 		"text": "Atelier oléicole au cœur du Domaine Jolibois. Visite de l'oliveraie, découverte de la fabrication artisanale et dégustation des cinq cuvées d'huiles d'olive. Atelier de cueillette possible selon la maturité des olives",
 		"day": "saturday",
-		"link": [["Expérience au sein d’une oliveraie", "oliveraie.html"]]
+		"link": [["Expérience au sein d'une oliveraie", "oliveraie.html"]]
 	},
 	{
-		"titre": "Arles – Les Rencontres de la Photo (option 4/5)",
+		"titre": "Arles - Les Rencontres de la Photo (option 4/5)",
 		"time": "15h00 - 18h00",
 		"text": "Atelier immersion au sein de la capitale européenne de la photographie avec parcours exclusif autour des Rencontres de la Photo",
 		"day": "saturday",
 		"link": [
-			["Les Rencontres de la photographie d’Arles", "photographies-arles.html"]
+			["Les Rencontres de la photographie d'Arles", "photographies-arles.html"]
 		]
 	},
 	{
-		"titre": "Arles – Balade photographique (option 5/5)",
+		"titre": "Arles - Balade photographique (option 5/5)",
 		"time": "15h00 - 18h30",
-		"text": "Immersion photographique de 3h animée par Romain Boutillier, photographe professionnel, pour découvrir Arles autrement et améliorer sa pratique. Possibilité de prêt d’appareil photo",
+		"text": "Immersion photographique de 3h animée par Romain Boutillier, photographe professionnel, pour découvrir Arles autrement et améliorer sa pratique. Possibilité de prêt d'appareil photo",
 		"day": "saturday",
 		"link": [
 			["Arles", "arles.html"],
@@ -209,7 +209,7 @@
 	{
 		"titre": "Matinée libre",
 		"time": "Disponible toute la matinée",
-		"text": "Suggestions d’activités libres : découverte des Baux-de-Provence, de Saint-Rémy ou des Carrières des Lumières, accès aux piscines et aux terrains de tennis des hôtels, possibilité de jouer au Golf de Manville sur réservation. Les spas des deux hôtels sont également accessibles sur réservation et à la charge des participants",
+		"text": "Suggestions d'activités libres : découverte des Baux-de-Provence, de Saint-Rémy ou des Carrières des Lumières, accès aux piscines et aux terrains de tennis des hôtels, possibilité de jouer au Golf de Manville sur réservation. Les spas des deux hôtels sont également accessibles sur réservation et à la charge des participants",
 		"day": "sunday",
 		"link": [
 			["Carrière des Lumières", "carrieres-des-lumieres.html"],
