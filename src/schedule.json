@@ -9,7 +9,7 @@
 	{
 		"titre": "Check-in aux hôtels",
 		"time": "À partir de 16h00",
-		"text": "Bienvenue aux Baux-de-Provence. Installation à Baumanière ou au Domaine de Manville, puis temps-libre avant le dîner",
+		"text": "Bienvenue aux Baux-de-Provence. Installation à <a href='baumaniere-les-baux-de-provence.html'>Baumanière</a> ou au <a href='domaine-de-manville.html'>Domaine de Manville</a>, puis temps-libre avant le dîner",
 		"day": "thursday",
 		"link": [
 			["Domaine de Manville", "domaine-de-manville.html"],
@@ -68,7 +68,7 @@
 	{
 		"titre": "Pour les SO - Après-midi libre",
 		"time": "15h00 -18h00",
-		"text": "Suggestions d'activités libres : découverte des Baux-de-Provence, de Saint-Rémy ou des Carrières des Lumières, accès aux piscines et aux terrains de tennis des hôtels, possibilité de jouer au Golf de Manville sur réservation. Les spas des deux hôtels sont également accessibles sur réservation et à la charge des participants",
+		"text": "Suggestions d'activités libres : découverte des <a href='histoire-beaux-de-provence.html'>Baux-de-Provence</a>, de <a href='saint-remy.html'>Saint-Rémy</a> ou des <a href='carrieres-des-lumieres.html'>Carrières des Lumières</a>, accès aux piscines et aux terrains de tennis des hôtels, possibilité de jouer au <a href='golf.html'>Golf de Manville</a> sur réservation.  Les spas des deux hôtels sont également accessibles sur réservation et à la charge des participants",
 		"day": "friday",
 		"link": [
 			["Carrière des Lumières", "carrieres-des-lumieres.html"],
@@ -83,7 +83,7 @@
 	{
 		"titre": "Soirée d'exception à l'Oustau de Baumanière ★★★",
 		"time": "20h00",
-		"text": "Dîner gastronomique aux saveurs provençales à l'Oustau de Baumanière, table trois étoiles du chef Glenn Viel, puis soirée animée par un DJ set",
+		"text": "Dîner gastronomique aux saveurs provençales à l'<a href='ousteau-de-baumaniere.html'>Oustau de Baumanière</a>, table trois étoiles du chef Glenn Viel, puis soirée animée par un DJ set",
 		"day": "friday",
 		"link": [
 			[
@@ -102,28 +102,28 @@
 	{
 		"titre": "Vélo sur les routes des Alpilles (option 1/3)",
 		"time": "9h00 - 12h00",
-		"text": "Atelier vélo encadré par des guides spécialisés, en groupes de niveau. Boucle de 2h à 2h30 autour des Baux-de-Provence. Vélos mixtes avec assistance fournis",
+		"text": "<a href='velo.html'>Atelier vélo</a> encadré par des guides spécialisés, en groupes de niveau. Boucle de 2h à 2h30 autour des Baux-de-Provence. Vélos mixtes avec assistance fournis",
 		"day": "saturday",
 		"link": [["Vélo sur les routes des Alpilles", "velo.html"]]
 	},
 	{
 		"titre": "Trail sur le GR6 / Rando trek (option 2/3)",
 		"time": "9h00 - 12h30",
-		"text": "Atelier trail (13/15km) ou rando trek (8/10km) par groupe de niveau. Parcours de 2h à 3h30 dans les Alpilles encadrés par des guides, dont Sandra Martin, double championne du monde de trail par équipe",
+		"text": "<a href='trail.html'>Atelier trail (13/15km) ou rando trek (8/10km)</> par groupe de niveau. Parcours de 2h à 3h30 dans les Alpilles encadrés par des guides, dont Sandra Martin, double championne du monde de trail par équipe",
 		"day": "saturday",
 		"link": [["Trail sur le GR6 / Rando Trek", "trail.html"]]
 	},
 	{
 		"titre": "Expérience au sein d'une oliveraie (option 3/3)",
 		"time": "10h30 - 12h30",
-		"text": "Atelier oléicole au cœur du Domaine Jolibois. Visite de l'oliveraie, découverte de la fabrication artisanale et dégustation des cinq cuvées d'huiles d'olive. Atelier de cueillette possible selon la maturité des olives.",
+		"text": "<a href='oliveraie.html'>Atelier oléicole</a> au cœur du Domaine Jolibois. Visite de l'oliveraie, découverte de la fabrication artisanale et dégustation des cinq cuvées d'huiles d'olive. Atelier de cueillette possible selon la maturité des olives.",
 		"day": "saturday",
 		"link": [["Expérience au sein d'une oliveraie", "oliveraie.html"]]
 	},
 	{
 		"titre": "Activités libres",
 		"time": "Disponible toute la journée",
-		"text": "Suggestions d'activités libres : découverte des Baux-de-Provence, de Saint-Rémy ou des Carrières des Lumières, accès aux piscines et aux terrains de tennis des hôtels, possibilité de jouer au Golf de Manville sur réservation. Les spas des deux hôtels sont également accessibles sur réservation et à la charge des participants",
+		"text": "Suggestions d'activités libres : découverte des <a href='histoire-beaux-de-provence.html'>Baux-de-Provence</a>, de <a href='saint-remy.html'>Saint-Rémy</a> ou des <a href='carrieres-des-lumieres.html'>Carrières des Lumières</a>, accès aux piscines et aux terrains de tennis des hôtels, possibilité de jouer au <a href='golf.html'>Golf de Manville</a> sur réservation. Les spas des deux hôtels sont également accessibles sur réservation et à la charge des participants",
 		"day": "saturday",
 		"link": [
 			["Carrière des Lumières", "carrieres-des-lumieres.html"],
@@ -138,7 +138,7 @@
 	{
 		"titre": "Déjeuner dans une oliveraie au Domaine Jolibois",
 		"time": "12h30 - 15h00",
-		"text": "Déjeuner au cœur de la plus grande oliveraie privée de France (240 hectares), mettant à l'honneur les produits du terroir. Dégustation des huiles du domaine et découverte des vins en biodynamie du vigneron René Milan avant le repas",
+		"text": "Déjeuner au cœur de la plus grande oliveraie privée de France (240 hectares), mettant à l'honneur les <a href='food.html'>produits du terroir</a>. Dégustation des huiles du domaine et découverte des <a href='wine.html'>vins en biodynamie du vigneron René Milan</a> avant le repas",
 		"day": "saturday",
 		"link": [
 			["Food", "food.html"],
@@ -148,28 +148,28 @@
 	{
 		"titre": "Vélo sur les routes des Alpilles (option 1/5)",
 		"time": "15h00 - 18h00",
-		"text": "Atelier vélo encadré par des guides spécialisés, en groupes de niveau. Boucle de 2h à 2h30 autour des Baux-de-Provence. Vélos mixtes avec assistance fournis",
+		"text": "<a href='velo.html'>Atelier vélo</a> encadré par des guides spécialisés, en groupes de niveau. Boucle de 2h à 2h30 autour des Baux-de-Provence. Vélos mixtes avec assistance fournis",
 		"day": "saturday",
 		"link": [["Vélo sur les routes des Alpilles", "velo.html"]]
 	},
 	{
 		"titre": "Trail sur le GR6 / Rando trek (option 2/5)",
 		"time": "15h00 - 18h30",
-		"text": "Atelier trail (13/15km) ou rando trek (8/10km) par groupe de niveau. Parcours de 2h à 3h30 dans les Alpilles encadrés par des guides, dont Sandra Martin, double championne du monde de trail par équipe",
+		"text": "<a href='trail.html'>Atelier trail (13/15km) ou rando trek (8/10km)</a> par groupe de niveau. Parcours de 2h à 3h30 dans les Alpilles encadrés par des guides, dont Sandra Martin, double championne du monde de trail par équipe",
 		"day": "saturday",
 		"link": [["Trail sur le GR6 / Rando Trek", "trail.html"]]
 	},
 	{
 		"titre": "Expérience au sein d'une oliveraie (option 3/5)",
 		"time": "15h00 - 17h00",
-		"text": "Atelier oléicole au cœur du Domaine Jolibois. Visite de l'oliveraie, découverte de la fabrication artisanale et dégustation des cinq cuvées d'huiles d'olive. Atelier de cueillette possible selon la maturité des olives",
+		"text": "<a href='oliveraie.html'>Atelier oléicole</a> au cœur du Domaine Jolibois. Visite de l'oliveraie, découverte de la fabrication artisanale et dégustation des cinq cuvées d'huiles d'olive. Atelier de cueillette possible selon la maturité des olives",
 		"day": "saturday",
 		"link": [["Expérience au sein d'une oliveraie", "oliveraie.html"]]
 	},
 	{
 		"titre": "Arles - Les Rencontres de la Photo (option 4/5)",
 		"time": "15h00 - 18h00",
-		"text": "Atelier immersion au sein de la capitale européenne de la photographie avec parcours exclusif autour des Rencontres de la Photo",
+		"text": "<a href='photographies-arles.html'>Atelier immersion au sein de la capitale européenne de la photographie</a> avec parcours exclusif autour des Rencontres de la Photo",
 		"day": "saturday",
 		"link": [
 			["Les Rencontres de la photographie d'Arles", "photographies-arles.html"]
@@ -178,7 +178,7 @@
 	{
 		"titre": "Arles - Balade photographique (option 5/5)",
 		"time": "15h00 - 18h30",
-		"text": "Immersion photographique de 3h animée par Romain Boutillier, photographe professionnel, pour découvrir Arles autrement et améliorer sa pratique. Possibilité de prêt d'appareil photo",
+		"text": "<a href='photographies-arles.html'>Immersion photographique</a> de 3h animée par Romain Boutillier, photographe professionnel, pour découvrir <a href='arles.html'>Arles</a> autrement et améliorer sa pratique. Possibilité de prêt d'appareil photo",
 		"day": "saturday",
 		"link": [
 			["Arles", "arles.html"],
@@ -202,14 +202,14 @@
 	{
 		"titre": "Activité facultative - Atelier “rouleurs” sur les traces du tour de France",
 		"time": "9h00",
-		"text": "Atelier « rouleurs » pour les cyclistes confirmés : boucle de 70 km avec 800 m de dénivelé sur les routes du Tour de France dans les Alpilles. Parcours encadré par des guides, avec voiture suiveuse, ravitaillement et vélos de route carbone fournis.",
+		"text": "<Atelier href='velo.html'>Atelier « rouleurs » pour les cyclistes confirmés</a> : boucle de 70 km avec 800 m de dénivelé sur les routes du Tour de France dans les Alpilles. Parcours encadré par des guides, avec voiture suiveuse, ravitaillement et vélos de route carbone fournis.",
 		"day": "sunday",
 		"link": [["Vélo sur les routes des Alpilles", "velo.html"]]
 	},
 	{
 		"titre": "Matinée libre",
 		"time": "Disponible toute la matinée",
-		"text": "Suggestions d'activités libres : découverte des Baux-de-Provence, de Saint-Rémy ou des Carrières des Lumières, accès aux piscines et aux terrains de tennis des hôtels, possibilité de jouer au Golf de Manville sur réservation. Les spas des deux hôtels sont également accessibles sur réservation et à la charge des participants",
+		"text": "Suggestions d'activités libres : découverte des <a href='histoire-beaux-de-provence.html'>Baux-de-Provence</a>, de <a href='saint-remy.html'>Saint-Rémy</a> ou des <a href='carrieres-des-lumieres.html'>Carrières des Lumières</a>, accès aux piscines et aux terrains de tennis des hôtels, possibilité de jouer au <a href='golf.html'>Golf de Manville</a> sur réservation.  Les spas des deux hôtels sont également accessibles sur réservation et à la charge des participants",
 		"day": "sunday",
 		"link": [
 			["Carrière des Lumières", "carrieres-des-lumieres.html"],
