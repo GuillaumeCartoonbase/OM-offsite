@@ -18,11 +18,6 @@ function displayContacts() {
 		const cell = document.createElement("div");
 		cell.classList.add("contactCell");
 
-		const pic = document.createElement("img");
-		pic.classList.add("contactPic");
-		pic.src = contact.pic;
-		pic.alt = contact.name || "Contact photo";
-
 		const info = document.createElement("div");
 		info.classList.add("contactInfo");
 
@@ -36,12 +31,8 @@ function displayContacts() {
 
 		info.append(name, phone);
 
-		const icon = document.createElement("div");
-		icon.classList.add("contactIcon");
-		icon.innerHTML = phoneSVG;
-
 		// build the cell, then append to the list
-		cell.append(pic, info, icon);
+		cell.append(info);
 		contactList.appendChild(cell);
 	});
 }

@@ -21,7 +21,9 @@
 }
 
 #landscape {
-	width: 100%;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 7rem;
 }
 
 section > .textBlock {
@@ -80,6 +82,7 @@ section > .textBlock {
 }
 #cardProgramme > h2,
 #cardCarte > h2,
+#contacts > h2,
 #cardParticipants > h2 {
 	font-family: "Henderson BCG Serif Head";
 	font-weight: 400;
@@ -90,6 +93,7 @@ section > .textBlock {
 @media screen and (min-width: 900px) {
 	#cardProgramme > h2,
 	#cardCarte > h2,
+	#contacts > h2,
 	#cardParticipants > h2 {
 		font-size: 48px;
 	}
@@ -151,9 +155,9 @@ section > .textBlock {
 }
 
 section#contacts h2 {
-	font-family: "Henderson BCG Serif Head";
-	font-size: 4rem;
-	font-weight: 100;
+}
+section#contacts {
+	margin-left: 5rem;
 }
 
 #solar {
@@ -162,4 +166,6 @@ section#contacts h2 {
 	max-width: max-content;
 	position: relative;
 	left: -20vw;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
 }
