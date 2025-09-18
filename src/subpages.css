@@ -1,6 +1,8 @@
 #subpageHeader,
 .subpageText,
-#subpageURL {
+#subpageURL,
+li,
+h3 {
 	margin-left: 3rem;
 	margin-right: 3rem;
 }
@@ -10,7 +12,8 @@
 	color: #85a9a0;
 }
 
-.subpageText {
+.subpageText,
+li {
 	font-family: "Henderson BCG Sans";
 	font-size: 2.5vw;
 	color: #6a6a6a;
@@ -29,4 +32,16 @@
 }
 #subpageURL a:hover {
 	color: #acc7c0;
+}
+
+h3 {
+	font-family: "Henderson BCG Serif Head";
+	font-size: 3vw;
+	color: #6a6a6a;
+}
+
+li b {
+	font-family: "Henderson BCG Serif Head";
+	font-size: 2.8vw;
+	color: black;
 }
