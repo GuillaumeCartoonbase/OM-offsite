@@ -11,10 +11,9 @@ fetch("src/contacts.json")
 	.catch((e) => console.error("Error loading contacts:", e));
 
 function displayContacts() {
-	const contactList = document.getElementById("contactList");
-	contactList.innerHTML = "";
-
 	contactData.forEach((contact) => {
+		const contactList = document.getElementById(contact.header);
+		// contactList.innerHTML = "";
 		const cell = document.createElement("div");
 		cell.classList.add("contactCell");
 
@@ -23,11 +22,11 @@ function displayContacts() {
 
 		const name = document.createElement("p");
 		name.classList.add("contactName");
-		name.textContent = contact.name ?? "(no name)";
+		name.textContent = contact.name;
 
 		const phone = document.createElement("p");
 		phone.classList.add("contactPhone");
-		phone.textContent = contact.phone ?? "";
+		phone.textContent = contact.phone;
 
 		info.append(name, phone);
 
