@@ -33,7 +33,7 @@ header > img {
 	justify-content: space-around;
 	align-items: center;
 	background-color: #ffffff;
-	border-bottom: #939393 1px solid;
+	/* border-bottom: #939393 1px solid; */
 }
 
 .day,
