@@ -23,12 +23,8 @@ function displaySchedule() {
 		li.classList.add("timeline");
 		li.innerHTML = `
       <h3 class="schedule">${orga.time}</h3>
-	       <h4 class="schedTitle">${
-						orga.link.length == 1 ? "<a href=" + orga.link[0][1] + ">" : ""
-					} ${orga.titre} ${orga.link ? "</a>" : ""}</h4>
+	  <h4 class="schedTitle"> ${orga.titre} </h4>
       <p class="schedText">${orga.text}</p>
-	  ${orga.link.length > 1 ? "<ul>" + sublist + "</ul>" : ""}
-	  
     `;
 
 		const dayContainer = document.getElementById(orga.day); // expects "thursday" | "friday" | ...
