@@ -29,3 +29,16 @@ p.contactName {
 p.contactPhone {
 	font-family: "Henderson BCG Serif Head";
 }
+
+#contacts h3 {
+	font-family: "Henderson BCG Serif Head";
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+}
+#contacts > p {
+	font-family: "Henderson BCG Serif Head";
+	font-size: 1.2rem;
+	color: black;
+	margin-top: 0rem;
+	margin-bottom: 1rem;
+}
