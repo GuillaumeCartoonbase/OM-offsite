@@ -6,7 +6,7 @@ body #footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border-top: #939393 solid 1px;
+	/* border-top: #939393 solid 1px; */
 }
 
 #footer div {
