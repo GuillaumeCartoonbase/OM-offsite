@@ -22,10 +22,10 @@
 
 .schedule {
 	color: #85a9a0;
-	font-family: "Henderson BCG Sans";
+	font-family: "Henderson BCG Serif Head";
 	font-weight: 100;
-	font-style: italic;
-	font-size: 1.5rem;
+	/* font-style: italic; */
+	fonkt-size: 1.5rem;
 	margin: 0;
 	margin-left: var(--circlepad);
 }
@@ -57,11 +57,12 @@ h4 a:hover {
 }
 
 .schedText {
-	font-family: "Henderson BCG Sans";
+	font-family: "Henderson BCG Serif Head";
 	color: #6a6a6a;
 	font-size: 3.5vw;
 	margin: 0;
 	margin-left: var(--circlepad);
+	margin-top: 1.5rem;
 }
 @media screen and (min-width: 600px) {
 	.schedText {
@@ -87,6 +88,10 @@ h2 {
 	h2 {
 		font-size: 3.5rem;
 	}
+}
+
+p a {
+	color: #85a9a0;
 }
 
 .timelineList {
