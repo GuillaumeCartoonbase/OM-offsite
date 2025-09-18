@@ -1,40 +1,48 @@
 [
-	{ "name": "Karin Jannier", "phone": "+33 6 87 77 03 84", "header": "BCG" },
-	{ "name": "Thanh Lasowy", "phone": "+33 7 87 50 23 19", "header": "BCG" },
+	{
+		"name": "Karin Jannier",
+		"phone": "+33 6 87 77 03 84",
+		"header": "contactBCG"
+	},
+	{
+		"name": "Thanh Lasowy",
+		"phone": "+33 7 87 50 23 19",
+		"header": "contactBCG"
+	},
 	{
 		"name": "Antoine Gourévitch",
 		"phone": "+33 6 15 17 11 62",
-		"header": "BCG"
+		"header": "contactBCG"
 	},
 	{
 		"name": "William Quévatre",
 		"phone": "+ 33 6 25 83 38 98",
-		"header": "Agence Harry &amp; Associés"
+		"header": "contactAAA"
 	},
 	{
 		"name": "Bruno Aubigny",
 		"phone": "+33 6 09 83 79 19",
-		"header": "Agence Harry &amp; Associés"
+		"header": "contactAAA"
 	},
-	{ "name": "Hôtel", "phone": "+33 4 90 54 33 07", "header": "Baumanière" },
+	{ "name": "Hôtel", "phone": "+33 4 90 54 33 07", "header": "contactB" },
 	{
 		"name": "Spa (10h - 20h)",
 		"phone": "+33 4 90 54 24 67",
-		"header": "Baumanière"
+		"header": "contactB"
 	},
 	{
 		"name": "Hôtel",
 		"phone": "+33 4 90 54 40 20",
-		"header": "Domaine de Manville"
+		"header": "contactDM"
 	},
 	{
 		"name": "Golf",
 		"phone": "+33 4 90 54 86 26",
-		"header": "Domaine de Manville"
+		"header": "contactDM"
 	},
 	{
 		"name": "Spa (10h - 20h)",
 		"phone": "+33 4 90 54 86 29",
-		"header": "Domaine de Manville"
+		"header": "contactDM"
 	}
 ]
