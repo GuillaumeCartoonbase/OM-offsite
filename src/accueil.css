@@ -164,4 +164,6 @@ section#contacts h2 {
 	max-width: max-content;
 	position: relative;
 	left: -20vw;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
 }
