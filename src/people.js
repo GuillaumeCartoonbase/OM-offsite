@@ -33,10 +33,13 @@ function displayPeople() {
 
 		// Create a title element (e.g., <p>)
 		const titleElement = document.createElement("p");
-		titleElement.textContent = person.title;
+		person.title.toLowerCase() != "so"
+			? (titleElement.textContent = person.title)
+			: "";
 
 		const soElement = document.createElement("p");
-		soElement.textContent = `SO de ${person.so}`;
+
+		person.so ? (soElement.textContent = `SO de ${person.so}`) : "";
 
 		// Append the name, title, and photo to the person container
 		personDiv.appendChild(photoElement);
