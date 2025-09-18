@@ -95,7 +95,7 @@
 	{
 		"titre": "Petit-déjeuner à l'hôtel",
 		"time": "À partir de 7h30",
-		"text": "Petit-déjeuner buffet à Baumanière <u>ou</u> au Domaine de Manville.",
+		"text": "Petit-déjeuner buffet à Baumanière ou au Domaine de Manville.",
 		"day": "saturday",
 		"link": ""
 	},
@@ -109,7 +109,7 @@
 	{
 		"titre": "Trail sur le GR6 / Rando trek (option 2/3)",
 		"time": "9h00 - 12h30",
-		"text": "<a href='trail.html'>Atelier trail (13/15km) ou rando trek (8/10km)</> par groupe de niveau. Parcours de 2h à 3h30 dans les Alpilles encadrés par des guides, dont Sandra Martin, double championne du monde de trail par équipe",
+		"text": "<a href='trail.html'>Atelier trail (13/15km) ou rando trek (8/10km)</a> par groupe de niveau. Parcours de 2h à 3h30 dans les Alpilles encadrés par des guides, dont Sandra Martin, double championne du monde de trail par équipe",
 		"day": "saturday",
 		"link": [["Trail sur le GR6 / Rando Trek", "trail.html"]]
 	},
