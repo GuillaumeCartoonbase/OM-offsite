@@ -58,3 +58,7 @@ li b {
 	object-position: center;
 	width: 100%;
 }
+#contener .valise {
+	/* height: 100%; */
+	width: 40%;
+}
