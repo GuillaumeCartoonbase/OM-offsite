@@ -9,29 +9,29 @@ h3 {
 #subpageHeader {
 	font-family: "Henderson BCG Serif Head";
 	font-size: 4.5vw;
-	color: #85a9a0;
+	color: #50798e;
 }
 
 .subpageText,
 li {
 	font-family: "Henderson BCG Sans";
 	font-size: 2.5vw;
-	color: #6a6a6a;
+	color: #000000;
 }
 
 #subpageURL {
 	font-family: "Henderson BCG Sans";
 	font-size: 2.5vw;
-	color: #85a9a0;
+	color: #000;
 }
 #subpageURL a {
-	color: #85a9a0;
+	color: #000;
 }
 #subpageURL a:visited {
-	color: #617c76;
+	color: #000;
 }
 #subpageURL a:hover {
-	color: #acc7c0;
+	color: #50798e;
 }
 
 h3 {
@@ -44,4 +44,17 @@ li b {
 	font-family: "Henderson BCG Serif Head";
 	font-size: 2.8vw;
 	color: black;
+}
+
+#contener {
+	width: 100vw;
+	height: 50vw;
+	overflow: hidden;
+	place-items: center;
+}
+#subpageImage {
+	display: block;
+	object-fit: cover;
+	object-position: center;
+	width: 100%;
 }
