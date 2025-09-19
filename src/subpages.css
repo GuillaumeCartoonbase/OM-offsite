@@ -42,6 +42,9 @@ li b {
 	font-size: 2.8vw;
 	color: black;
 }
+li {
+	padding-bottom: 0.5rem;
+}
 
 #contener {
 	width: 100vw;
