@@ -3,23 +3,6 @@
 	flex-direction: column;
 }
 
-#welcome > h1 {
-	color: #a5a5a5;
-	font-family: "Henderson BCG Sans";
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 85%;
-	text-transform: uppercase;
-	margin-top: 80px;
-	margin-bottom: 60px;
-}
-
-#welcome > #eventLogo {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 #landscape {
 	width: 50%;
 	margin: auto;
@@ -36,8 +19,6 @@ section > .textBlock {
 	line-height: 28px;
 
 	color: #000;
-	/* display: flex; */
-	/* flex-direction: column; */
 }
 
 #signatures {
@@ -67,24 +48,18 @@ section > .textBlock {
 	}
 }
 
-#cardProgramme,
-#cardCarte,
-#cardParticipants {
+#cardProgramme {
 	padding: 4rem 5rem;
 }
 
-#cardProgramme > img,
-#cardCarte > img,
-#cardParticipants > img {
+#cardProgramme > img {
 	display: block;
 	margin: auto;
 	width: 75vw;
 	max-width: 500px;
 }
 #cardProgramme > h2,
-#cardCarte > h2,
-#contacts > h2,
-#cardParticipants > h2 {
+#contacts > h2 {
 	font-family: "Henderson BCG Serif Head";
 	font-weight: 400;
 	font-size: 5.5vw;
@@ -93,9 +68,7 @@ section > .textBlock {
 
 @media screen and (min-width: 900px) {
 	#cardProgramme > h2,
-	#cardCarte > h2,
-	#contacts > h2,
-	#cardParticipants > h2 {
+	#contacts > h2 {
 		font-size: 48px;
 	}
 }
@@ -112,37 +85,7 @@ section > .textBlock {
 	background-color: #7b8772;
 }
 
-#cardCarte {
-	background-color: #50798e;
-	color: #ffffff;
-}
-#cardCarte > .button {
-	background-color: #ffffff;
-	color: #50798e;
-}
-#cardCarte > .button:hover {
-	background-color: #84a1af;
-	color: #fff;
-}
-#cardParticipants {
-	background-color: #85a9a0;
-	color: #ffffff;
-}
-#cardParticipants > .button {
-	background-color: #d8ebab;
-	color: #50798e;
-}
-#cardParticipants > .button:hover {
-	background-color: #97a477;
-	color: #ffffff;
-}
-
-#cardParticipants > h2 {
-	color: #d8ebab;
-}
-#cardProgramme > .button,
-#cardCarte > .button,
-#cardParticipants > .button {
+#cardProgramme > .button {
 	margin: 4rem auto;
 	display: block;
 	font-family: "Henderson BCG Serif Head";
