@@ -44,7 +44,12 @@ section > .textBlock {
 
 @media screen and (max-width: 600px) {
 	#signatures img {
-		height: 10vw;
+		height: 15vw;
+	}
+}
+@media screen and (min-width: 900px) {
+	#signatures img {
+		height: 9rem;
 	}
 }
 
