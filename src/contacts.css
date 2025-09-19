@@ -36,15 +36,15 @@ p.contactPhone {
 
 #contacts h3 {
 	font-family: "Henderson BCG Serif Head";
-	font-size: 2rem;
+	font-size: 1.5rem;
 	margin-top: 3rem;
 	margin-bottom: 1rem;
 }
 #contacts > p {
 	font-family: "Henderson BCG Serif Head";
-	font-size: 1.2rem;
+	font-size: 1rem;
 	color: black;
-	margin-top: 0rem;
+	margin-top: 1rem;
 	margin-bottom: 1rem;
 	margin-right: 3rem;
 }

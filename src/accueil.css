@@ -63,13 +63,18 @@ section > .textBlock {
 	font-family: "Henderson BCG Serif Head";
 	font-weight: 400;
 	font-size: 5.5vw;
-	line-height: 56px;
 }
 
 @media screen and (min-width: 900px) {
 	#cardProgramme > h2,
 	#contacts > h2 {
-		font-size: 48px;
+		font-size: 3rem;
+	}
+}
+@media screen and (max-width: 600px) {
+	body #cardProgramme h2,
+	body #contacts h2 {
+		font-size: 2rem;
 	}
 }
 
