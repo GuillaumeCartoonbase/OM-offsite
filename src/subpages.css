@@ -13,6 +13,7 @@ h3 {
 	color: #50798e;
 }
 
+#subpageURL,
 .subpageText,
 li {
 	font-family: "Henderson BCG Sans";
@@ -20,11 +21,6 @@ li {
 	color: #000000;
 }
 
-#subpageURL {
-	font-family: "Henderson BCG Sans";
-	font-size: 2.5vw;
-	color: #000;
-}
 #subpageURL a {
 	color: #000;
 }
