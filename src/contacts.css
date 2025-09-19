@@ -12,6 +12,11 @@ section#contacts {
 	justify-content: space-between;
 	margin-right: 3rem;
 }
+#blockContact {
+	margin: auto;
+	margin-right: 3rem;
+	padding-left: 10vw;
+}
 
 p.contactName,
 p.contactPhone {
@@ -28,7 +33,7 @@ p.contactName {
 p.contactPhone {
 	font-family: "Henderson BCG Sans";
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
 	.contactInfo {
 		width: 30rem;
 	}
