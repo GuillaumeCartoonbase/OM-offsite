@@ -9,13 +9,14 @@ h3 {
 #subpageHeader {
 	font-family: "Henderson BCG Serif Head";
 	font-size: 4.5vw;
+	font-size: 2rem;
 	color: #50798e;
 }
 
 .subpageText,
 li {
 	font-family: "Henderson BCG Sans";
-	font-size: 2.5vw;
+	font-size: 1rem;
 	color: #000000;
 }
 
