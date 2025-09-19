@@ -155,12 +155,6 @@ section > .textBlock {
 	cursor: pointer;
 }
 
-section#contacts h2 {
-}
-section#contacts {
-	margin-left: 5rem;
-}
-
 #solar {
 	overflow: hidden;
 	width: 100vw;

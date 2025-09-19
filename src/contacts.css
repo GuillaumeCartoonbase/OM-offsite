@@ -1,3 +1,7 @@
+section#contacts {
+	margin-left: 3rem;
+}
+
 #contactList {
 	margin: 0 20px;
 }
@@ -24,7 +28,7 @@ p.contactName {
 p.contactPhone {
 	font-family: "Henderson BCG Sans";
 }
-@ķedia screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
 	.contactInfo {
 		width: 30rem;
 	}
@@ -43,4 +47,20 @@ p.contactPhone {
 	margin-top: 0rem;
 	margin-bottom: 1rem;
 	margin-right: 3rem;
+}
+
+@media screen and (max-width: 400px) {
+	#contacts > p,
+	section#contacts {
+		margin-left: 2rem;
+		margin-right: 1rem;
+	}
+	p.contactName,
+	p.contactPhone {
+		font-size: 1.1em;
+	}
+
+	#contacts > p {
+		font-size: 0.9em;
+	}
 }
