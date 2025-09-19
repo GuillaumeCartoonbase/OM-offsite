@@ -1,21 +1,17 @@
 #contactList {
 	margin: 0 20px;
 }
-.contactCell {
-	display: flex;
-	flex-direction: row;
-	margin-bottom: 1rem;
-}
 .contactInfo {
 	display: flex;
-	flex-direction: column;
-	margin: 1rem;
-	margin-left: 2rem;
+	flex-direction: row;
+	margin-bottom: 0.5rem;
+	justify-content: space-between;
+	margin-right: 3rem;
 }
 
 p.contactName,
 p.contactPhone {
-	font-size: 1.5rem;
+	font-size: 1.3em;
 	margin: 0;
 }
 
@@ -24,16 +20,21 @@ p.contactName {
 	color: #62a176;
 	font-style: italic;
 	font-weight: 100;
-	margin: 0;
 }
 p.contactPhone {
-	font-family: "Henderson BCG Serif Head";
+	font-family: "Henderson BCG Sans";
+}
+@ķedia screen and (min-width: 600px) {
+	.contactInfo {
+		width: 30rem;
+	}
 }
 
 #contacts h3 {
 	font-family: "Henderson BCG Serif Head";
 	font-size: 2rem;
-	margin-bottom: 0.5rem;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
 }
 #contacts > p {
 	font-family: "Henderson BCG Serif Head";
@@ -41,4 +42,5 @@ p.contactPhone {
 	color: black;
 	margin-top: 0rem;
 	margin-bottom: 1rem;
+	margin-right: 3rem;
 }
