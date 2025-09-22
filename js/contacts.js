@@ -1,6 +1,6 @@
 let contactData = [];
 
-fetch("data/contacts.json")
+fetch("/data/contacts.json")
 	.then((r) => r.json())
 	.then((data) => {
 		contactData = Array.isArray(data) ? data : data.contacts || [];
