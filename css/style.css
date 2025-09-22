@@ -1,14 +1,14 @@
 @font-face {
 	font-family: "Henderson BCG Sans";
-	src: url("fonts/BCGHenSansRegular.ttf");
+	src: url("/fonts/BCGHenSansRegular.ttf") format("truetype");
 }
 @font-face {
 	font-family: "Henderson BCG Serif Head";
-	src: url("fonts/BCGHenSerifHead.ttf");
+	src: url("/fonts/BCGHenSerifHead.ttf") format("truetype");
 }
 @font-face {
 	font-family: "Henderson BCG Serif Bold";
-	src: url("fonts/BCGHenSerifBold.ttf");
+	src: url("/fonts/BCGHenSerifBold.ttf") format("truetype");
 }
 html,
 body {
