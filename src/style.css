@@ -6,6 +6,10 @@
 	font-family: "Henderson BCG Serif Head";
 	src: url("fonts/BCGHenSerifHead.ttf");
 }
+@font-face {
+	font-family: "Henderson BCG Serif Bold";
+	src: url("fonts/BCGHenSerifBold.ttf");
+}
 html,
 body {
 	padding: 0;
