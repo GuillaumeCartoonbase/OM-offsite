@@ -1,14 +1,5 @@
-const carteButton = document.getElementById("carteButton");
-const participantsButton = document.getElementById("participantsButton");
-const programmeButton = document.getElementById("programmeButton");
+const valiseButton = document.getElementById("valiseButton");
 
-carteButton.addEventListener("click", function () {
-	window.location.href = "carte.html";
-});
-
-participantsButton.addEventListener("click", function () {
-	window.location.href = "participants.html";
-});
-programmeButton.addEventListener("click", function () {
-	window.location.href = "programme.html";
+valiseButton.addEventListener("click", () => {
+	window.location.href = "valise.html";
 });
