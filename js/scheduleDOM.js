@@ -2,7 +2,7 @@
 let scheduleData = [];
 
 // Fetch JSON then render
-fetch("data/schedule.json")
+fetch("/data/schedule.json")
 	.then((response) => response.json())
 	.then((data) => {
 		scheduleData = data;
@@ -13,11 +13,6 @@ fetch("data/schedule.json")
 function displaySchedule() {
 	scheduleData.forEach((orga) => {
 		let sublist = "";
-		if (orga.link.length > 1) {
-			for (let i = 0; i < orga.link.length; i++) {
-				sublist += `<li class="subset"> <a href = ${orga.link[i][1]}> ${orga.link[i][0]} </a> </li>`;
-			}
-		}
 
 		const li = document.createElement("li");
 		li.classList.add("timeline");
