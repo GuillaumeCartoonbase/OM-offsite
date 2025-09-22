@@ -10,45 +10,60 @@ fetch("src/people.json")
 	})
 	.catch((error) => console.error("Error loading the JSON file:", error));
 
-function displayPeople() {
-	// Get the container element where you want to append the people list
-	const peopleList = document.getElementById("peopleList");
+// helper: make a safe id from a name
+function slugify(str) {
+	return String(str)
+		.normalize("NFD")
+		.replace(/[\u0300-\u036f]/g, "") // drop accents
+		.toLowerCase()
+		.trim()
+		.replace(/[^a-z0-9]+/g, "-") // spaces & punctuation -> -
+		.replace(/^-+|-+$/g, ""); // trim leading/trailing -
+}
 
-	// Clear any existing content in the list (in case you're re-displaying)
+function displayPeople() {
+	const peopleList = document.getElementById("peopleList");
 	peopleList.innerHTML = "";
 
-	// Iterate through the sorted JSON data
-	peopleData.forEach((person) => {
-		// Create a container for each person
+	// Keep track to avoid duplicate ids
+	const usedIds = new Set();
+
+	peopleData.forEach((person, idx) => {
 		const personDiv = document.createElement("div");
 		personDiv.classList.add("person");
 
-		// Create the photo element (if available)
 		const photoElement = document.createElement("img");
-		photoElement.src = person.photoURL;
+		photoElement.src = person.photoURL || "";
+		photoElement.alt = person.name || "Photo";
 
-		// Create a name element (e.g., <h2>)
 		const nameElement = document.createElement("h2");
 		nameElement.textContent = person.name;
 
-		// Create a title element (e.g., <p>)
+		// assign a stable, unique id to the photo
+		let baseId = slugify(person.name || `person-${idx}`);
+		let uniqueId = baseId;
+		let n = 2;
+		while (usedIds.has(uniqueId)) uniqueId = `${baseId}-${n++}`;
+		usedIds.add(uniqueId);
+		photoElement.id = uniqueId;
+
 		const titleElement = document.createElement("p");
-		person.title.toLowerCase() != "so"
-			? (titleElement.textContent = person.title)
-			: "";
+		if (person.title && person.title.toLowerCase() !== "so") {
+			titleElement.textContent = person.title;
+		}
 
 		const soElement = document.createElement("p");
+		if (person.so && person.so.toLowerCase() !== "n/a") {
+			soElement.append("SO de ");
+			const soLink = document.createElement("a");
+			soLink.textContent = person.so;
+			soLink.href = `#${slugify(person.so)}`; // must match the target's id
+			soElement.appendChild(soLink);
+		}
 
-		person.so ? (soElement.textContent = `SO de ${person.so}`) : "";
-
-		// Append the name, title, and photo to the person container
-		personDiv.appendChild(photoElement);
-		personDiv.appendChild(nameElement);
-		personDiv.appendChild(titleElement);
-		personDiv.appendChild(soElement);
-
-		// Append the person container to the people list container
+		personDiv.append(photoElement, nameElement, titleElement, soElement);
 		peopleList.appendChild(personDiv);
 	});
 }
+
 displayPeople();
