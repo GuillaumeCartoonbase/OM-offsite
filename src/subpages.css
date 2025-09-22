@@ -8,7 +8,7 @@
 }
 
 /* ---------- shared spacing ---------- */
-:is(#subpageHeader, .subpageText, #subpageURL, li, h3, h4) {
+:is(#subpageHeader, .subpageText, #subpageURL, li, h3, h4, #goBack) {
 	margin-inline: 3rem;
 }
 
@@ -89,4 +89,16 @@ ul li b.valise {
 /* variant width inside container */
 #contener .valise {
 	inline-size: 40%;
+}
+
+#goBack {
+	display: block;
+	padding-top: 1rem;
+}
+#goBack,
+#goBack:visited {
+	color: var(--color-brand);
+}
+#goBack:hover {
+	color: black;
 }
