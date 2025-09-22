@@ -3,243 +3,174 @@
 		"titre": "Arrivée et transfert",
 		"time": "À partir de 14h00",
 		"text": "Transfert en navettes privées depuis la gare d'Avignon TGV jusqu'aux Baux-de-Provence (40 minutes)",
-		"day": "thursday",
-		"link": ""
+		"day": "thursday"
 	},
 	{
 		"titre": "Check-in aux hôtels",
 		"time": "À partir de 16h00",
 		"text": "Bienvenue aux Baux-de-Provence. Installation à <a href='baumaniere-les-baux-de-provence.html'>Baumanière</a> ou au <a href='domaine-de-manville.html'>Domaine de Manville</a>, puis temps-libre avant le dîner",
-		"day": "thursday",
-		"link": [
-			["Domaine de Manville", "domaine-de-manville.html"],
-			["Baumanière", "baumaniere-les-baux-de-provence.html"]
-		]
+		"day": "thursday"
 	},
 	{
 		"titre": "Welcome Dinner au Domaine de Manville",
 		"time": "20h00",
 		"text": "Buffet dînatoire sur la terrasse du Domaine de Manville",
-		"day": "thursday",
-		"link": ""
+		"day": "thursday"
 	},
 	{
 		"titre": "Petit-déjeuner buffet aux hôtels",
 		"time": "7h00 - 8h00",
 		"text": "",
-		"day": "friday",
-		"link": ""
+		"day": "friday"
 	},
 	{
 		"titre": "Pour les MDP - Officer Meeting",
 		"time": "8h15 - 18h00",
 		"text": "Pour les MDP, rendez-vous à la Cabro d'Or (Baumanière) pour le Officer Meeting. Déjeuner prévu sur place",
-		"day": "friday",
-		"link": ""
+		"day": "friday"
 	},
 	{
 		"titre": "Pour les SO - Trek autour des Baux <i>(option 1/3)</i>",
 		"time": "9h00 - 12h00",
 		"text": "Randonnée trek de 2 à 3 heures autour des Baux-de-Provence, au cœur des paysages emblématiques des Alpilles et d'une propriété privée d'exception",
-		"day": "friday",
-		"link": ""
+		"day": "friday"
 	},
 	{
 		"titre": "Pour les SO - Découverte et création de cyanotype <i>(option 2/3)</i>",
 		"time": "9h0 - 12h00",
 		"text": "Atelier cyanotype avec l'artiste Anne Bonnefon, découverte de l'histoire, initiation à la technique de ce procédé photographique ancien, cueillette de végétaux dans les Alpilles, puis réalisation d'une oeuvre papier en format A5 et d'un tote bag",
-		"day": "friday",
-		"link": ""
+		"day": "friday"
 	},
 	{
 		"titre": "Pour les SO - Découverte et création de plumasserie <i>(option 3/3)</i>",
 		"time": "9h00 - 12h00",
 		"text": "Atelier de plumasserie, animé par l'une des dernières plumassières de France, ayant collaboré avec les plus grandes maisons de haute couture. Découverte de ce savoir-faire rare, suivie de la création de son propre bracelet en plumes",
-		"day": "friday",
-		"link": ""
+		"day": "friday"
 	},
 	{
 		"titre": "Pour les SO - Déjeuner dans une maison privée",
 		"time": "12h30 - 15h00",
 		"text": "Déjeuner convivial dans une maison privée d'exception, où le propriétaire prépare une cuisine raffinée, prisée des Chefs de Baumanière qui s'y attablent régulièrement",
-		"day": "friday",
-		"link": ""
+		"day": "friday"
 	},
 	{
 		"titre": "Pour les SO - Après-midi libre",
 		"time": "15h00 -18h00",
 		"text": "Suggestions d'activités libres : découverte des <a href='histoire-beaux-de-provence.html'>Baux-de-Provence</a>, <a href='saint-remy.html'>de Saint-Rémy</a> ou des <a href='carrieres-des-lumieres.html'>Carrières des Lumières</a>, accès aux piscines et aux terrains de tennis des hôtels, possibilité de jouer au <a href='golf.html'>Golf de Manville</a> sur réservation.  Les spas des deux hôtels sont également accessibles sur réservation et à la charge des participants",
-		"day": "friday",
-		"link": [
-			["Carrière des Lumières", "carrieres-des-lumieres.html"],
-			["Saint Rémy de Provence", "saint-remy.html"],
-			["Golf de Manville", "golf.html"],
-			[
-				"Histoire des Baux-de-Provence et sa région",
-				"histoire-beaux-de-provence.html"
-			]
-		]
+		"day": "friday"
 	},
 	{
 		"titre": "Soirée d'exception à l'Oustau de Baumanière ★★★",
 		"time": "19h30",
 		"text": "Dîner gastronomique aux saveurs provençales à <a href='ousteau-de-baumaniere.html'>l'Oustau de Baumanière</a>, table trois étoiles du chef Glenn Viel, puis soirée animée par un DJ set",
-		"day": "friday",
-		"link": [
-			[
-				"L'Oustau de Baumanière et le Chef Glenn Viel",
-				"ousteau-de-baumaniere.html"
-			]
-		]
+		"day": "friday"
 	},
 	{
 		"titre": "Petit-déjeuner buffet aux hôtels",
 		"time": "À partir de 7h30",
 		"text": "",
-		"day": "saturday",
-		"link": ""
+		"day": "saturday"
 	},
 	{
 		"titre": "Vélo sur les routes des Alpilles <i>(option 1/4)</i>",
 		"time": "9h00 - 12h00",
 		"text": "<a href='velo.html'>Atelier vélo</a> encadré par des guides spécialisés, en groupes de niveau. Boucle de 2h à 2h30 autour des Baux-de-Provence. Vélos mixtes avec assistance fournis",
-		"day": "saturday",
-		"link": [["Vélo sur les routes des Alpilles", "velo.html"]]
+		"day": "saturday"
 	},
 	{
 		"titre": "Trail sur le GR6 / Rando trek <i>(option 2/4)</i>",
 		"time": "9h00 - 12h30",
 		"text": "<a href='trail.html'>Atelier trail</a> (13/15km) ou rando trek (8/10km) par groupe de niveau. Parcours de 2h à 3h30 dans les Alpilles encadrés par des guides, dont Sandra Martin, double championne du monde de trail par équipe",
-		"day": "saturday",
-		"link": [["Trail sur le GR6 / Rando Trek", "trail.html"]]
+		"day": "saturday"
 	},
 	{
 		"titre": "Expérience au sein d'une oliveraie <i>(option 3/4)</i>",
 		"time": "10h30 - 12h30",
 		"text": "<a href='oliveraie.html'>Atelier oléicole</a> au cœur du Domaine Jolibois. Visite de l'oliveraie, découverte de la fabrication artisanale et dégustation des cinq cuvées d'huiles d'olive. Atelier de cueillette possible selon la maturité des olives",
-		"day": "saturday",
-		"link": [["Expérience au sein d'une oliveraie", "oliveraie.html"]]
+		"day": "saturday"
 	},
 	{
 		"titre": "Arles - Les Rencontres de la Photo <i>(option 4/4)</i>",
 		"time": "9h30 - 12h30",
 		"day": "saturday",
-		"text": "Visite guidée exclusive autour des <a href='photographies-arles.html'>Rencontres de la Photo d'Arles</a> animé par Lucie Kerzerho, artiste en résidence et médiatrice culturelle. Possibilité de balade libre à l'issue du parcours",
-		"link": []
+		"text": "Visite guidée exclusive autour des <a href='photographies-arles.html'>Rencontres de la Photo d'Arles</a> animé par Lucie Kerzerho, artiste en résidence et médiatrice culturelle. Possibilité de balade libre à l'issue du parcours"
 	},
 	{
 		"titre": "Activités libres",
 		"time": "Disponible toute la journée",
 		"text": "Suggestions d'activités libres : découverte des <a href='histoire-beaux-de-provence.html'>Baux-de-Provence</a>, <a href='saint-remy.html'>de Saint-Rémy</a> ou des <a href='carrieres-des-lumieres.html'>Carrières des Lumières</a>, accès aux piscines et aux terrains de tennis des hôtels, possibilité de jouer au <a href='golf.html'>Golf de Manville</a> sur réservation. Les spas des deux hôtels sont également accessibles sur réservation et à la charge des participants",
-		"day": "saturday",
-		"link": [
-			["Carrière des Lumières", "carrieres-des-lumieres.html"],
-			["Saint Rémy de Provence", "saint-remy.html"],
-			["Golf de Manville", "golf.html"],
-			[
-				"Histoire des Baux-de-Provence et sa région",
-				"histoire-beaux-de-provence.html"
-			]
-		]
+		"day": "saturday"
 	},
 	{
 		"titre": "Déjeuner dans une oliveraie au Domaine Jolibois",
 		"time": "12h30 - 15h00",
 		"text": "Déjeuner au cœur de la plus grande oliveraie privée de France (240 hectares), mettant à l'honneur les <a href='food.html'>produits du terroir</a>. Dégustation des huiles du domaine et découverte des <a href='wine.html'>vins en biodynamie</a> du vigneron René Milan avant le repas",
-		"day": "saturday",
-		"link": [
-			["Food", "food.html"],
-			["Wine", "wine.html"]
-		]
+		"day": "saturday"
 	},
 	{
 		"titre": "Vélo sur les routes des Alpilles <i>(option 1/5)</i>",
 		"time": "15h00 - 18h00",
 		"text": "<a href='velo.html'>Atelier vélo</a> encadré par des guides spécialisés, en groupes de niveau. Boucle de 2h à 2h30 autour des Baux-de-Provence. Vélos mixtes avec assistance fournis",
-		"day": "saturday",
-		"link": [["Vélo sur les routes des Alpilles", "velo.html"]]
+		"day": "saturday"
 	},
 	{
 		"titre": "Trail sur le GR6 / Rando trek <i>(option 2/5)</i>",
 		"time": "15h00 - 18h30",
 		"text": "<a href='trail.html'>Atelier trail</a> (13/15km) ou rando trek (8/10km) par groupe de niveau. Parcours de 2h à 3h30 dans les Alpilles encadrés par des guides, dont Sandra Martin, double championne du monde de trail par équipe",
-		"day": "saturday",
-		"link": [["Trail sur le GR6 / Rando Trek", "trail.html"]]
+		"day": "saturday"
 	},
 	{
 		"titre": "Expérience au sein d'une oliveraie <i>(option 3/5)</i>",
 		"time": "15h00 - 17h00",
 		"text": "<a href='oliveraie.html'>Atelier oléicole</a> au cœur du Domaine Jolibois. Visite de l'oliveraie, découverte de la fabrication artisanale et dégustation des cinq cuvées d'huiles d'olive. Atelier de cueillette possible selon la maturité des olives",
-		"day": "saturday",
-		"link": [["Expérience au sein d'une oliveraie", "oliveraie.html"]]
+		"day": "saturday"
 	},
 	{
 		"titre": "Arles - Les Rencontres de la Photo <i>(option 4/5)</i>",
 		"time": "15h00 - 18h00",
 		"text": "Visite guidée exclusive autour des <a href='photographies-arles.html'>Rencontres de la Photo d'Arles</a> animé par Lucie Kerzerho, artiste en résidence et médiatrice culturelle. Possibilité de balade libre à l'issue du parcours",
-		"day": "saturday",
-		"link": [
-			["Les Rencontres de la photographie d'Arles", "photographies-arles.html"]
-		]
+		"day": "saturday"
 	},
 	{
 		"titre": "Arles - Balade photographique <i>(option 5/5)</i>",
 		"time": "15h00 - 18h30",
 		"text": "Immersion photographique de 3h animée par Romain Boutillier, photographe professionnel, pour <a href='arles.html'>découvrir Arles</a> autrement et améliorer sa pratique. Possibilité d'emprunter un appareil photo reflex numérique Fujifilm ou d 'utiliser son propre matériel",
-		"day": "saturday",
-		"link": [
-			["Arles", "arles.html"],
-			["Arts", "arts.html"]
-		]
+		"day": "saturday"
 	},
 	{
 		"titre": "Soirée « Arbre Enchanté » à la Cabro d'Or",
 		"time": "19h30",
 		"text": "Soirée à la Cabro d'Or (Baumanière) avec cocktail apéritif dans les jardins, suivi d'un dîner braséro près du Manoir. Prestation piano-voix ambiance puis festive en seconde partie de soirée",
-		"day": "saturday",
-		"link": ""
+		"day": "saturday"
 	},
 	{
 		"titre": "Petit-déjeuner buffet aux hôtels",
 		"time": "À partir de 7h30",
 		"text": "",
-		"day": "sunday",
-		"link": ""
+		"day": "sunday"
 	},
 	{
 		"titre": "Activité facultative - Atelier “rouleurs” sur les traces du tour de France",
 		"time": "9h00",
 		"text": "<a href='velo.html'>Pour les cyclistes confirmés</a> : boucle de 70 km avec 800 m de dénivelé sur les routes du Tour de France dans les Alpilles. Parcours encadré par des guides, avec voiture suiveuse, ravitaillement et vélos de route carbone fournis",
-		"day": "sunday",
-		"link": [["Vélo sur les routes des Alpilles", "velo.html"]]
+		"day": "sunday"
 	},
 	{
 		"titre": "Matinée libre",
 		"time": "Disponible toute la matinée",
 		"text": "Suggestions d'activités libres : découverte des <a href='histoire-beaux-de-provence.html'>Baux-de-Provence</a>, <a href='saint-remy.html'>de Saint-Rémy</a> ou des <a href='carrieres-des-lumieres.html'>Carrières des Lumières</a>, accès aux piscines et aux terrains de tennis des hôtels, possibilité de jouer au <a href='golf.html'>Golf de Manville</a> sur réservation.  Les spas des deux hôtels sont également accessibles sur réservation et à la charge des participants",
-		"day": "sunday",
-		"link": [
-			["Carrière des Lumières", "carrieres-des-lumieres.html"],
-			["Saint Rémy de Provence", "saint-remy.html"],
-			["Golf de Manville", "golf.html"],
-			[
-				"Histoire des Baux-de-Provence et sa région",
-				"histoire-beaux-de-provence.html"
-			]
-		]
+		"day": "sunday"
 	},
 	{
 		"titre": "Brunch de clôture",
 		"time": "12h30 - 15h00",
 		"text": "Brunch de clôture à la Cabro d'Or avant les départs",
-		"day": "sunday",
-		"link": ""
+		"day": "sunday"
 	},
 	{
 		"titre": "Transfert et retour",
 		"time": "Tout au long de la journée",
 		"text": "Transfert en navettes privées jusqu'à la gare d'Avignon TGV (40 minutes)",
-		"day": "sunday",
-		"link": ""
+		"day": "sunday"
 	}
 ]
