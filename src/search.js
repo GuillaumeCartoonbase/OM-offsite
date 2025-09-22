@@ -22,5 +22,10 @@ function filterItems() {
 	});
 }
 
+const form = searchInput.closest("form");
+if (form) {
+	form.addEventListener("submit", (e) => e.preventDefault());
+}
+
 // Listen for input changes on the search field
 searchInput.addEventListener("input", filterItems);
