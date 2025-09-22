@@ -96,9 +96,10 @@ ul li b.valise {
 	padding-top: 1rem;
 }
 #goBack,
-#goBack:visited {
+#goBack a:visited {
 	color: var(--color-brand);
 }
-#goBack:hover {
+#goBack:hover,
+#goBack a:hover {
 	color: black;
 }
