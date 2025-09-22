@@ -2,7 +2,7 @@
 	{
 		"titre": "Arrivée et transfert",
 		"time": "À partir de 14h00",
-		"text": "Transfert en navettes privées depuis la gare d'Avignon TGV jusqu'aux Baux-de-Provence (40 minutes).",
+		"text": "Transfert en navettes privées depuis la gare d'Avignon TGV jusqu'aux Baux-de-Provence (40 minutes)",
 		"day": "thursday",
 		"link": ""
 	},
@@ -19,7 +19,7 @@
 	{
 		"titre": "Welcome Dinner au Domaine de Manville",
 		"time": "20h00",
-		"text": "Buffet dînatoire sur la terrasse du Domaine de Manville.",
+		"text": "Buffet dînatoire sur la terrasse du Domaine de Manville",
 		"day": "thursday",
 		"link": ""
 	},
@@ -116,7 +116,7 @@
 	{
 		"titre": "Expérience au sein d'une oliveraie (option 3/4)",
 		"time": "10h30 - 12h30",
-		"text": "<a href='oliveraie.html'>Atelier oléicole</a> au cœur du Domaine Jolibois. Visite de l'oliveraie, découverte de la fabrication artisanale et dégustation des cinq cuvées d'huiles d'olive. Atelier de cueillette possible selon la maturité des olives.",
+		"text": "<a href='oliveraie.html'>Atelier oléicole</a> au cœur du Domaine Jolibois. Visite de l'oliveraie, découverte de la fabrication artisanale et dégustation des cinq cuvées d'huiles d'olive. Atelier de cueillette possible selon la maturité des olives",
 		"day": "saturday",
 		"link": [["Expérience au sein d'une oliveraie", "oliveraie.html"]]
 	},
@@ -195,7 +195,7 @@
 	{
 		"titre": "Soirée « Arbre Enchanté » à la Cabro d'Or",
 		"time": "19h30",
-		"text": "Soirée à la Cabro d'Or (Baumanière) avec cocktail apéritif dans les jardins, suivi d'un dîner braséro près du Manoir. Prestation piano-voix ambiance puis festive en seconde partie de soirée.",
+		"text": "Soirée à la Cabro d'Or (Baumanière) avec cocktail apéritif dans les jardins, suivi d'un dîner braséro près du Manoir. Prestation piano-voix ambiance puis festive en seconde partie de soirée",
 		"day": "saturday",
 		"link": ""
 	},
@@ -209,7 +209,7 @@
 	{
 		"titre": "Activité facultative - Atelier “rouleurs” sur les traces du tour de France",
 		"time": "9h00",
-		"text": "<Atelier href='velo.html'>Pour les cyclistes confirmés</a> : boucle de 70 km avec 800 m de dénivelé sur les routes du Tour de France dans les Alpilles. Parcours encadré par des guides, avec voiture suiveuse, ravitaillement et vélos de route carbone fournis.",
+		"text": "<Atelier href='velo.html'>Pour les cyclistes confirmés</a> : boucle de 70 km avec 800 m de dénivelé sur les routes du Tour de France dans les Alpilles. Parcours encadré par des guides, avec voiture suiveuse, ravitaillement et vélos de route carbone fournis",
 		"day": "sunday",
 		"link": [["Vélo sur les routes des Alpilles", "velo.html"]]
 	},
@@ -238,7 +238,7 @@
 	{
 		"titre": "Transfert et retour",
 		"time": "Tout au long de la journée",
-		"text": "Transfert en navettes privées jusqu'à la gare d'Avignon TGV (40 minutes).",
+		"text": "Transfert en navettes privées jusqu'à la gare d'Avignon TGV (40 minutes)",
 		"day": "sunday",
 		"link": ""
 	}
