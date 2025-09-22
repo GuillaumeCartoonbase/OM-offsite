@@ -101,5 +101,12 @@
 		<script src="src/button.js"></script>
 		<script src="src/contacts.js"></script>
 		<script src="src/protection.js"></script>
+		<script>
+			if ("serviceWorker" in navigator) {
+				window.addEventListener("load", () => {
+					navigator.serviceWorker.register("/sw.js");
+				});
+			}
+		</script>
 	</body>
 </html>
