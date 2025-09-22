@@ -209,7 +209,7 @@
 	{
 		"titre": "Activité facultative - Atelier “rouleurs” sur les traces du tour de France",
 		"time": "9h00",
-		"text": "<Atelier href='velo.html'>Pour les cyclistes confirmés</a> : boucle de 70 km avec 800 m de dénivelé sur les routes du Tour de France dans les Alpilles. Parcours encadré par des guides, avec voiture suiveuse, ravitaillement et vélos de route carbone fournis",
+		"text": "<a href='velo.html'>Pour les cyclistes confirmés</a> : boucle de 70 km avec 800 m de dénivelé sur les routes du Tour de France dans les Alpilles. Parcours encadré par des guides, avec voiture suiveuse, ravitaillement et vélos de route carbone fournis",
 		"day": "sunday",
 		"link": [["Vélo sur les routes des Alpilles", "velo.html"]]
 	},
