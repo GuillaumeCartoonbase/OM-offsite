@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", async () => {
 	try {
-		const res = await fetch("../footer.html");
+		const res = await fetch("/pages/footer.html");
 		const html = await res.text();
 		document.querySelector("footer").innerHTML = html;
 
