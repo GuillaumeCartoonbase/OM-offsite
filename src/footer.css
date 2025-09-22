@@ -1,59 +1,54 @@
-body #footer {
-	background-color: white;
+/* Footer container */
+#footer {
 	position: fixed;
-	bottom: 0;
-	width: 100%;
+	inset-block-end: 0; /* bottom: 0 */
+	inset-inline: 0; /* left: 0; right: 0 */
+	background: #fff;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	/* border-top: #939393 solid 1px; */
 }
 
-#footer div {
-	flex-grow: 1;
-}
+/* Columns */
 #footer .column {
-	padding: 0 10px;
+	flex: 1;
+	padding-inline: 10px;
+	transition: background-color 100ms ease-in-out;
+}
+#footer .column:hover {
+	background-color: #eee;
 }
 
+/* Links */
 #footer a {
 	display: block;
 	height: 100%;
-	padding-top: 2em;
-	padding-bottom: 1em;
+	padding-block: 2em 1em; /* top / bottom */
 	text-decoration: none;
 }
 
+/* Link image + text */
 #footer a img {
 	height: 4vw;
 }
-@media screen and (min-width: 900px) {
+#footer a p {
+	margin-top: 0.5rem;
+	font-size: 3vw;
+}
+
+@media (min-width: 900px) {
 	#footer a img {
 		height: 2.5rem;
 	}
-}
-
-#footer a p {
-	margin-top: 0.5rem;
-}
-#footer a p {
-	font-size: 3vw;
-}
-@media screen and (min-width: 900px) {
 	#footer a p {
 		font-size: 1.8rem;
 	}
 }
 
-#footer div:hover {
-	background-color: #eee;
-	transition: background-color 100ms ease-in-out;
-}
-
-a.selected p {
+/* Selected / not selected states */
+#footer a.selected p {
 	color: #5b694f;
 }
-a.notSelected p,
-a.notSelected:visited p {
+#footer a.notSelected p {
 	color: #d9d9d9;
-}
+} /* covers visited too */

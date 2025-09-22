@@ -1,79 +1,88 @@
-#subpageHeader,
-.subpageText,
-#subpageURL,
-li,
-h3,
-h4 {
-	margin-left: 3rem;
-	margin-right: 3rem;
-}
-#subpageHeader {
-	font-family: "Henderson BCG Serif Head";
-	font-size: 4.5vw;
-	font-size: 2rem;
-	color: #50798e;
+/* ---------- theme tokens ---------- */
+:root {
+	--font-serif-head: "Henderson BCG Serif Head";
+	--font-sans: "Henderson BCG Sans";
+	--color-brand: #50798e;
+	--color-text: #000;
+	--color-muted: #6a6a6a;
 }
 
-#subpageURL,
-.subpageText,
+/* ---------- shared spacing ---------- */
+:is(#subpageHeader, .subpageText, #subpageURL, li, h3, h4) {
+	margin-inline: 3rem;
+}
+
+/* lists */
+ul {
+	margin-inline-start: 1.5rem;
+	padding: 0;
+}
 li {
-	font-family: "Henderson BCG Sans";
-	font-size: 1rem;
-	color: #000000;
+	padding-block-end: 0.5rem;
+}
+ul li p {
+	margin-block-start: 0;
 }
 
-#subpageURL a {
-	color: #000;
+/* ---------- headings & text ---------- */
+#subpageHeader {
+	font-family: var(--font-serif-head);
+	font-size: 2rem; /* removed duplicate 4.5vw override */
+	color: var(--color-brand);
 }
-#subpageURL a:visited {
-	color: #000;
-}
-#subpageURL a:hover {
-	color: #50798e;
+
+:is(#subpageURL, .subpageText, li) {
+	font-family: var(--font-sans);
+	font-size: 1rem;
+	color: var(--color-text);
 }
 
 h3 {
-	font-family: "Henderson BCG Serif Head";
+	font-family: var(--font-serif-head);
 	font-size: 1rem;
-	color: #6a6a6a;
+	color: var(--color-muted);
 }
 
 h4 {
 	font-size: 1.5rem;
 }
-ul {
-	margin-left: 1.5rem;
-	padding: 0;
-}
-p b,
-li b {
-	font-family: "Henderson BCG Serif Head";
+
+/* bold emphasis inside p & li */
+:is(p, li) b {
+	font-family: var(--font-serif-head);
 	font-weight: 800;
 	font-size: 1.2rem;
-	/* font-size: 2vw; */
-	color: black;
-}
-li {
-	padding-bottom: 0.5rem;
+	color: var(--color-text);
 }
 
+/* ---------- links in the URL block ---------- */
+#subpageURL a {
+	color: inherit; /* replaces separate normal/visited */
+	text-decoration: none;
+}
+#subpageURL a:hover {
+	color: var(--color-brand);
+}
+
+/* ---------- image banner ---------- */
 #contener {
 	width: 100vw;
-	height: 50vw;
+	/* height: 50vw;  -> equivalent using aspect-ratio (optional but cleaner) */
+	aspect-ratio: 2 / 1; /* 50vw height on 100vw width */
 	overflow: hidden;
+	display: grid; /* needed for place-items */
 	place-items: center;
 }
+
 #subpageImage {
 	display: block;
+	inline-size: 100%;
+	block-size: 100%;
 	object-fit: cover;
 	object-position: center;
-	width: 100%;
-}
-#contener .valise {
-	/* height: 100%; */
-	width: 40%;
 }
 
-ul li p {
-	margin-top: 0;
+/* variant width inside container */
+#contener .valise {
+	inline-size: 40%;
 }
