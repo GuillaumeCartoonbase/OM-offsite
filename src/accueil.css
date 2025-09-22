@@ -121,10 +121,11 @@ section > .textBlock {
 
 #solar {
 	overflow: hidden;
-	width: 100vw;
+	width: 50vw;
 	max-width: max-content;
 	position: relative;
-	left: -20vw;
-	margin-top: 5rem;
-	margin-bottom: 5rem;
+	/* left: -20vw; */
+	margin: auto;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
