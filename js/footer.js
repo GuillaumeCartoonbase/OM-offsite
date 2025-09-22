@@ -47,9 +47,9 @@ function setFooterActive(opts = {}) {
 		"": "accueilFooter",
 		"/": "accueilFooter",
 		"index.html": "accueilFooter",
-		"programme.html": "programmeFooter",
-		"carte.html": "carteFooter",
-		"participants.html": "participantsFooter",
+		"/pages/programme.html": "programmeFooter",
+		"/pages/carte.html": "carteFooter",
+		"/pages/participants.html": "participantsFooter",
 	};
 
 	const path = window.location.pathname;
