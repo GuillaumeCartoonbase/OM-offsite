@@ -1,7 +1,7 @@
 const stateMachine = "State Machine 1";
 
 const riveInstance = new rive.Rive({
-	src: "assets/rive/bcg_om_offsite.riv", //get rive file
+	src: "/assets/rive/bcg_om_offsite.riv", //get rive file
 	canvas: document.getElementById("rive"), //get correct canvas
 	isTouchScrollEnabled: true,
 	autoplay: true,
@@ -48,49 +48,49 @@ const eventFire = (riveEvent) => {
 		// 	break;
 
 		case "arles":
-			window.location.href = "pages/info/arles.html";
+			window.location.href = "/pages/info/arles.html";
 			break;
 		case "arts":
-			window.location.href = "pages/info/arts.html";
+			window.location.href = "/pages/info/arts.html";
 			break;
 		case "baumaniere":
-			window.location.href = "pages/info/baumaniere-les-baux-de-provence.html";
+			window.location.href = "/pages/info/baumaniere-les-baux-de-provence.html";
 			break;
 		case "lumiere":
-			window.location.href = "pages/info/carrieres-des-lumieres.html";
+			window.location.href = "/pages/info/carrieres-des-lumieres.html";
 			break;
 		case "manville":
-			window.location.href = "pages/info/domaine-de-manville.html";
+			window.location.href = "/pages/info/domaine-de-manville.html";
 			break;
 		case "food":
-			window.location.href = "pages/info/food.html";
+			window.location.href = "/pages/info/food.html";
 			break;
 		case "golf":
-			window.location.href = "pages/info/golf.html";
+			window.location.href = "/pages/info/golf.html";
 			break;
 		case "beaux":
-			window.location.href = "pages/info/histoire-beaux-de-provence.html";
+			window.location.href = "/pages/info/histoire-beaux-de-provence.html";
 			break;
 		case "olive":
-			window.location.href = "pages/info/oliveraie.html";
+			window.location.href = "/pages/info/oliveraie.html";
 			break;
 		case "ousteau":
-			window.location.href = "pages/info/ousteau-de-baumaniere.html";
+			window.location.href = "/pages/info/ousteau-de-baumaniere.html";
 			break;
 		case "photo":
-			window.location.href = "pages/info/photographies-arles.html";
+			window.location.href = "/pages/info/photographies-arles.html";
 			break;
 		case "remy":
-			window.location.href = "pages/info/saint-remy.html";
+			window.location.href = "/pages/info/saint-remy.html";
 			break;
 		case "trail":
-			window.location.href = "pages/info/trail.html";
+			window.location.href = "/pages/info/trail.html";
 			break;
 		case "velo":
-			window.location.href = "pages/info/velo.html";
+			window.location.href = "/pages/info/velo.html";
 			break;
 		case "wine":
-			window.location.href = "pages/info/wine.html";
+			window.location.href = "/pages/info/wine.html";
 			break;
 		default:
 			// console.log(eventName);
