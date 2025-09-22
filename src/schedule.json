@@ -38,21 +38,21 @@
 		"link": ""
 	},
 	{
-		"titre": "Pour les SO - Trek autour des Baux (option 1/3)",
+		"titre": "Pour les SO - Trek autour des Baux <i>(option 1/3)</i>",
 		"time": "9h00 - 12h00",
 		"text": "Randonnée trek de 2 à 3 heures autour des Baux-de-Provence, au cœur des paysages emblématiques des Alpilles et d'une propriété privée d'exception",
 		"day": "friday",
 		"link": ""
 	},
 	{
-		"titre": "Pour les SO - Découverte et création de cyanotype (option 2/3)",
+		"titre": "Pour les SO - Découverte et création de cyanotype <i>(option 2/3)</i>",
 		"time": "9h0 - 12h00",
 		"text": "Atelier cyanotype avec l'artiste Anne Bonnefon, découverte de l'histoire, initiation à la technique de ce procédé photographique ancien, cueillette de végétaux dans les Alpilles, puis réalisation d'une oeuvre papier en format A5 et d'un tote bag",
 		"day": "friday",
 		"link": ""
 	},
 	{
-		"titre": "Pour les SO - Découverte et création de plumasserie (option 3/3)",
+		"titre": "Pour les SO - Découverte et création de plumasserie <i>(option 3/3)</i>",
 		"time": "9h00 - 12h00",
 		"text": "Atelier de plumasserie, animé par l'une des dernières plumassières de France, ayant collaboré avec les plus grandes maisons de haute couture. Découverte de ce savoir-faire rare, suivie de la création de son propre bracelet en plumes",
 		"day": "friday",
@@ -100,28 +100,28 @@
 		"link": ""
 	},
 	{
-		"titre": "Vélo sur les routes des Alpilles (option 1/4)",
+		"titre": "Vélo sur les routes des Alpilles <i>(option 1/4)</i>",
 		"time": "9h00 - 12h00",
 		"text": "<a href='velo.html'>Atelier vélo</a> encadré par des guides spécialisés, en groupes de niveau. Boucle de 2h à 2h30 autour des Baux-de-Provence. Vélos mixtes avec assistance fournis",
 		"day": "saturday",
 		"link": [["Vélo sur les routes des Alpilles", "velo.html"]]
 	},
 	{
-		"titre": "Trail sur le GR6 / Rando trek (option 2/4)",
+		"titre": "Trail sur le GR6 / Rando trek <i>(option 2/4)</i>",
 		"time": "9h00 - 12h30",
 		"text": "<a href='trail.html'>Atelier trail</a> (13/15km) ou rando trek (8/10km) par groupe de niveau. Parcours de 2h à 3h30 dans les Alpilles encadrés par des guides, dont Sandra Martin, double championne du monde de trail par équipe",
 		"day": "saturday",
 		"link": [["Trail sur le GR6 / Rando Trek", "trail.html"]]
 	},
 	{
-		"titre": "Expérience au sein d'une oliveraie (option 3/4)",
+		"titre": "Expérience au sein d'une oliveraie <i>(option 3/4)</i>",
 		"time": "10h30 - 12h30",
 		"text": "<a href='oliveraie.html'>Atelier oléicole</a> au cœur du Domaine Jolibois. Visite de l'oliveraie, découverte de la fabrication artisanale et dégustation des cinq cuvées d'huiles d'olive. Atelier de cueillette possible selon la maturité des olives",
 		"day": "saturday",
 		"link": [["Expérience au sein d'une oliveraie", "oliveraie.html"]]
 	},
 	{
-		"titre": "Arles - Les Rencontres de la Photo (option 4/4)",
+		"titre": "Arles - Les Rencontres de la Photo <i>(option 4/4)</i>",
 		"time": "9h30 - 12h30",
 		"day": "saturday",
 		"text": "Visite guidée exclusive autour des <a href='photographies-arles.html'>Rencontres de la Photo d'Arles</a> animé par Lucie Kerzerho, artiste en résidence et médiatrice culturelle. Possibilité de balade libre à l'issue du parcours",
@@ -153,28 +153,28 @@
 		]
 	},
 	{
-		"titre": "Vélo sur les routes des Alpilles (option 1/5)",
+		"titre": "Vélo sur les routes des Alpilles <i>(option 1/5)</i>",
 		"time": "15h00 - 18h00",
 		"text": "<a href='velo.html'>Atelier vélo</a> encadré par des guides spécialisés, en groupes de niveau. Boucle de 2h à 2h30 autour des Baux-de-Provence. Vélos mixtes avec assistance fournis",
 		"day": "saturday",
 		"link": [["Vélo sur les routes des Alpilles", "velo.html"]]
 	},
 	{
-		"titre": "Trail sur le GR6 / Rando trek (option 2/5)",
+		"titre": "Trail sur le GR6 / Rando trek <i>(option 2/5)</i>",
 		"time": "15h00 - 18h30",
 		"text": "<a href='trail.html'>Atelier trail</a> (13/15km) ou rando trek (8/10km) par groupe de niveau. Parcours de 2h à 3h30 dans les Alpilles encadrés par des guides, dont Sandra Martin, double championne du monde de trail par équipe",
 		"day": "saturday",
 		"link": [["Trail sur le GR6 / Rando Trek", "trail.html"]]
 	},
 	{
-		"titre": "Expérience au sein d'une oliveraie (option 3/5)",
+		"titre": "Expérience au sein d'une oliveraie <i>(option 3/5)</i>",
 		"time": "15h00 - 17h00",
 		"text": "<a href='oliveraie.html'>Atelier oléicole</a> au cœur du Domaine Jolibois. Visite de l'oliveraie, découverte de la fabrication artisanale et dégustation des cinq cuvées d'huiles d'olive. Atelier de cueillette possible selon la maturité des olives",
 		"day": "saturday",
 		"link": [["Expérience au sein d'une oliveraie", "oliveraie.html"]]
 	},
 	{
-		"titre": "Arles - Les Rencontres de la Photo (option 4/5)",
+		"titre": "Arles - Les Rencontres de la Photo <i>(option 4/5)</i>",
 		"time": "15h00 - 18h00",
 		"text": "Visite guidée exclusive autour des <a href='photographies-arles.html'>Rencontres de la Photo d'Arles</a> animé par Lucie Kerzerho, artiste en résidence et médiatrice culturelle. Possibilité de balade libre à l'issue du parcours",
 		"day": "saturday",
@@ -183,7 +183,7 @@
 		]
 	},
 	{
-		"titre": "Arles - Balade photographique (option 5/5)",
+		"titre": "Arles - Balade photographique <i>(option 5/5)</i>",
 		"time": "15h00 - 18h30",
 		"text": "Immersion photographique de 3h animée par Romain Boutillier, photographe professionnel, pour <a href='arles.html'>découvrir Arles</a> autrement et améliorer sa pratique. Possibilité d'emprunter un appareil photo reflex numérique Fujifilm ou d 'utiliser son propre matériel",
 		"day": "saturday",
