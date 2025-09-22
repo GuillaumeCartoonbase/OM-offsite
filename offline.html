@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="robots" content="noindex" />
+		<title>You’re offline</title>
+		<style>
+			:root {
+				--bg: #0b5fff;
+				--fg: #fff;
+				--text: #1b1b1b;
+				--muted: #6b7280;
+			}
+			html,
+			body {
+				height: 100%;
+				margin: 0;
+			}
+			body {
+				display: grid;
+				place-items: center;
+				font-family: system-ui, sans-serif;
+				color: var(--text);
+				background: #f8fafc;
+				padding: 24px;
+			}
+			.card {
+				width: min(560px, 100%);
+				background: #fff;
+				border-radius: 16px;
+				box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+				padding: 24px;
+			}
+			h1 {
+				margin: 0 0 8px;
+				font-size: 1.5rem;
+			}
+			p {
+				margin: 0 0 16px;
+				line-height: 1.5;
+			}
+			.muted {
+				color: var(--muted);
+				font-size: 0.9rem;
+			}
+			.actions {
+				display: flex;
+				gap: 12px;
+				margin-top: 16px;
+				flex-wrap: wrap;
+			}
+			button,
+			a.btn {
+				appearance: none;
+				border: 0;
+				border-radius: 10px;
+				padding: 10px 14px;
+				font-weight: 600;
+				cursor: pointer;
+				text-decoration: none;
+			}
+			button.primary {
+				background: var(--bg);
+				color: var(--fg);
+			}
+			a.btn {
+				background: #e5e7eb;
+				color: #111827;
+			}
+			.status {
+				margin-top: 12px;
+				font-size: 0.9rem;
+			}
+			.illustration {
+				margin-bottom: 12px;
+				display: flex;
+				justify-content: center;
+			}
+			.illustration svg {
+				width: 72px;
+				height: 72px;
+			}
+		</style>
+	</head>
+	<body>
+		<main class="card" role="main" aria-live="polite">
+			<div class="illustration" aria-hidden="true">
+				<!-- tiny inline SVG to avoid external requests -->
+				<svg
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="#0b5fff"
+					stroke-width="1.5"
+				>
+					<path d="M3 12a9 9 0 0 1 18 0" />
+					<path d="M5 12a7 7 0 0 1 14 0" opacity=".6" />
+					<path d="M8 12a4 4 0 0 1 8 0" opacity=".35" />
+					<path d="M12 20v-4" />
+					<circle cx="12" cy="16" r="1.5" />
+				</svg>
+			</div>
+			<h1>It looks like you’re offline</h1>
+			<p>We couldn’t load this page without an internet connection.</p>
+
+			<div class="actions">
+				<button class="primary" id="retry">Try again</button>
+				<a class="btn" href="/" id="home">Go to home</a>
+			</div>
+
+			<p class="status muted" id="status">
+				Tip: we’ll auto-retry when you’re back online.
+			</p>
+
+			<!-- Optional: list a few pages you know are cached -->
+			<!-- <ul>
+      <li><a href="/articles/">Articles</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul> -->
+		</main>
+
+		<script>
+			// Retry the original URL (if available), else reload
+			const original =
+				new URLSearchParams(location.search).get("from") || location.href;
+			document
+				.getElementById("retry")
+				.addEventListener("click", () => location.replace(original));
+
+			// If/when we’re back online, try to reload automatically
+			function update() {
+				const el = document.getElementById("status");
+				if (navigator.onLine) {
+					el.textContent = "Back online — reloading…";
+					// Short delay for connectivity to settle
+					setTimeout(() => location.replace(original), 400);
+				} else {
+					el.textContent =
+						"Still offline. We’ll reload once the connection returns.";
+				}
+			}
+			window.addEventListener("online", update);
+			window.addEventListener("offline", update);
+			update();
+
+			// Optional: if your SW rewrites navigations to /offline.html,
+			// append ?from=<encoded-original-url> when responding. Example in SW:
+			// return caches.match('/offline.html').then(p => new Response(p.body, {headers: p.headers}));
+			// But better: use Response.redirect('/offline.html?from=' + encodeURIComponent(request.url))
+		</script>
+	</body>
+</html>
