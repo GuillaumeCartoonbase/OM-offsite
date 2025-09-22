@@ -1,6 +1,6 @@
 let peopleData = [];
 // Fetching JSON data from a file
-fetch("src/people.json")
+fetch("data/people.json")
 	.then((response) => response.json())
 	.then((data) => {
 		// Sort the data alphabetically by person's name

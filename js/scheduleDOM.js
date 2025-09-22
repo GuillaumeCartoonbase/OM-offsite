@@ -2,7 +2,7 @@
 let scheduleData = [];
 
 // Fetch JSON then render
-fetch("src/schedule.json")
+fetch("data/schedule.json")
 	.then((response) => response.json())
 	.then((data) => {
 		scheduleData = data;
