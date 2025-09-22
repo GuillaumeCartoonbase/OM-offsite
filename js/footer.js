@@ -13,20 +13,20 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 const ICONS = {
 	accueilFooter: {
-		selected: "img/accueil green.png",
-		notSelected: "img/accueil gris.png",
+		selected: "images/accueil green.png",
+		notSelected: "images/accueil gris.png",
 	},
 	programmeFooter: {
-		selected: "img/programme green.png",
-		notSelected: "img/programme gris.png",
+		selected: "images/programme green.png",
+		notSelected: "images/programme gris.png",
 	},
 	carteFooter: {
-		selected: "img/carte green.png",
-		notSelected: "img/carte gris.png",
+		selected: "images/carte green.png",
+		notSelected: "images/carte gris.png",
 	},
 	participantsFooter: {
-		selected: "img/participants green.png",
-		notSelected: "img/participants gris.png",
+		selected: "images/participants green.png",
+		notSelected: "images/participants gris.png",
 	},
 };
 
