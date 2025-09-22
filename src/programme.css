@@ -41,9 +41,15 @@ h4,
 .schedTitle {
 	font-size: 6vw;
 }
+h4 i {
+	font-size: 4.5vw;
+}
 @media screen and (min-width: 600px) {
 	h4.schedTitle {
 		font-size: 2rem;
+	}
+	h4 i {
+		font-size: 1.5rem;
 	}
 }
 h4 a {
