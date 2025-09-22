@@ -1,7 +1,7 @@
 const stateMachine = "State Machine 1";
 
 const riveInstance = new rive.Rive({
-	src: "src/bcg_om_offsite.riv", //get rive file
+	src: "assets/rive/bcg_om_offsite.riv", //get rive file
 	canvas: document.getElementById("rive"), //get correct canvas
 	isTouchScrollEnabled: true,
 	autoplay: true,
