@@ -23,3 +23,10 @@ if (form) {
 
 // Listen for input changes on the search field
 searchInput.addEventListener("input", filterItems);
+
+document.addEventListener("click", (e) => {
+	const link = e.target.closest("a");
+	if (!link) return;
+	searchInput.value = "";
+	filterItems();
+});
