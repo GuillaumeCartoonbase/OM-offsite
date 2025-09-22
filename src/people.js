@@ -55,10 +55,16 @@ function displayPeople() {
 		const soElement = document.createElement("p");
 		if (person.so && person.so.toLowerCase() !== "n/a") {
 			soElement.append("SO de ");
-			const soLink = document.createElement("a");
-			soLink.textContent = person.so;
-			soLink.href = `#${slugify(person.so)}`; // must match the target's id
-			soElement.appendChild(soLink);
+			if (person.name != "ROBERT Cecile") {
+				const soLink = document.createElement("a");
+				soLink.textContent = person.so;
+				soLink.href = `#${slugify(person.so)}`; // must match the target's id
+				soElement.appendChild(soLink);
+			} else {
+				const soSpan = document.createElement("span");
+				soSpan.textContent = person.so;
+				soElement.appendChild(soSpan);
+			}
 		}
 
 		personDiv.append(photoElement, nameElement, titleElement, soElement);
