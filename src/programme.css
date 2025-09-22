@@ -159,12 +159,16 @@ li.subset a {
 	width: 50vw;
 }
 
-#imgBag,
 #imgCocktail,
 #imgLandscape,
 #imgRestaurant {
 	margin-top: 12rem;
 	margin-bottom: 9rem;
+}
+#imgBag {
+	width: 40vw;
+	margin-top: 5rem;
+	margin-bottom: 3rem;
 }
 
 #imgLandscape {
