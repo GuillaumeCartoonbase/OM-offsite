@@ -11,14 +11,8 @@ function filterItems() {
 	Array.from(items).forEach((item) => {
 		// Get the name text (only from the <h2> element in each person div)
 		const nameElement = item.querySelector("h2");
-		const itemName = nameElement.textContent.toLowerCase(); // Get the text of each name (case-insensitive)
-
-		// If the name matches the query, show it, otherwise hide it
-		if (itemName.includes(query)) {
-			item.style.display = "block";
-		} else {
-			item.style.display = "none";
-		}
+		const itemName = (nameElement?.textContent || "").toLowerCase();
+		item.style.display = itemName.includes(query) ? "" : "none";
 	});
 }
 
