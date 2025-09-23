@@ -241,14 +241,7 @@
 		"name": "CAIROLE Stephane",
 		"title": "Managing Director and Senior Partner",
 		"photoURL": "/images/gallery/CairoleStephane.jpg",
-		"so": "CAIROLE Laurence",
-		"mention": ""
-	},
-	{
-		"name": "CAIROLE Laurence",
-		"title": "SO",
-		"photoURL": "/images/gallery/CairoleLaurence.jpg",
-		"so": "CAIROLE Stephane",
+		"so": "",
 		"mention": ""
 	},
 	{
