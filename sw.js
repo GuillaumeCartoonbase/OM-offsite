@@ -1,5 +1,5 @@
 // sw.js
-const CACHE_NAME = "app-cache-v3";
+const CACHE_NAME = "app-cache-v4";
 const PRECACHE = [
 	"/", // optional if your root HTML rarely changes
 	"/offline.html", // <-- make sure this file exists
