@@ -88,10 +88,13 @@ ul li b.valise {
 	font-size: 2.5vw;
 }
 #goBack,
-#goBack a:visited {
+#goBack a:visited,
+p > a,
+p > a:visited {
 	color: var(--color-brand);
 }
 #goBack:hover,
-#goBack a:hover {
+#goBack a:hover,
+p > a:hover {
 	color: black;
 }
