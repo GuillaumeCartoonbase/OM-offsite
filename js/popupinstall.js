@@ -1,5 +1,5 @@
 (() => {
-	const MODAL_KEY = "firstVisitSeen_v2"; // bump version to show again after updates
+	const MODAL_KEY = "firstVisitSeen_v3"; // bump version to show again after updates
 	const modal = document.getElementById("firstVisitModal");
 	const okBtn = document.getElementById("fvm-ok");
 	const closeBtn = modal?.querySelector(".fvm-close");
