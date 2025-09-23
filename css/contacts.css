@@ -24,7 +24,8 @@ p.contactPhone {
 
 @media screen and (min-width: 600px) {
 	p.contactName,
-	p.contactPhone {
+	p.contactPhone,
+	a {
 		font-size: 1.5rem;
 	}
 }
@@ -34,13 +35,19 @@ p.contactName {
 	font-style: italic;
 	font-weight: 100;
 }
-p.contactPhone {
+p.contactPhone,
+a {
 	font-family: "Henderson BCG Sans";
 }
 @media screen and (min-width: 650px) {
 	.contactInfo {
 		width: 30rem;
 	}
+}
+p a,
+p a:visited {
+	color: black;
+	text-decoration: none;
 }
 
 #contacts h3 {

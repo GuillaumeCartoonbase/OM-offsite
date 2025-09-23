@@ -1,48 +1,52 @@
 [
 	{
 		"name": "Karin Jannier",
-		"phone": "+33 6 87 77 03 84",
+		"phone": "<a href='tel:+33 6 87 77 03 84'>+33 6 87 77 03 84</a>",
 		"header": "contactBCG"
 	},
 	{
 		"name": "Thanh Lasowy",
-		"phone": "+33 7 87 50 23 19",
+		"phone": "<a href='tel:+33 7 87 50 23 19'>+33 7 87 50 23 19</a>",
 		"header": "contactBCG"
 	},
 	{
 		"name": "Antoine Gourévitch",
-		"phone": "+33 6 15 17 11 62",
+		"phone": "<a href='tel:+33 6 15 17 11 62'>+33 6 15 17 11 62</a>",
 		"header": "contactBCG"
 	},
 	{
 		"name": "William Quévatre",
-		"phone": "+ 33 6 25 83 38 98",
+		"phone": "<a href='tel:+33 6 25 83 38 98'>+33 6 25 83 38 98</a>",
 		"header": "contactAAA"
 	},
 	{
 		"name": "Bruno Aubigny",
-		"phone": "+33 6 09 83 79 19",
+		"phone": "<a href='tel:+33 6 09 83 79 19'>+33 6 09 83 79 19</a>",
 		"header": "contactAAA"
 	},
-	{ "name": "Hôtel", "phone": "+33 4 90 54 33 07", "header": "contactB" },
+	{
+		"name": "Hôtel",
+		"phone": "<a href='tel:+33 4 90 54 33 07'>+33 4 90 54 33 07</a>",
+		"header": "contactB"
+	},
 	{
 		"name": "Spa (10h - 20h)",
-		"phone": "+33 4 90 54 24 67",
+		"phone": "<a href='tel:+33 4 90 54 24 67'>+33 4 90 54 24 67</a>",
 		"header": "contactB"
 	},
 	{
 		"name": "Hôtel",
-		"phone": "+33 4 90 54 40 20",
+		"phone": "<a href='tel:+33 4 90 54 40 20'>+33 4 90 54 40 20</a>",
 		"header": "contactDM"
 	},
 	{
 		"name": "Golf",
-		"phone": "+33 4 90 54 86 26",
+		"phone": "<a href='tel:+33 4 90 54 86 26'>+33 4 90 54 86 26</a>",
 		"header": "contactDM"
 	},
 	{
 		"name": "Spa (10h - 20h)",
-		"phone": "+33 4 90 54 86 29",
+		"phone": "<a href='tel:+33 4 90 54 86 29'>+33 4 90 54 86 29</a>",
 		"header": "contactDM"
 	}
 ]

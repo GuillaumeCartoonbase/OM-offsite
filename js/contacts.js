@@ -24,7 +24,7 @@ function displayContacts() {
 
 		const phone = document.createElement("p");
 		phone.classList.add("contactPhone");
-		phone.textContent = contact.phone;
+		phone.innerHTML = contact.phone;
 
 		info.append(name, phone);
 
