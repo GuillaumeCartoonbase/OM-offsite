@@ -47,7 +47,7 @@ a {
 p a,
 p a:visited {
 	color: black;
-	text-decoration: none;
+	text-decoration-color: #ddd;
 }
 
 #contacts h3 {
@@ -72,10 +72,6 @@ p a:visited {
 	section#contacts {
 		margin-left: 2rem;
 		margin-right: 1rem;
-	}
-	p.contactName,
-	p.contactPhone {
-		/* font-size: 1.1em; */
 	}
 
 	#contacts > p {
