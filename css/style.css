@@ -1,0 +1,43 @@
+@font-face {
+	font-family: "Henderson BCG Sans";
+	src: url("/fonts/BCGHenSansRegular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Henderson BCG Serif Head";
+	src: url("/fonts/BCGHenSerifHead.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Henderson BCG Serif Bold";
+	src: url("/fonts/BCGHenSerifBold.ttf") format("truetype");
+}
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: white;
+	font-family: "Henderson BCG Sans";
+	padding-bottom: 200px;
+}
+
+.has-text-centered {
+	text-align: center;
+}
+
+section {
+	/* margin-bottom: 100px; */
+}
+
+#bigMap {
+	width: 90%;
+	display: block;
+	margin: auto;
+}
+
+#cypres {
+	display: block;
+	margin: auto;
+	width: 30%;
+	margin-top: 10rem;
+}

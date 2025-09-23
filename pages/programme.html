@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Programme</title>
+		<link rel="stylesheet" href="/css/style.css" />
+		<link rel="stylesheet" href="/css/programme.css" />
+		<link rel="stylesheet" href="/css/header.css" />
+		<link rel="stylesheet" href="/css/footer.css" />
+	</head>
+	<body>
+		<header id="programmeHeader">
+			<img src="/images/programme white.png" alt="picto d'une horloge" />
+			<h1>Programme</h1>
+		</header>
+		<section id="days">
+			<form action="#day1">
+				<input class="day" type="submit" value="Jeu 25" />
+			</form>
+			<div class="separator"></div>
+			<form action="#day2">
+				<input class="day" type="submit" value="Ven 26" />
+			</form>
+			<div class="separator"></div>
+			<form action="#day3">
+				<input class="day" type="submit" value="Sam 27" />
+			</form>
+			<div class="separator"></div>
+			<form action="#day4">
+				<input class="day" type="submit" value="Dim 28" />
+			</form>
+		</section>
+
+		<img
+			id="imgBag"
+			src="/images/voyage.png"
+			alt="Illustration de sac de voyages"
+		/>
+		<h2 id="day1">Jeudi 25</h2>
+		<ul id="thursday" class="timelineList"></ul>
+
+		<div id="imgLandscape"></div>
+
+		<h2 id="day2">Vendredi 26</h2>
+		<ul id="friday" class="timelineList"></ul>
+
+		<div id="imgRestaurant"></div>
+		<!-- <img
+			src="/images/resto2.png"
+			alt="Illustration d'une terrasse de restaurant"
+		/> -->
+		<h2 id="day3">Samedi 27</h2>
+		<ul id="saturday" class="timelineList"></ul>
+
+		<img
+			id="imgCocktail"
+			src="/images/cocktail.png"
+			alt="Illustration d'un cockail avec une branche de romarin et un citron"
+		/>
+		<h2 id="day4">Dimanche 28</h2>
+		<ul id="sunday" class="timelineList"></ul>
+
+		<img
+			id="cypres"
+			src="/images/Cypres_v2.png"
+			alt="Illustration d'un groupe de cypres"
+		/>
+
+		<footer></footer>
+
+		<script src="/js/footer.js"></script>
+		<script src="/js/scheduleDOM.js"></script>
+		<script src="/js/protection.js"></script>
+	</body>
+</html>

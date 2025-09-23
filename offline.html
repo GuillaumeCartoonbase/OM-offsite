@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="robots" content="noindex" />
+		<title>You're offline</title>
+		<style>
+			:root {
+				--brand: #536246;
+				--text: #111827;
+				--muted: #6b7280;
+				--card: #fff;
+				--bg: #f8fafc;
+			}
+			* {
+				box-sizing: border-box;
+			}
+			html,
+			body {
+				height: 100%;
+				margin: 0;
+			}
+			body {
+				display: grid;
+				place-items: center;
+				background: var(--bg);
+				color: var(--text);
+				font: 16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+					Cantarell, Noto Sans, sans-serif;
+				padding: 24px;
+			}
+			.card {
+				width: min(560px, 100%);
+				background: var(--card);
+				border-radius: 16px;
+				box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+				padding: 24px;
+			}
+			header {
+				display: flex;
+				align-items: center;
+				gap: 12px;
+				margin-bottom: 6px;
+			}
+			h1 {
+				margin: 0;
+				font-size: 1.25rem;
+			}
+			p {
+				margin: 8px 0 0;
+			}
+			.muted {
+				color: var(--muted);
+				font-size: 0.95rem;
+			}
+			.actions {
+				display: flex;
+				gap: 12px;
+				margin-top: 16px;
+				flex-wrap: wrap;
+			}
+			button,
+			a.btn {
+				appearance: none;
+				border: 0;
+				border-radius: 10px;
+				padding: 10px 14px;
+				font-weight: 600;
+				text-decoration: none;
+				cursor: pointer;
+			}
+			button.primary {
+				background: var(--brand);
+				color: #fff;
+			}
+			a.btn {
+				background: #e5e7eb;
+				color: #111827;
+			}
+			.status {
+				margin-top: 12px;
+			}
+		</style>
+	</head>
+	<body>
+		<main class="card" role="main" aria-live="polite">
+			<header>
+				<!-- tiny inline icon -->
+				<svg
+					width="28"
+					height="28"
+					viewBox="0 0 24 24"
+					fill="none"
+					aria-hidden="true"
+				>
+					<circle cx="12" cy="12" r="9" stroke="#0b5fff" stroke-width="1.6" />
+					<path d="M8 12a4 4 0 0 1 8 0" stroke="#0b5fff" stroke-width="1.6" />
+				</svg>
+				<h1>You're offline</h1>
+			</header>
+
+			<p>We couldn’t load this page without an internet connection.</p>
+			<p class="muted">
+				We’ll try again automatically when you’re back online.
+			</p>
+
+			<div class="actions">
+				<button class="primary" id="retry">Try again</button>
+				<a class="btn" href="/">Go to home</a>
+			</div>
+
+			<p id="status" class="status muted" role="status"></p>
+		</main>
+
+		<script>
+			// If the SW added ?from=<original-url>, use it for Retry.
+			const params = new URLSearchParams(location.search);
+			const original = params.get("from") || location.href;
+
+			document.getElementById("retry").addEventListener("click", () => {
+				// replace instead of history push to avoid back/forward loops
+				location.replace(original);
+			});
+
+			function update() {
+				const el = document.getElementById("status");
+				if (navigator.onLine) {
+					el.textContent = "Back online — reloading…";
+					setTimeout(() => location.replace(original), 400);
+				} else {
+					el.textContent =
+						"Still offline. We’ll reload once the connection returns.";
+				}
+			}
+			window.addEventListener("online", update);
+			window.addEventListener("offline", update);
+			update();
+		</script>
+	</body>
+</html>

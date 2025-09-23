@@ -1,0 +1,200 @@
+:root {
+	--circlepad: 3rem;
+}
+@media screen and (min-width: 600px) {
+	:root {
+		--circlepad: 6rem;
+	}
+}
+
+#programmeHeader {
+	background-color: #85a9a0;
+	color: #ffffff;
+}
+#mapHeader {
+	background-color: #d8ebab;
+	color: #5b694f;
+}
+#participantsHeader {
+	background-color: #50798e;
+	color: #ffffff;
+}
+
+.schedule {
+	color: #85a9a0;
+	font-family: "Henderson BCG Serif Head";
+	font-weight: 100;
+	/* font-style: italic; */
+	font-size: 1.5rem;
+	margin: 0;
+	margin-left: var(--circlepad);
+}
+
+.schedTitle {
+	font-family: "Henderson BCG Serif Head";
+	font-weight: 100;
+	color: #000000;
+	margin: 0;
+	margin-left: var(--circlepad);
+}
+h4,
+.schedTitle {
+	font-size: 6vw;
+}
+h4 i {
+	font-size: 4.5vw;
+}
+@media screen and (min-width: 600px) {
+	h4.schedTitle {
+		font-size: 2rem;
+	}
+	h4 i {
+		font-size: 1.5rem;
+	}
+}
+h4 a {
+	text-decoration: none;
+	color: inherit;
+	text-decoration: underline solid #aaaaaa 1px;
+	text-underline-offset: 4px;
+}
+h4 a:hover {
+	color: #85a9a0;
+}
+
+.schedText {
+	font-family: "Henderson BCG Serif Head";
+	color: #6a6a6a;
+	font-size: 3.5vw;
+	margin: 0;
+	margin-left: var(--circlepad);
+	margin-top: 1.5rem;
+}
+@media screen and (min-width: 600px) {
+	.schedText {
+		font-size: 1.5rem;
+	}
+}
+
+h2 {
+	color: #85a9a0;
+	font-family: "Henderson BCG Serif Head";
+	font-weight: 100;
+	text-transform: uppercase;
+	margin-left: var(--circlepad);
+	padding-bottom: 1rem;
+	border-bottom: 2px solid#e4e4e4;
+	width: 75vw; /* 75% of the viewport width */
+}
+
+h2 {
+	font-size: 10vw;
+}
+@media screen and (min-width: 600px) {
+	h2 {
+		font-size: 3.5rem;
+	}
+}
+
+p a {
+	color: #85a9a0;
+}
+
+.timelineList {
+	--circle: 1.3rem; /* dot size */
+	--line: 2px; /* line thickness */
+	--gap: 6rem; /* vertical gap between items */
+
+	list-style: none;
+	position: relative;
+	padding-left: var(--circlepad);
+}
+
+li.timeline {
+	position: relative;
+	margin-right: 3rem;
+	margin-bottom: var(--gap); /* space to next item */
+}
+
+/* Circle */
+li.timeline::before {
+	content: "";
+	position: absolute;
+	left: 0rem; /* align with line */
+	top: 0;
+	width: var(--circle);
+	height: var(--circle);
+	border: 2px solid #85a9a0;
+	border-radius: 50%;
+	background: #fff;
+}
+
+/* Line that goes INTO the next item */
+li.timeline::after {
+	content: "";
+	position: absolute;
+	z-index: -100;
+	left: calc(var(--circle) / 2 + var(--line) / 2); /*move radius minus stroke*/
+	top: calc(var(--circle) + 0.2rem); /* start just below the circle */
+	bottom: calc(var(--gap) * -1); /* extend past this li into the next */
+	width: var(--line);
+	background: #e4e4e4;
+}
+
+/* Last item: no line, no extra gap */
+li.timeline:last-child {
+	margin-bottom: 0;
+}
+li.timeline:last-child::after {
+	content: none;
+}
+
+li.subset {
+	margin-left: calc(var(--circlepad) / 2);
+	list-style: inside;
+}
+li.subset a {
+	color: #85a9a0;
+	font-size: 1rem;
+}
+
+#imgBag,
+#imgCocktail {
+	display: block;
+	margin: auto;
+	width: 50vw;
+}
+
+#imgCocktail,
+#imgLandscape,
+#imgRestaurant {
+	margin-top: 12rem;
+	margin-bottom: 9rem;
+}
+#imgBag {
+	width: 40vw;
+	margin-top: 5rem;
+	margin-bottom: 3rem;
+}
+
+#imgLandscape {
+	width: 100%;
+	aspect-ratio: 20/9;
+	/* height: 30rem; */
+	background: url("../images/frise\ paysage.png") no-repeat;
+	background-size: 120%;
+	background-position: -30% 0%;
+	transform: scaleX(-1);
+}
+
+#imgRestaurant {
+	width: 100%;
+	aspect-ratio: 1.32/1;
+	background: url("../images/resto2.png") no-repeat;
+	background-size: 90%;
+	background-position: 100% 0%;
+}
+
+#imgCocktail {
+	margin-left: 5rem;
+}
