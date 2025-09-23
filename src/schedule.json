@@ -100,32 +100,38 @@
 		"link": ""
 	},
 	{
-		"titre": "Vélo sur les routes des Alpilles <i>(option 1/4)</i>",
+		"titre": "Vélo sur les routes des Alpilles <i>(option 1/5)</i>",
 		"time": "9h00 - 12h00",
 		"text": "<a href='velo.html'>Atelier vélo</a> encadré par des guides spécialisés, en groupes de niveau. Boucle de 2h à 2h30 autour des Baux-de-Provence. Vélos mixtes avec assistance fournis",
 		"day": "saturday",
 		"link": [["Vélo sur les routes des Alpilles", "velo.html"]]
 	},
 	{
-		"titre": "Trail sur le GR6 / Rando trek <i>(option 2/4)</i>",
+		"titre": "Trail sur le GR6 / Rando trek <i>(option 2/5)</i>",
 		"time": "9h00 - 12h30",
 		"text": "<a href='trail.html'>Atelier trail</a> (13/15km) ou rando trek (8/10km) par groupe de niveau. Parcours de 2h à 3h30 dans les Alpilles encadrés par des guides, dont Sandra Martin, double championne du monde de trail par équipe",
 		"day": "saturday",
 		"link": [["Trail sur le GR6 / Rando Trek", "trail.html"]]
 	},
 	{
-		"titre": "Expérience au sein d'une oliveraie <i>(option 3/4)</i>",
+		"titre": "Expérience au sein d'une oliveraie <i>(option 3/5)</i>",
 		"time": "10h30 - 12h30",
 		"text": "<a href='oliveraie.html'>Atelier oléicole</a> au cœur du Domaine Jolibois. Visite de l'oliveraie, découverte de la fabrication artisanale et dégustation des cinq cuvées d'huiles d'olive. Atelier de cueillette possible selon la maturité des olives",
 		"day": "saturday",
 		"link": [["Expérience au sein d'une oliveraie", "oliveraie.html"]]
 	},
 	{
-		"titre": "Arles - Les Rencontres de la Photo <i>(option 4/4)</i>",
+		"titre": "Arles - Les Rencontres de la Photo <i>(option 4/5)</i>",
+		"time": "9h00 - 12h30",
+		"day": "saturday",
+		"text": "Visite libre des <a href='photographies-arles.html'>Rencontres de la Photo d'Arles</a> et découverte en autonomie des expositions du centre-ville",
+		"link": []
+	},
+	{
+		"titre": "Arles – Visite de la Fondation Luma (option 5/5)",
 		"time": "9h30 - 12h30",
 		"day": "saturday",
-		"text": "Visite guidée exclusive autour des <a href='photographies-arles.html'>Rencontres de la Photo d'Arles</a> animé par Lucie Kerzerho, artiste en résidence et médiatrice culturelle. Possibilité de balade libre à l'issue du parcours",
-		"link": []
+		"text": "Visite confidentielle des expositions de la <a href='/pages/info/luma.htm'>Fondation Luma</a> animée par une médiatrice"
 	},
 	{
 		"titre": "Activités libres",
