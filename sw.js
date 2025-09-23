@@ -1,84 +1,94 @@
-// sw.js
-const CACHE_NAME = "app-cache-v4";
+const CACHE = "app-cache-v3";
 const PRECACHE = [
-	"/", // optional if your root HTML rarely changes
-	"/offline.html", // <-- make sure this file exists
-	// add '/styles.css', '/main.js', and key icons if you want them guaranteed offline
-	"assets",
-	"css",
-	"data",
-	"fonts",
-	"icons",
-	"images",
-	"js",
-	"pages",
+	"/", // only if your root HTML is stable
+	"/offline.html",
+	"/css/accueil.css",
+	"/css/carte.css",
+	"/css/contacts.css",
+	"/css/footer.css",
+	"/css/header.css",
+	"/css/participants.css",
+	"/css/programme.css",
+	"/css/styles.css",
+	"/css/subpages.css",
+	"/js/button.js",
+	"/js/code.js",
+	"/js/contacts.js",
+	"/js/footer.js",
+	"/js/goback.js",
+	"/js/people.js",
+	"/js/protection.js",
+	"/js/rive.js",
+	"/js/scheduleDOM.js",
+	"/js/search.js",
+	"/data/contacts.json",
+	"/data/people.json",
+	"/data/schedule.json",
+	"/assets/rive/bcg_om_offsite.riv",
+	"/icons/icon-192.png",
+	"/icons/icon-512.png",
+	"/pages/info/arles.html",
+	"/pages/info/arts.html",
+	"/pages/info/baumaniere-les-baux-de-provence.html",
+	"/pages/info/carrieres-des-lumieres.html",
+	"/pages/info/domaine-de-manville.html",
+	"/pages/info/food.html",
+	"/pages/info/golf.html",
+	"/pages/info/histoire-beaux-de-provence.html",
+	"/pages/info/luma.html",
+	"/pages/info/oliveraie.html",
+	"/pages/info/ousteau-de-baumaniere.html",
+	"/pages/info/photographies-arles.html",
+	"/pages/info/saint-remy.html",
+	"/pages/info/trail.html",
+	"/pages/info/valise.html",
+	"/pages/info/velo.html",
+	"/pages/info/wine.html",
+	"/pages/carte.html",
+	"/pages/footer.html",
+	"/pages/participants.html",
+	"/pages/programme.html",
 ];
 
-self.addEventListener("install", (event) => {
-	event.waitUntil(
-		caches.open(CACHE_NAME).then((cache) => cache.addAll(PRECACHE))
-	);
+self.addEventListener("install", (e) => {
+	e.waitUntil(caches.open(CACHE).then((c) => c.addAll(PRECACHE)));
 	self.skipWaiting();
 });
 
-self.addEventListener("activate", (event) => {
-	event.waitUntil(
+self.addEventListener("activate", (e) => {
+	e.waitUntil(
 		caches
 			.keys()
 			.then((keys) =>
-				Promise.all(
-					keys.map((k) => (k !== CACHE_NAME ? caches.delete(k) : null))
-				)
+				Promise.all(keys.map((k) => (k !== CACHE ? caches.delete(k) : null)))
 			)
 	);
 	self.clients.claim();
 });
 
-// Handle navigations: network first; if it fails, show offline.html?from=<original>
-self.addEventListener("fetch", (event) => {
-	const req = event.request;
+// Navigations: network-first, fallback offline
+// Everything else (same-origin GET): cache-first and save for offline
+self.addEventListener("fetch", (e) => {
+	const req = e.request;
+	if (req.method !== "GET") return;
+
 	if (req.mode === "navigate") {
-		event.respondWith(
-			fetch(req).catch(() => {
-				const offlineUrl = "/offline.html?from=" + encodeURIComponent(req.url);
-				return caches
-					.match(offlineUrl)
-					.then(
-						(m) =>
-							m ||
-							caches.match("/offline.html").then((resp) => {
-								// Append ?from on the fly (keeps it simple and cache-friendly)
-								if (!resp) return new Response("Offline", { status: 503 });
-								const headers = new Headers(resp.headers);
-								return resp
-									.blob()
-									.then((body) => new Response(body, { headers, status: 200 }));
-							})
-					)
-					.then((r) => r || caches.match("/offline.html"));
-			})
-		);
+		e.respondWith(fetch(req).catch(() => caches.match("/offline.html")));
 		return;
 	}
 
-	// Static assets: cache-first with background update
-	event.respondWith(
-		caches.match(req).then((cached) => {
-			const fetchPromise = fetch(req)
-				.then((res) => {
-					if (
-						res &&
-						res.ok &&
-						req.method === "GET" &&
-						req.url.startsWith(self.location.origin)
-					) {
-						const copy = res.clone();
-						caches.open(CACHE_NAME).then((cache) => cache.put(req, copy));
-					}
-					return res;
-				})
-				.catch(() => cached);
-			return cached || fetchPromise;
-		})
-	);
+	// Cache-first for same-origin assets/pages
+	const sameOrigin = new URL(req.url).origin === self.location.origin;
+	if (sameOrigin) {
+		e.respondWith(
+			caches.match(req).then(
+				(cached) =>
+					cached ||
+					fetch(req).then((res) => {
+						if (res.ok) caches.open(CACHE).then((c) => c.put(req, res.clone()));
+						return res;
+					})
+			)
+		);
+	}
 });
