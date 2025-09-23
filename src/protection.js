@@ -1,4 +1,4 @@
-const SITE_PASSWORD = "Fedora2025";
+const SITE_PASSWORD = "OM2025";
 function grantAccess() {
 	localStorage.setItem("site_access", "granted");
 	document.body.style.display = "block"; // show content
