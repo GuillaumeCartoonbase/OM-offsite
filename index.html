@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="/css/accueil.css" />
 		<link rel="stylesheet" href="/css/footer.css" />
 		<link rel="stylesheet" href="/css/contacts.css" />
+		<link rel="stylesheet" href="/css/popupinstall.css" />
 		<link rel="manifest" href="/manifest.json" />
 		<meta name="theme-color" content="#536246" />
 		<link rel="apple-touch-icon" href="/icons/icon-192.png" />
@@ -22,6 +23,15 @@
 	</head>
 
 	<body>
+		<!-- First-visit popup -->
+		<dialog id="firstVisitModal" aria-labelledby="fvm-title">
+			<button class="fvm-close" aria-label="Close" type="button">×</button>
+			<img src="images/baumaniere 2.png" alt="Welcome illustration" />
+			<h2 id="fvm-title">Welcome!</h2>
+			<p>Install the app or explore the schedule—have fun 👋</p>
+			<button id="fvm-ok" type="button" class="fvm-ok">OK</button>
+		</dialog>
+
 		<section ID="welcome">
 			<img
 				src="/images/OM-Offsite-Logo.svg"
@@ -129,6 +139,7 @@
 		<script src="/js/button.js"></script>
 		<script src="/js/contacts.js"></script>
 		<script src="/js/protection.js"></script>
+		<script src="/js/popupinstall.js"></script>
 		<script>
 			if ("serviceWorker" in navigator) {
 				window.addEventListener("load", () => {
