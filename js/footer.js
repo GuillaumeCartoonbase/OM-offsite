@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 		const html = await res.text();
 		document.querySelector("footer").innerHTML = html;
 
-		// Don’t select-all when unknown; default to Accueil
+		// Opt-in: select all footer items on unknown pages
 		setFooterActive({ selectAllOnUnknown: true });
 	} catch (err) {
 		console.error("Error loading footer:", err);
