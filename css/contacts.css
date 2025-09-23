@@ -18,10 +18,16 @@ section#contacts {
 
 p.contactName,
 p.contactPhone {
-	font-size: 1.3em;
+	font-size: 4vw;
 	margin: 0;
 }
 
+@media screen and (min-width: 600px) {
+	p.contactName,
+	p.contactPhone {
+		font-size: 1.5rem;
+	}
+}
 p.contactName {
 	font-family: "Henderson BCG Sans";
 	color: #62a176;
@@ -62,7 +68,7 @@ p.contactPhone {
 	}
 	p.contactName,
 	p.contactPhone {
-		font-size: 1.1em;
+		/* font-size: 1.1em; */
 	}
 
 	#contacts > p {
