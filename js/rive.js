@@ -92,6 +92,9 @@ const eventFire = (riveEvent) => {
 		case "wine":
 			window.location.href = "/pages/info/wine.html";
 			break;
+		case "luma":
+			window.location.href = "/pages/info/luma.html";
+			break;
 		default:
 			// console.log(eventName);
 			break;
