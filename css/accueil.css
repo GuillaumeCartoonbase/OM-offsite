@@ -21,6 +21,8 @@
 
 section > .textBlock {
 	padding: 0 3rem;
+	margin: 0;
+	margin-bottom: 1rem;
 
 	font-family: "Henderson BCG Sans";
 	font-style: normal;
