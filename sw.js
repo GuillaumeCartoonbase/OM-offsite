@@ -1,3 +1,4 @@
+/* sw.js */
 const CACHE = "app-cache-v3";
 const PRECACHE = [
 	"/", // only if your root HTML is stable
@@ -66,12 +67,11 @@ self.addEventListener("activate", (e) => {
 	self.clients.claim();
 });
 
-// Navigations: network-first, fallback offline
-// Everything else (same-origin GET): cache-first and save for offline
 self.addEventListener("fetch", (e) => {
 	const req = e.request;
 	if (req.method !== "GET") return;
 
+	// Navigations: network-first, fallback to offline page
 	if (req.mode === "navigate") {
 		e.respondWith(fetch(req).catch(() => caches.match("/offline.html")));
 		return;
@@ -81,14 +81,28 @@ self.addEventListener("fetch", (e) => {
 	const sameOrigin = new URL(req.url).origin === self.location.origin;
 	if (sameOrigin) {
 		e.respondWith(
-			caches.match(req).then(
-				(cached) =>
-					cached ||
-					fetch(req).then((res) => {
-						if (res.ok) caches.open(CACHE).then((c) => c.put(req, res.clone()));
+			caches.match(req).then((cached) => {
+				if (cached) return cached;
+
+				return fetch(req)
+					.then((res) => {
+						// cache successful same-origin responses
+						if (res && res.ok && res.type === "basic") {
+							const copy = res.clone(); // clone immediately
+							e.waitUntil(caches.open(CACHE).then((c) => c.put(req, copy)));
+						}
 						return res;
 					})
-			)
+					.catch((err) => {
+						// Optional: offline fallback for HTML asset requests
+						if (req.headers.get("accept")?.includes("text/html")) {
+							return caches.match("/offline.html");
+						}
+						// rethrow so the request rejects (no silent failures)
+						throw err; // <-- this replaces the invalid `throw;`
+					});
+			})
 		);
 	}
+	// For cross-origin GETs, do nothing (default network behavior)
 });
