@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 		const html = await res.text();
 		document.querySelector("footer").innerHTML = html;
 
-		// Opt-in: select all footer items on unknown pages
+		// Don’t select-all when unknown; default to Accueil
 		setFooterActive({ selectAllOnUnknown: true });
 	} catch (err) {
 		console.error("Error loading footer:", err);
@@ -43,19 +43,21 @@ function setFooterActive(opts = {}) {
 		ids.map((id) => [id, document.getElementById(id)])
 	);
 
-	const PAGE_TO_ID = {
-		"": "accueilFooter",
+	// Use the full pathname and normalize trailing slash
+	let path = window.location.pathname;
+	if (path.length > 1) path = path.replace(/\/+$/, "");
+
+	const PATH_TO_ID = {
 		"/": "accueilFooter",
-		"index.html": "accueilFooter",
+		"/index.html": "accueilFooter",
 		"/pages/programme.html": "programmeFooter",
 		"/pages/carte.html": "carteFooter",
 		"/pages/participants.html": "participantsFooter",
 	};
 
-	const path = window.location.pathname;
-	const file = path.split("/").pop() || "index.html";
-	const activeId = PAGE_TO_ID[file];
+	const activeId = PATH_TO_ID[path] || null;
 
+	// Helper to (de)select
 	const setSelected = (node, isSelected) => {
 		if (!node) return;
 		node.classList.toggle("selected", isSelected);
@@ -63,33 +65,27 @@ function setFooterActive(opts = {}) {
 	};
 
 	if (!activeId) {
-		// Unknown page
-		if (selectAllOnUnknown) {
-			ids.forEach((id) => setSelected(els[id], true));
-		} else {
-			ids.forEach((id) => setSelected(els[id], id === "accueilFooter"));
-		}
+		// Unknown page: either select none except Accueil, or (if you insist) all
+		ids.forEach((id) =>
+			setSelected(els[id], selectAllOnUnknown ? true : id === "accueilFooter")
+		);
 		updateFooterIcons(els, ids);
 		return;
 	}
 
-	// Known page: select only the matched one
+	// Known page: select only that one
 	ids.forEach((id) => setSelected(els[id], id === activeId));
 	updateFooterIcons(els, ids);
 }
 
-// set the correct icon (green or white)
 function updateFooterIcons(els, ids) {
 	ids.forEach((id) => {
 		const node = els[id];
 		if (!node) return;
-
-		const img =
-			node.querySelector("img") || (node.tagName === "IMG" ? node : null);
+		const img = node.querySelector("img");
 		const icons = ICONS[id];
 		if (!img || !icons) return;
-
-		const useGreen = node.classList.contains("selected");
-		img.src = useGreen ? icons.selected : icons.notSelected;
+		const selected = node.classList.contains("selected");
+		img.src = selected ? icons.selected : icons.notSelected;
 	});
 }
