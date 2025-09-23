@@ -71,19 +71,10 @@ ul li b.valise {
 /* ---------- image banner ---------- */
 #contener {
 	width: 100vw;
-	/* height: 50vw;  -> equivalent using aspect-ratio (optional but cleaner) */
-	aspect-ratio: 2 / 1; /* 50vw height on 100vw width */
-	overflow: hidden;
-	display: grid; /* needed for place-items */
-	place-items: center;
 }
 
 #subpageImage {
-	display: block;
 	inline-size: 100%;
-	block-size: 100%;
-	object-fit: cover;
-	object-position: center;
 }
 
 /* variant width inside container */
