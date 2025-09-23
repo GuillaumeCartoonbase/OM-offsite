@@ -1,5 +1,5 @@
 /* sw.js */
-const CACHE = "app-cache-v8";
+const CACHE = "app-cache-v9";
 const PRECACHE = [
 	"/", // only if your root HTML is stable
 	"/offline.html",
