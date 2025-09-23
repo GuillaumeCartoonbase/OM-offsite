@@ -1,9 +1,17 @@
 // sw.js
-const CACHE_NAME = "app-cache-v1";
+const CACHE_NAME = "app-cache-v2";
 const PRECACHE = [
 	"/", // optional if your root HTML rarely changes
 	"/offline.html", // <-- make sure this file exists
 	// add '/styles.css', '/main.js', and key icons if you want them guaranteed offline
+	"assets",
+	"css",
+	"data",
+	"fonts",
+	"icons",
+	"images",
+	"js",
+	"pages",
 ];
 
 self.addEventListener("install", (event) => {
