@@ -968,14 +968,7 @@
 		"name": "WIERZBA Olivier",
 		"title": "Managing Director and Senior Partner",
 		"photoURL": "/images/gallery/WierzbaOlivier.jpg",
-		"so": "WIERZBA WERNER Charlotte",
-		"mention": ""
-	},
-	{
-		"name": "WIERZBA WERNER Charlotte",
-		"title": "SO",
-		"photoURL": "/images/gallery/WierzbaWernerCharlotte.jpg",
-		"so": "WIERZBA Olivier",
+		"so": "",
 		"mention": ""
 	}
 ]
