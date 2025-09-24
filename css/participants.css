@@ -69,17 +69,7 @@
 	position: relative;
 }
 
-#magnifier > svg {
-	background-color: #f7f7f7;
-	position: absolute;
-	height: 100%;
-	width: 2rem;
-	left: 0px;
-	padding-left: 1rem;
-}
-
 #participantsSearch {
-	margin-left: 3rem;
 	padding-left: 1rem;
 	background-color: #f7f7f7;
 	height: 100%;
