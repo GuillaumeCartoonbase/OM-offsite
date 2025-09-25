@@ -66,16 +66,10 @@
 		"name": "BARBEY Romary",
 		"title": "Managing Director and Partner",
 		"photoURL": "/images/gallery/BarbeyRomary.jpg",
-		"so": "BARBEY-MORO Gaelle",
+		"so": "",
 		"mention": ""
 	},
-	{
-		"name": "BARBEY-MORO Gaelle",
-		"title": "SO",
-		"photoURL": "/images/gallery/BarbeyMoroGaelle.jpg",
-		"so": "BARBEY Romary",
-		"mention": ""
-	},
+	,
 	{
 		"name": "BARTHEL Martin",
 		"title": "Managing Director and Partner",
