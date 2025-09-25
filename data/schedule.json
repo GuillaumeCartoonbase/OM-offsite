@@ -30,19 +30,19 @@
 		"day": "friday"
 	},
 	{
-		"titre": "Pour les SO - Trek autour des Baux <i>(option 1/3)</i>",
+		"titre": "Pour les SO - Rando trek <i>(option 1/3)</i>",
 		"time": "9h00 - 12h00",
-		"text": "Randonnée trek de 2 à 3 heures autour des Baux-de-Provence, au cœur des paysages emblématiques des Alpilles et d'une propriété privée d'exception",
+		"text": "Randonnée trek de 2 à 3 heures sur les terres d'une propriété privée d'exception au cœur des paysages emblématiques dignes de Pagnol",
 		"day": "friday"
 	},
 	{
-		"titre": "Pour les SO - Découverte et création de cyanotype <i>(option 2/3)</i>",
+		"titre": "Pour les SO - Création de cyanotype <i>(option 2/3)</i>",
 		"time": "9h00 - 12h00",
 		"text": "Atelier cyanotype avec l'artiste Anne Bonnefon, découverte de l'histoire, initiation à la technique de ce procédé photographique ancien, cueillette de végétaux dans les Alpilles, puis réalisation d'une oeuvre papier en format A5 et d'un tote bag",
 		"day": "friday"
 	},
 	{
-		"titre": "Pour les SO - Découverte et création de plumasserie <i>(option 3/3)</i>",
+		"titre": "Pour les SO - Création de plumasserie <i>(option 3/3)</i>",
 		"time": "9h00 - 12h00",
 		"text": "Atelier de plumasserie, animé par l'une des dernières plumassières de France, ayant collaboré avec les plus grandes maisons de haute couture. Découverte de ce savoir-faire rare, suivie de la création de son propre bracelet en plumes",
 		"day": "friday"
@@ -146,7 +146,7 @@
 	{
 		"titre": "Soirée « Arbre Enchanté » à la Cabro d'Or",
 		"time": "19h30",
-		"text": "Soirée à la Cabro d'Or (Baumanière) avec cocktail apéritif dans les jardins, suivi d'un dîner braséro près du Manoir. Prestation piano-voix ambiance puis festive en seconde partie de soirée",
+		"text": "Soirée à la Cabro d'Or (Baumanière) avec cocktail apéritif suivi d'un dîner au braséro. Prestation piano-voix ambiance puis festive en seconde partie de soirée",
 		"day": "saturday"
 	},
 	{
